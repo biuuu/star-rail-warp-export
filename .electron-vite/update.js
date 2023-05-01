@@ -35,7 +35,7 @@ const start = async () => {
   await fs.outputJSON(path.join(outputPath, 'manifest.json'), {
     active: true,
     version,
-    from: '0.1.5',
+    from: '0.0.1',
     name: `${hashName}.zip`,
     hash: sha256
   })
