@@ -39,7 +39,6 @@ const start = async () => {
     name: `${hashName}.zip`,
     hash: sha256
   })
-  copyHTML()
 }
 
 const copyAppZip = () => {
