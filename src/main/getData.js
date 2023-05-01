@@ -456,7 +456,7 @@ ipcMain.handle('READ_DATA', async () => {
 })
 
 ipcMain.handle('CHANGE_UID', (event, uid) => {
-  config.current = uid
+  changeCurrent(uid)
 })
 
 ipcMain.handle('GET_CONFIG', () => {
