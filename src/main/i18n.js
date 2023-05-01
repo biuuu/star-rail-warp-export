@@ -42,14 +42,24 @@ const parseData = (data) => {
   return result
 }
 
+const assignData = (objA, objB) => {
+  const temp = { ...objA }
+  for (let key in objB) {
+    if (objB[key]) {
+      temp[key] = objB[key]
+    }
+  }
+  return temp
+}
+
 const i18nMap = new Map()
 const prepareData = () => {
   for (let key in raw) {
     let temp = {}
     if (key === 'zh-tw') {
-      Object.assign(temp, raw['zh-cn'], raw[key])
+      temp = assignData(raw['zh-cn'], raw[key])
     } else {
-      Object.assign(temp, raw['zh-cn'], raw['en-us'], raw[key])
+      temp = assignData(raw['zh-cn'], assignData(raw['en-us'], raw[key]))
     }
     i18nMap.set(key, parseData(temp))
   }
