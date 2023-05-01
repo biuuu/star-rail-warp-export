@@ -84,17 +84,17 @@ const detectGameLocale = async (userPath) => {
 
 const getLatestUrl = (list) => {
   let result = list[list.length - 1]
-  let time = 0
-  for (let i = 0; i < list.length; i++) {
-    const tsMch = list[i].match(/timestamp=(\d+)/)
-    if (tsMch?.[1]) {
-      const ts = parseInt(tsMch[1])
-      if (time <= parseInt(tsMch[1])) {
-        time = ts
-        result = list[i]
-      }
-    }
-  }
+  // let time = 0
+  // for (let i = 0; i < list.length; i++) {
+  //   const tsMch = list[i].match(/timestamp=(\d+)/)
+  //   if (tsMch?.[1]) {
+  //     const ts = parseInt(tsMch[1])
+  //     if (time <= parseInt(tsMch[1])) {
+  //       time = ts
+  //       result = list[i]
+  //     }
+  //   }
+  // }
   return result
 }
 
@@ -118,7 +118,7 @@ const readLog = async () => {
       const gamePathMch = logText.match(/\w:\/.*?(Star\sRail\/Game\/StarRail_Data)/)
       if (gamePathMch) {
         const cacheText = await fs.readFile(path.join(gamePathMch[0], '/webCaches/Cache/Cache_Data/data_2'), 'utf8')
-        const urlMch = cacheText.match(/https.+?&auth_appid=webview_gacha&.+?authkey=.+?&game_biz=hkrpg_.+/g)
+        const urlMch = cacheText.match(/https.+?&auth_appid=webview_gacha&.+?authkey=.+?&game_biz=hkrpg_.+?&plat_type=pc/g)
         if (urlMch) {
           cacheFolder = path.join(gamePathMch[0], '/webCaches/Cache/')
           return getLatestUrl(urlMch)
