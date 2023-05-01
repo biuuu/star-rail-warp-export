@@ -90,7 +90,7 @@ const getLatestUrl = (list) => {
     const tsMch = list[i].match(/timestamp=(\d+)/)
     if (tsMch?.[1]) {
       const ts = parseInt(tsMch[1])
-      if (time < parseInt(tsMch[1])) {
+      if (time <= parseInt(tsMch[1])) {
         time = ts
         result = list[i]
       }
