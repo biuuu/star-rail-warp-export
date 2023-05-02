@@ -115,7 +115,7 @@ const readLog = async () => {
     }
     const promises = logPaths.map(async logpath => {
       const logText = await fs.readFile(logpath, 'utf8')
-      const gamePathMch = logText.match(/\w:\/.*?(Star\sRail\/Games?\/StarRail_Data)/)
+      const gamePathMch = logText.match(/\w:\/.*?\/StarRail_Data\//)
       if (gamePathMch) {
         const cacheText = await fs.readFile(path.join(gamePathMch[0], '/webCaches/Cache/Cache_Data/data_2'), 'utf8')
         const urlMch = cacheText.match(/https.+?&auth_appid=webview_gacha&.+?authkey=.+?&game_biz=hkrpg_.+?&plat_type=pc/g)
