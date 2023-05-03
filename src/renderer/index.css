@@ -14,3 +14,9 @@
     @apply rounded-full bg-gray-300;
   }
 }
+
+@layer utilities {
+  .cache-clean-dialog .el-dialog__body {
+    padding: 0 20px;
+  }
+}

@@ -55,10 +55,12 @@
       </template>
     </el-dialog>
 
-    <el-dialog :title="ui.button.solution" v-model="state.showCacheCleanDlg" width="90%" custom-class="max-w-md">
-      <el-button plain icon="folder" type="primary" @click="openCacheFolder">{{ui.button.cacheFolder}}</el-button>
-      <p class="my-4 leading-2 text-gray-600 text-sm whitespace-pre-line">{{ui.extra.cacheClean}}</p>
-      <p class="my-2 text-gray-400 text-xs">{{ui.extra.findCacheFolder}}</p>
+    <el-dialog :title="ui.button.solution" v-model="state.showCacheCleanDlg" width="90%" custom-class="max-w-md cache-clean-dialog">
+      <el-button plain icon="folder" type="success" @click="openCacheFolder">{{ui.button.cacheFolder}}</el-button>
+      <p class="my-2 flex flex-col text-teal-800 text-[13px]">
+        <span class="my-1" v-for="txt of cacheCleanTextList">{{ txt }}</span>
+      </p>
+      <p class="my-2 text-gray-500 text-xs">{{ui.extra.findCacheFolder}}</p>
       <template #footer>
         <div class="dialog-footer text-center">
           <el-button  type="primary" @click="state.showCacheCleanDlg = false" class="focus:outline-none">{{ui.common.ok}}</el-button>
@@ -97,6 +99,13 @@ const ui = computed(() => {
   if (state.i18n) {
     return state.i18n.ui
   }
+})
+
+const cacheCleanTextList = computed(() => {
+  if (ui.value) {
+    return ui.value.extra?.cacheClean?.split('\n')
+  }
+  return []
 })
 
 const gachaData = computed(() => {

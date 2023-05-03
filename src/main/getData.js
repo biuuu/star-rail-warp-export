@@ -238,7 +238,6 @@ const tryGetUid = async (queryString) => {
   try {
     for (let [key] of defaultTypeMap) {
       const res = await request(`${url}&gacha_type=${key}&page=1&size=6`)
-      checkResStatus(res)
       if (res.data.list && res.data.list.length) {
         return res.data.list[0].uid
       }
@@ -336,10 +335,7 @@ const tryRequest = async (url, retry = false) => {
   const gachaTypeUrl = `${apiDomain}/common/gacha_record/api/getGachaLog?${queryString}&page=1&size=5&gacha_type=1&end_id=0`
   try {
     const res = await request(gachaTypeUrl)
-    if (res.retcode !== 0) {
-      return false
-    }
-    return true
+    checkResStatus(res)
   } catch (e) {
     if (e.code === 'ERR_PROXY_CONNECTION_FAILED' && !retry) {
       await disableProxy()
@@ -354,11 +350,6 @@ const getUrl = async () => {
   let url = await readLog()
   if (!url && config.proxyMode) {
     url = await useProxy()
-  } else if (url) {
-    const result = await tryRequest(url)
-    if (!result && config.proxyMode) {
-      url = await useProxy()
-    }
   }
   return url
 }
@@ -375,6 +366,9 @@ const fetchData = async (urlOverride) => {
     sendMsg(message)
     throw new Error(message)
   }
+
+  await tryRequest(url)
+
   const searchParams = getQuerystring(url)
   if (!searchParams) {
     const message = text.url.incorrect
