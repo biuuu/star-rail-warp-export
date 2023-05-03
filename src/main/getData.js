@@ -3,7 +3,7 @@ const util = require('util')
 const path = require('path')
 const { URL } = require('url')
 const { app, ipcMain, shell } = require('electron')
-const { sleep, request, sendMsg, readJSON, saveJSON, detectLocale, userDataPath, userPath, localIp, langMap } = require('./utils')
+const { sleep, request, sendMsg, readJSON, saveJSON, detectLocale, userDataPath, userPath, localIp, langMap, globalUserDataPath } = require('./utils')
 const config = require('./config')
 const i18n = require('./i18n')
 const { enableProxy, disableProxy } = require('./module/system-proxy')
@@ -29,25 +29,42 @@ const defaultTypeMap = new Map([
   ['2', '始发跃迁']
 ])
 
+const findDataFiles = async (dataPath, fileMap) => {
+  const files = await readdir(dataPath)
+  if (files?.length) {
+    for (let name of files) {
+      if (/^gacha-list-\d+\.json$/.test(name) && !fileMap.has(name)) {
+        fileMap.set(name, dataPath)
+      }
+    }
+  }
+}
+
+const collectDataFiles = async () => {
+  await fs.ensureDir(userDataPath)
+  await fs.ensureDir(globalUserDataPath)
+  const fileMap = new Map()
+  await findDataFiles(userDataPath, fileMap)
+  await findDataFiles(globalUserDataPath, fileMap)
+  return fileMap
+}
+
 let localDataReaded = false
 const readdir = util.promisify(fs.readdir)
 const readData = async () => {
   if (localDataReaded) return
   localDataReaded = true
-  await fs.ensureDir(userDataPath)
-  const files = await readdir(userDataPath)
-  for (let name of files) {
-    if (/^gacha-list-\d+\.json$/.test(name)) {
-      try {
-        const data = await readJSON(name)
-        data.typeMap = new Map(data.typeMap) || defaultTypeMap
-        data.result = new Map(data.result)
-        if (data.uid) {
-          dataMap.set(data.uid, data)
-        }
-      } catch (e) {
-        sendMsg(e, 'ERROR')
+  const fileMap = await collectDataFiles()
+  for (let [name, dataPath] of fileMap) {
+    try {
+      const data = await readJSON(dataPath, name)
+      data.typeMap = new Map(data.typeMap) || defaultTypeMap
+      data.result = new Map(data.result)
+      if (data.uid) {
+        dataMap.set(data.uid, data)
       }
+    } catch (e) {
+      sendMsg(e, 'ERROR')
     }
   }
   if ((!config.current && dataMap.size) || (config.current && dataMap.size && !dataMap.has(config.current))) {

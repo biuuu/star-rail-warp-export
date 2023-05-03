@@ -11,8 +11,9 @@ const Registry = require('winreg')
 const isDev = !app.isPackaged
 
 const userPath = app.getPath('userData')
-const appRoot = isDev ? path.resolve(__dirname, '..', '..') : userPath
+const appRoot = isDev ? path.resolve(__dirname, '..', '..') : path.resolve(app.getAppPath(), '..', '..')
 const userDataPath = path.resolve(appRoot, 'userData')
+const globalUserDataPath = path.resolve(userPath, 'userData')
 
 let win = null
 const initWindow = () => {
@@ -56,7 +57,7 @@ const saveLog = () => {
     const text = item[2]
     return `[${type}][${time}]${text}`
   }).join('\r\n')
-  fs.outputFileSync(path.join(userDataPath, 'log.txt'), text)
+  fs.outputFile(path.join(userDataPath, 'log.txt'), text)
 }
 
 const authkeyMask = (text = '') => {
@@ -144,19 +145,20 @@ const detectLocale = (value) => {
 
 const saveJSON = async (name, data) => {
   try {
-    await fs.outputJSON(path.join(userDataPath, name), data, {
-      spaces: 2
-    })
+    await fs.outputJSON(path.join(userDataPath, name), data)
+    if (!isDev) {
+      await fs.outputJSON(path.join(globalUserDataPath, name), data)
+    }
   } catch (e) {
     sendMsg(e, 'ERROR')
     await sleep(3)
   }
 }
 
-const readJSON = async (name) => {
+const readJSON = async (dataPath, name) => {
   let data = null
   try {
-    data = await fs.readJSON(path.join(userDataPath, name))
+    data = await fs.readJSON(path.join(dataPath, name))
   } catch (e) {}
   return data
 }
@@ -203,5 +205,5 @@ const localIp = () => {
 module.exports = {
   sleep, request, hash, cipherAes, decipherAes, saveLog,
   sendMsg, readJSON, saveJSON, initWindow, getWin, localIp, userPath, detectLocale, langMap,
-  appRoot, userDataPath
+  appRoot, userDataPath, globalUserDataPath
 }
