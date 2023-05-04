@@ -117,7 +117,7 @@ const langMap = new Map([
 
 const localeMap = new Map([
   ['zh-cn', ['zh', 'zh-CN']],
-  ['zh-tw', ['zh-TW']],
+  ['zh-tw', ['zh-tw', 'zh-TW']],
   ['de-de', ['de-AT', 'de-CH', 'de-DE', 'de']],
   ['en-us', ['en-AU', 'en-CA', 'en-GB', 'en-NZ', 'en-US', 'en-ZA', 'en']],
   ['es-es', ['es', 'es-419']],
