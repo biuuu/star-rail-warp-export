@@ -132,7 +132,7 @@ const readLog = async () => {
     }
     const promises = logPaths.map(async logpath => {
       const logText = await fs.readFile(logpath, 'utf8')
-      const gamePathMch = logText.match(/\w:\/.*?\/StarRail_Data\//)
+      const gamePathMch = logText.match(/\w:\/.*?\/StarRail_Data\//i)
       if (gamePathMch) {
         let cacheText = ''
         try {
