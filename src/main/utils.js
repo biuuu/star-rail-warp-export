@@ -6,7 +6,6 @@ const crypto = require('crypto')
 const unhandled = require('electron-unhandled')
 const windowStateKeeper = require('electron-window-state')
 const debounce = require('lodash/debounce')
-const Registry = require('winreg')
 
 const isDev = !app.isPackaged
 
@@ -26,6 +25,7 @@ const initWindow = () => {
     y: mainWindowState.y,
     width: mainWindowState.width,
     height: mainWindowState.height,
+    backgroundColor: '#fff',
     webPreferences: {
       contextIsolation:false,
       nodeIntegration: true
