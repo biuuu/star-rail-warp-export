@@ -30,9 +30,9 @@
   "ui.data.average": "5 star on average",
   "ui.data.chara5": "5 star character",
   "ui.data.chara4": "4 star character",
-  "ui.data.weapon5": "5 star light cone",
-  "ui.data.weapon4": "4 star light cone",
-  "ui.data.weapon3": "3 star light cone",
+  "ui.data.weapon5": "5 star Light Cone",
+  "ui.data.weapon4": "4 star Light Cone",
+  "ui.data.weapon3": "3 star Light Cone",
   "ui.setting.title": "Settings",
   "ui.setting.language": "Language",
   "ui.setting.languageHint": "When the translation is missing, English will be displayed by default.",
@@ -84,5 +84,5 @@
   "excel.filePrefix": "Star Rail Warp logger",
   "excel.fileType": "Excel file",
   "ui.extra.cacheClean": "1. Confirm whether the warp history in the game has been opened, and if the error \"User authentication expired\" still appears, try the following steps \n2. Close the game window of Star Rail \n3. Click the \"Open Web Cache Folder\" button above to open the \"Cache\" folder \n4. Delete the \"Cache_ Data\" folder \n5. Start the Star Rail game and open the warp history page in the game \n6. Close this dialog and click the \"Update Data\" button",
-  "ui.extra.findCacheFolder": "If the \"Open cache folder\" button does not respond, you can manually find the game's web cache folder. The directory is \"Your game installation path/Star Rail/Game/StarRail_Data/webCaches/Cache/\""
+  "ui.extra.findCacheFolder": "If the \"Open cache folder\" button does not respond, you can manually find the game's web cache folder. The directory is \"Your game installation path/Star Rail/Games/StarRail_Data/webCaches/Cache/\""
 }
