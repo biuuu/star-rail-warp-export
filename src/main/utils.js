@@ -131,8 +131,8 @@ const localeMap = new Map([
   ['vi-vn', ['vi']]
 ])
 
-const detectLocale = (value) => {
-  const locale = value || app.getLocale()
+const detectLocale = () => {
+  const locale = app.getLocale()
   let result = 'zh-cn'
   for (let [key, list] of localeMap) {
     if (list.includes(locale)) {
