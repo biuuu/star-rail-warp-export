@@ -17,7 +17,9 @@ If you feel that the existing translation is inappropriate, you can send a pull 
 ## Usage
 
 1. Unzip after downloading the tool - [Download](https://github.com/biuuu/star-rail-warp-export/releases/latest/download/StarRailWarpExport.zip)
-2. Open the warp history of the game
+2. Open the warp details page of the game
+
+    ![warp details](/docs/wish-history-en.png)
 
 3. Click the tool's "Load data" button
 
