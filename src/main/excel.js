@@ -4,7 +4,6 @@ const { app, ipcMain, dialog } = require('electron')
 const fs = require('fs-extra')
 const path = require('path')
 const i18n = require('./i18n')
-const cloneDeep  = require('lodash-es/cloneDeep').default
 
 function pad(num) {
   return `${num}`.padStart(2, "0");
@@ -87,7 +86,7 @@ const start = async () => {
       arr.push(total)
       arr.push(pity)
       temp.push(arr)
-      if (log.rank_type === 5) {
+      if (log.rank_type === '5') {
         pity = 0
       }
       // if (key === '301') {
