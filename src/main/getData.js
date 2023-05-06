@@ -83,7 +83,7 @@ const detectGameLocale = async (userPath) => {
   const arr = ['/miHoYo/崩坏：星穹铁道/', '/Cognosphere/Star Rail/']
   arr.forEach(str => {
     try {
-      const pathname = path.join(userPath, '/AppData/LocalLow/', str, 'Player-prev.log')
+      const pathname = path.join(userPath, '/AppData/LocalLow/', str, 'Player.log')
       fs.accessSync(pathname, fs.constants.F_OK)
       list.push(pathname)
     } catch (e) {}
