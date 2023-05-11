@@ -9,6 +9,7 @@ const i18n = require('./i18n')
 const { enableProxy, disableProxy } = require('./module/system-proxy')
 const mitmproxy = require('./module/node-mitmproxy')
 const { mergeData } =  require('./utils/mergeData')
+const gachaTypeRaw = require('../gachaType.json')
 
 const dataMap = new Map()
 const order = ['11', '12', '1', '2']
@@ -17,7 +18,6 @@ let apiDomain = 'https://api-takumi.mihoyo.com'
 const saveData = async (data, url) => {
   const obj = Object.assign({}, data)
   obj.result = [...obj.result]
-  obj.typeMap = [...obj.typeMap]
   await config.save()
   await saveJSON(`gacha-list-${data.uid}.json`, obj)
 }
@@ -263,7 +263,7 @@ const tryGetUid = async (queryString) => {
   return config.current
 }
 
-const gachaTypeMap = new Map(JSON.parse('[["de-de",[{"key": "11","name": "Figuren-Aktionswarp"},{"key": "12","name": "Lichtkegel-Aktionswarp"},{"key": "1","name": "Standardwarp"},{"key": "2","name": "Einsteigerwarp"}]],["ru-ru",[{"key": "11","name": "Прыжок события: Персонаж"},{"key": "12","name": "Прыжок события: Световой конус"},{"key": "1","name": "Стандартный прыжок"},{"key": "2","name": "Прыжок новичка"}]],["th-th",[{"key": "11","name": "กิจกรรมวาร์ปตัวละคร"},{"key": "12","name": "กิจกรรมวาร์ป Light Cone"},{"key": "1","name": "วาร์ปถาวร"},{"key": "2","name": "วาร์ปสำหรับมือใหม่"}]],["zh-cn",[{"key": "11","name": "角色活动跃迁"},{"key": "12","name": "光锥活动跃迁"},{"key": "1","name": "常驻跃迁"},{"key": "2","name": "新手跃迁"}]],["zh-tw",[{"key": "11","name": "角色活動躍遷"},{"key": "12","name": "光錐活動躍遷"},{"key": "1","name": "常駐躍遷"},{"key": "2","name": "新手躍遷"}]],["en-us",[{"key": "11","name": "Character Event Warp"},{"key": "12","name": "Light Cone Event Warp"},{"key": "1","name": "Regular Warp"},{"key": "2","name": "Starter Warp"}]],["es-es",[{"key": "11","name": "Salto de evento de personaje"},{"key": "12","name": "Salto de evento de cono de luz"},{"key": "1","name": "Salto normal"},{"key": "2","name": "Salto de principiante"}]],["fr-fr",[{"key": "11","name": "Saut hyperespace événement de personnage"},{"key": "12","name": "Saut hyperespace événement de cônes de lumière"},{"key": "1","name": "Saut hyperespace classique"},{"key": "2","name": "Saut hyperespace de départ"}]],["id-id",[{"key": "11","name": "Event Warp Karakter"},{"key": "12","name": "Event Warp Light Cone"},{"key": "1","name": "Warp Reguler"},{"key": "2","name": "Warp Pemula"}]],["ja-jp",[{"key": "11","name": "イベント跳躍・キャラクター"},{"key": "12","name": "イベント跳躍・光円錐"},{"key": "1","name": "恒常跳躍"},{"key": "2","name": "初心者跳躍"}]],["ko-kr",[{"key": "11","name": "캐릭터 이벤트 워프"},{"key": "12","name": "광추 이벤트 워프"},{"key": "1","name": "상시 워프"},{"key": "2","name": "초보자 워프"}]],["pt-pt",[{"key": "11","name": "Salto Hiperespacial de Evento de Personagem"},{"key": "12","name": "Salto Hiperespacial de Evento de Cone de Luz"},{"key": "1","name": "Salto Hiperespacial Permanente"},{"key": "2","name": "Salto Hiperespacial Inicial"}]],["vi-vn",[{"key": "11","name": "Bước Nhảy Sự Kiện Nhân Vật"},{"key": "12","name": "Bước Nhảy Sự Kiện Nón Ánh Sáng"},{"key": "1","name": "Bước Nhảy Vĩnh Viễn"},{"key": "2","name": "Bước Nhảy Tân Thủ"}]]]'))
+const gachaTypeMap = new Map(gachaTypeRaw)
 const getGachaType = (lang) => {
   const locale = detectLocale(lang)
   return gachaTypeMap.get(locale || lang)
@@ -402,7 +402,6 @@ const fetchData = async (urlOverride) => {
   const gachaType = await getGachaType(searchParams.get('lang'))
 
   const result = new Map()
-  const typeMap = new Map()
   const lang = searchParams.get('lang')
   let originUid = ''
   let originRegion = ''
@@ -414,7 +413,6 @@ const fetchData = async (urlOverride) => {
       return { id, item_id, item_type, name, rank_type, time, gacha_id, gacha_type }
     })
     logs.reverse()
-    typeMap.set(type.key, type.name)
     result.set(type.key, logs)
     if (!originUid) {
       originUid = uid
@@ -426,7 +424,7 @@ const fetchData = async (urlOverride) => {
       originTimeZone = region_time_zone
     }
   }
-  const data = { result, time: Date.now(), typeMap, uid: originUid, lang, region: originRegion, region_time_zone: originTimeZone }
+  const data = { result, time: Date.now(), uid: originUid, lang, region: originRegion, region_time_zone: originTimeZone }
   const localData = dataMap.get(originUid)
   const mergedResult = mergeData(localData, data)
   data.result = mergedResult

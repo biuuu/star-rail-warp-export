@@ -42,7 +42,7 @@
   "ui.setting.seaServer": "國際服",
   "ui.setting.logTypeHint": "使用遊戲記錄取得 URL 時，優先選擇哪種伺服器產生的記錄檔案。",
   "ui.setting.autoUpdate": "自動更新",
-  "ui.setting.hideNovice": "隱藏始發躍遷",
+  "ui.setting.hideNovice": "隱藏新手躍遷",
   "ui.setting.proxyMode": "Proxy 模式",
   "ui.setting.proxyModeHint": "透過設定系統 Proxy 以取得 URL，將會在從系統記錄中取得 URL 失敗時啟動。",
   "ui.setting.fetchFullHistory": "取得完整資料",
