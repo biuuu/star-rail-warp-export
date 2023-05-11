@@ -163,7 +163,7 @@ const getGachaLog = async ({ key, page, name, retryCount, url, endId }) => {
   const text = i18n.log
   try {
     const res = await request(`${url}&gacha_type=${key}&page=${page}&size=${20}${endId ? '&end_id=' + endId : ''}`)
-    return res.data.list
+    return res.data
   } catch (e) {
     if (retryCount) {
       sendMsg(i18n.parse(text.fetch.retry, { name, page, count: 6 - retryCount }))
@@ -181,7 +181,8 @@ const getGachaLogs = async ({ name, key }, queryString) => {
   const text = i18n.log
   let page = 1
   let list = []
-  let res = []
+  let res = null
+  let logs = []
   let uid = ''
   let region = ''
   let region_time_zone = ''
@@ -195,8 +196,9 @@ const getGachaLogs = async ({ name, key }, queryString) => {
     sendMsg(i18n.parse(text.fetch.current, { name, page }))
     res = await getGachaLog({ key, page, name, url, endId, retryCount: 5 })
     await sleep(0.3)
-    if (!uid && res.length) {
-      uid = res[0].uid
+    logs = res.list || []
+    if (!uid && logs.length) {
+      uid = logs[0].uid
     }
     if (!region) {
       region = res.region
@@ -204,14 +206,14 @@ const getGachaLogs = async ({ name, key }, queryString) => {
     if (!region_time_zone) {
       region_time_zone = res.region_time_zone
     }
-    list.push(...res)
+    list.push(...logs)
     page += 1
 
-    if (res.length) {
-      endId = res[res.length - 1].id
+    if (logs.length) {
+      endId = logs[logs.length - 1].id
     }
 
-    if (!config.fetchFullHistory && res.length && uid && dataMap.has(uid)) {
+    if (!config.fetchFullHistory && logs.length && uid && dataMap.has(uid)) {
       const result = dataMap.get(uid).result
       if (result.has(key)) {
         const arr = result.get(key)
@@ -219,7 +221,7 @@ const getGachaLogs = async ({ name, key }, queryString) => {
           const localLatestId = arr[arr.length - 1].id
           if (localLatestId) {
             let shouldBreak = false
-            res.forEach(item => {
+            logs.forEach(item => {
               if (item.id === localLatestId) {
                 shouldBreak = true
               }
@@ -231,7 +233,7 @@ const getGachaLogs = async ({ name, key }, queryString) => {
         }
       }
     }
-  } while (res.length > 0)
+  } while (logs.length > 0)
   return { list, uid, region, region_time_zone }
 }
 
@@ -402,6 +404,7 @@ const fetchData = async (urlOverride) => {
   const gachaType = await getGachaType(searchParams.get('lang'))
 
   const result = new Map()
+  const typeMap = new Map()
   const lang = searchParams.get('lang')
   let originUid = ''
   let originRegion = ''
@@ -413,6 +416,7 @@ const fetchData = async (urlOverride) => {
       return { id, item_id, item_type, name, rank_type, time, gacha_id, gacha_type }
     })
     logs.reverse()
+    typeMap.set(type.key, type.name)
     result.set(type.key, logs)
     if (!originUid) {
       originUid = uid
@@ -424,7 +428,7 @@ const fetchData = async (urlOverride) => {
       originTimeZone = region_time_zone
     }
   }
-  const data = { result, time: Date.now(), uid: originUid, lang, region: originRegion, region_time_zone: originTimeZone }
+  const data = { result, typeMap, time: Date.now(), uid: originUid, lang, region: originRegion, region_time_zone: originTimeZone }
   const localData = dataMap.get(originUid)
   const mergedResult = mergeData(localData, data)
   data.result = mergedResult
