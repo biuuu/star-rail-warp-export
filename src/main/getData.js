@@ -163,7 +163,10 @@ const getGachaLog = async ({ key, page, name, retryCount, url, endId }) => {
   const text = i18n.log
   try {
     const res = await request(`${url}&gacha_type=${key}&page=${page}&size=${20}${endId ? '&end_id=' + endId : ''}`)
-    return res?.data
+    if (res?.data?.list) {
+      return res?.data
+    }
+    throw new Error(res?.message || res)
   } catch (e) {
     if (retryCount) {
       sendMsg(i18n.parse(text.fetch.retry, { name, page, count: 6 - retryCount }))
