@@ -508,3 +508,5 @@ exports.getData = () => {
     current: config.current
   }
 }
+
+exports.getUrl = getUrl

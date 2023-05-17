@@ -26,6 +26,7 @@
             <el-dropdown-menu>
               <el-dropdown-item command="setting" icon="setting">{{ui.button.setting}}</el-dropdown-item>
               <el-dropdown-item :disabled="!allowClick() || state.status === 'loading'" command="url" icon="link">{{ui.button.url}}</el-dropdown-item>
+              <el-dropdown-item command="copyUrl" icon="DocumentCopy">{{ui.button.copyUrl}}</el-dropdown-item>
               <el-dropdown-item :disabled="!allowClick() || state.status === 'loading'" command="proxy" icon="position">{{ui.button.startProxy}}</el-dropdown-item>
             </el-dropdown-menu>
           </template>
@@ -80,6 +81,7 @@ import Setting from './components/Setting.vue'
 import gachaDetail from './gachaDetail'
 import { version } from '../../package.json'
 import gachaType from '../gachaType.json'
+import { ElMessage } from 'element-plus'
 
 const state = reactive({
   status: 'init',
@@ -249,6 +251,8 @@ const optionCommand = (type) => {
     state.showUrlDlg = true
   } else if (type === 'proxy') {
     fetchData('proxy')
+  } else if (type === 'copyUrl') {
+    copyUrl()
   }
 }
 
@@ -258,6 +262,15 @@ const setTitle = () => {
 
 const updateConfig = async () => {
   state.config = await ipcRenderer.invoke('GET_CONFIG')
+}
+
+const copyUrl = async () => {
+  const successed = await ipcRenderer.invoke('COPY_URL')
+  if (successed) {
+    ElMessage.success(ui.value.extra.urlCopied)
+  } else {
+    ElMessage.error(state.i18n.log.url.notFound)
+  }
 }
 
 onMounted(async () => {
