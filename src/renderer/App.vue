@@ -12,9 +12,9 @@
         </el-tooltip>
       </div>
       <div class="flex gap-2">
-        <el-select v-if="state.status !== 'loading' && state.dataMap && (state.dataMap.size > 1 || (state.dataMap.size === 1 && state.current === 0))" class="w-44"   @change="changeCurrent" v-model="uidSelectText">
+        <el-select v-if="state.status !== 'loading' && dataMap && (dataMap.size > 1 || (dataMap.size === 1 && state.current === 0))" class="w-44"   @change="changeCurrent" v-model="uidSelectText">
           <el-option
-            v-for="item of state.dataMap"
+            v-for="item of dataMap"
             :key="item[0]"
             :label="maskUid(item[0])"
             :value="item[0]">
@@ -43,7 +43,7 @@
         </div>
       </div>
     </div>
-    <Setting v-show="state.showSetting" :i18n="state.i18n" @changeLang="getI18nData()" @close="showSetting(false)"></Setting>
+    <Setting v-show="state.showSetting" :i18n="state.i18n" :gacha-data-info="dataInfo" @refreshData="readData()" @changeLang="getI18nData()" @close="showSetting(false)"></Setting>
 
     <el-dialog :title="ui.urlDialog.title" v-model="state.showUrlDlg" width="90%" custom-class="max-w-md">
       <p class="mb-4 text-gray-500">{{ui.urlDialog.hint}}</p>
@@ -68,7 +68,6 @@
         </div>
       </template>
     </el-dialog>
-
   </div>
 </template>
 
@@ -96,6 +95,26 @@ const state = reactive({
   urlInput: '',
   authkeyTimeout: false,
   config: {}
+})
+
+const dataMap = computed(() => {
+  const result = new Map()
+  for (let [uid, data] of state.dataMap) {
+    if (!data.deleted) {
+      result.set(uid, data)
+    }
+  }
+  return result
+})
+
+const dataInfo = computed(() => {
+  const result = []
+  for (let [uid, data] of state.dataMap) {
+    result.push({
+      uid, time: data.time, deleted: data.deleted
+    })
+  }
+  return result
 })
 
 const ui = computed(() => {
@@ -154,7 +173,7 @@ const hint = computed(() => {
 })
 
 const detail = computed(() => {
-  const data = state.dataMap.get(state.current)
+  const data = dataMap.value.get(state.current)
   if (data) {
     return gachaDetail(data.result)
   }

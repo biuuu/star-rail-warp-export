@@ -19,6 +19,10 @@
         </el-radio-group>
         <p class="text-gray-400 text-xs m-1.5">{{text.logTypeHint}}</p>
       </el-form-item>
+      <el-form-item :label="common.data">
+        <el-button type="primary" plain @click="state.showDataDialog = true">{{common.dataManage}}</el-button>
+        <p class="text-gray-400 text-xs m-1.5">{{text.dataManagerHint}}</p>
+      </el-form-item>
       <el-form-item :label="text.autoUpdate">
         <el-switch
           @change="saveSetting"
@@ -51,21 +55,49 @@
     <h3 class="text-lg my-4">{{about.title}}</h3>
     <p class="text-gray-600 text-xs mt-1">{{about.license}}</p>
     <p class="text-gray-600 text-xs mt-1 pb-6">Github: <a @click="openGithub" class="cursor-pointer text-blue-400">https://github.com/biuuu/star-rail-warp-export</a></p>
+    <el-dialog v-model="state.showDataDialog" :title="common.dataManage" width="90%">
+    <div class="">
+      <el-table :data="gachaDataInfo" border stripe>
+        <el-table-column property="uid" label="UID" width="128" />
+        <el-table-column property="time" :label="common.updateTime">
+          <template #default="scope">
+            {{ new Date(scope.row.time).toLocaleString() }}
+          </template>
+        </el-table-column>
+        <el-table-column property="deleted" :label="common.status" width="128">
+          <template #default="scope">
+            <el-tag type="info" size="small" v-if="scope.row.deleted">{{common.deleted}}</el-tag>
+            <el-tag type="success" size="small" v-else>{{common.normal}}</el-tag>
+          </template>
+        </el-table-column>
+        <el-table-column property="deleted" :label="common.action" width="128">
+          <template #default="scope">
+            <el-tooltip :content="scope.row.deleted ? common.restore : common.delete" placement="top">
+              <el-button :loading="state.dataActionLoading" size="small" icon="refresh" plain type="success" @click="deleteData(scope.row.uid, false)" v-if="scope.row.deleted"></el-button>
+              <el-button :loading="state.dataActionLoading" size="small" icon="delete" plain type="danger" @click="deleteData(scope.row.uid, true)" v-else></el-button>
+            </el-tooltip>
+          </template>
+        </el-table-column>
+      </el-table>
+    </div>
+  </el-dialog>
   </div>
+
 </template>
 
 <script setup>
 const { ipcRenderer, shell } = require('electron')
 import { reactive, onMounted, computed } from 'vue'
 
-const emit = defineEmits(['close', 'changeLang'])
+const emit = defineEmits(['close', 'changeLang', 'refreshData'])
 
 const props = defineProps({
-  i18n: Object
+  i18n: Object,
+  gachaDataInfo: Array
 })
 
 const data = reactive({
-  langMap: new Map()
+  langMap: new Map(),
 })
 
 const settingForm = reactive({
@@ -77,6 +109,12 @@ const settingForm = reactive({
   hideNovice: true
 })
 
+const state = reactive({
+  showDataDialog: false,
+  dataActionLoading: false
+})
+
+const common = computed(() => props.i18n.ui.common)
 const text = computed(() => props.i18n.ui.setting)
 const about = computed(() => props.i18n.ui.about)
 
@@ -103,6 +141,13 @@ const openLink = (link) => shell.openExternal(link)
 
 const exportUIGFJSON = () => {
   ipcRenderer.invoke('EXPORT_UIGF_JSON')
+}
+
+const deleteData = async (uid, action) => {
+  state.dataActionLoading = true
+  await ipcRenderer.invoke('DELETE_DATA', uid, action)
+  state.dataActionLoading = false
+  emit('refreshData')
 }
 
 onMounted(async () => {

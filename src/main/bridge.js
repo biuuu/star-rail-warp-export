@@ -1,5 +1,5 @@
 const { clipboard, ipcMain } = require('electron')
-const { getUrl } = require('./getData')
+const { getUrl, deleteData } = require('./getData')
 
 ipcMain.handle('COPY_URL', async () => {
   const url = await getUrl()
@@ -8,4 +8,8 @@ ipcMain.handle('COPY_URL', async () => {
     return true
   }
   return false
+})
+
+ipcMain.handle('DELETE_DATA', async (event, uid, action) => {
+  await deleteData(uid, action)
 })

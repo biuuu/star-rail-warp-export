@@ -72,6 +72,14 @@ const readData = async () => {
   }
 }
 
+const deleteData = async (uid, action) => {
+  const data = dataMap.get(uid)
+  if (data) {
+    data.deleted = action
+    await saveData(data)
+  }
+}
+
 const changeCurrent = async (uid) => {
   config.current = uid
   await config.save()
@@ -513,3 +521,4 @@ exports.getData = () => {
 }
 
 exports.getUrl = getUrl
+exports.deleteData = deleteData
