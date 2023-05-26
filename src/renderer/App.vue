@@ -145,7 +145,7 @@ const uidSelectText = computed(() => {
 const allowClick = () => {
   const data = state.dataMap.get(state.current)
   if (!data) return true
-  if (Date.now() - data.time < 1000 * 60) {
+  if (Date.now() - data.time < 1000 * 10) {
     return false
   }
   return true
