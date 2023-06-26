@@ -3,6 +3,7 @@
    "ui.button.load": "Lade Daten",
    "ui.button.update": "Aktualisieren",
    "ui.button.excel": "In Excel exportieren",
+   "ui.button.srgf": "In SRGF exportieren",
    "ui.button.url": "Eingabe URL",
    "ui.button.setting": "Einstellungen",
    "ui.button.option": "Optionen",
@@ -75,5 +76,6 @@
    "excel.wish2": "Wunsch 2",
    "excel.customFont": "Arial",
    "excel.filePrefix": "",
-   "excel.fileType": "Excel Datei"
+   "excel.fileType": "Excel Datei",
+   "srgf.fileType": "Star Rail Gacha Log Format Datei"
 }

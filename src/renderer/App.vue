@@ -4,6 +4,7 @@
       <div>
         <el-button type="primary" :icon="state.status === 'init' ? 'milk-tea': 'refresh-right'" class="focus:outline-none" :disabled="!allowClick()" plain @click="fetchData()" :loading="state.status === 'loading'">{{state.status === 'init' ? ui.button.load: ui.button.update}}</el-button>
         <el-button icon="folder-opened" @click="saveExcel" class="focus:outline-none" :disabled="!gachaData"  type="success" plain>{{ui.button.excel}}</el-button>
+        <el-button icon="folder-opened" @click="exportSRGFJSON" class="focus:outline-none" :disabled="!gachaData"  type="success" plain>{{ui.button.srgf}}</el-button>
         <el-tooltip v-if="detail && state.status !== 'loading'" :content="ui.hint.newAccount" placement="bottom">
           <el-button @click="newUser()" plain icon="plus"  class="focus:outline-none"></el-button>
         </el-tooltip>
@@ -225,6 +226,10 @@ const getI18nData = async () => {
 
 const saveExcel = async () => {
   await ipcRenderer.invoke('SAVE_EXCEL')
+}
+
+const exportSRGFJSON = () => {
+  ipcRenderer.invoke('EXPORT_SRGF_JSON')
 }
 
 const openCacheFolder = async () => {

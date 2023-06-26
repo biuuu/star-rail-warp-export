@@ -76,7 +76,7 @@ const parseText = (text, data) => {
 }
 
 const mainProps = [
-  'symbol', 'ui', 'log', 'excel'
+  'symbol', 'ui', 'log', 'excel',"srgf"
 ]
 
 const i18n = new Proxy(raw, {
