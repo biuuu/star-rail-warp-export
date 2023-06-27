@@ -51,7 +51,7 @@ const start = async () => {
       })
     })
   }
-  listTemp.sort((a, b) => a.id - b.id)
+  listTemp.sort((a, b) => BigInt(a.id) - BigInt(b.id))
   listTemp.forEach(item => {
     result.list.push({
       ...item
