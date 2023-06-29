@@ -1,10 +1,20 @@
 <template>
   <div v-if="ui" class="relative">
     <div class="flex justify-between">
-      <div>
+      <div class="space-x-3">
         <el-button type="primary" :icon="state.status === 'init' ? 'milk-tea': 'refresh-right'" class="focus:outline-none" :disabled="!allowClick()" plain @click="fetchData()" :loading="state.status === 'loading'">{{state.status === 'init' ? ui.button.load: ui.button.update}}</el-button>
-        <el-button icon="folder-opened" @click="saveExcel" class="focus:outline-none" :disabled="!gachaData"  type="success" plain>{{ui.button.excel}}</el-button>
-        <el-button icon="folder-opened" @click="exportSRGFJSON" class="focus:outline-none" :disabled="!gachaData"  type="success" plain>{{ui.button.srgf}}</el-button>
+        <el-dropdown :disabled="!gachaData" @command="exportCommand">
+          <el-button :disabled="!gachaData" icon="folder-opened" class="focus:outline-none" type="success" plain>
+            {{ui.button.files}}
+            <el-icon class="el-icon--right"><arrow-down /></el-icon>
+          </el-button>
+          <template #dropdown>
+            <el-dropdown-menu>
+              <el-dropdown-item command="excel">{{ui.button.excel}}</el-dropdown-item>
+              <el-dropdown-item command="srgf-json">{{ui.button.srgf}}</el-dropdown-item>
+            </el-dropdown-menu>
+          </template>
+        </el-dropdown>
         <el-tooltip v-if="detail && state.status !== 'loading'" :content="ui.hint.newAccount" placement="bottom">
           <el-button @click="newUser()" plain icon="plus"  class="focus:outline-none"></el-button>
         </el-tooltip>
@@ -21,7 +31,7 @@
             :value="item[0]">
           </el-option>
         </el-select>
-        <el-dropdown @command="optionCommand"  >
+        <el-dropdown @command="optionCommand">
           <el-button @click="showSetting(true)" class="focus:outline-none" plain type="info" icon="more"  >{{ui.button.option}}</el-button>
           <template #dropdown>
             <el-dropdown-menu>
@@ -46,7 +56,7 @@
     </div>
     <Setting v-show="state.showSetting" :i18n="state.i18n" :gacha-data-info="dataInfo" @refreshData="readData()" @changeLang="getI18nData()" @close="showSetting(false)"></Setting>
 
-    <el-dialog :title="ui.urlDialog.title" v-model="state.showUrlDlg" width="90%" custom-class="max-w-md">
+    <el-dialog :title="ui.urlDialog.title" v-model="state.showUrlDlg" width="90%" class="max-w-md">
       <p class="mb-4 text-gray-500">{{ui.urlDialog.hint}}</p>
       <el-input  type="textarea" :autosize="{minRows: 4, maxRows: 6}" :placeholder="ui.urlDialog.placeholder" v-model="state.urlInput" spellcheck="false"></el-input>
       <template #footer>
@@ -57,7 +67,7 @@
       </template>
     </el-dialog>
 
-    <el-dialog :title="ui.button.solution" v-model="state.showCacheCleanDlg" width="90%" custom-class="max-w-md cache-clean-dialog">
+    <el-dialog :title="ui.button.solution" v-model="state.showCacheCleanDlg" width="90%" class="max-w-md cache-clean-dialog">
       <el-button plain icon="folder" type="success" @click="openCacheFolder">{{ui.button.cacheFolder}}</el-button>
       <p class="my-2 flex flex-col text-teal-800 text-[13px]">
         <span class="my-1" v-for="txt of cacheCleanTextList">{{ txt }}</span>
@@ -230,6 +240,14 @@ const saveExcel = async () => {
 
 const exportSRGFJSON = () => {
   ipcRenderer.invoke('EXPORT_SRGF_JSON')
+}
+
+const exportCommand = (type) => {
+  if (type === 'excel') {
+    saveExcel()
+  } else if (type === 'srgf-json') {
+    exportSRGFJSON()
+  }
 }
 
 const openCacheFolder = async () => {

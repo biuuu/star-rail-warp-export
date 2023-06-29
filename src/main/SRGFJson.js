@@ -27,7 +27,7 @@ const start = async () => {
       uid: data.uid,
       lang: data.lang,
       export_time: formatDate(new Date()),
-      export_timestamp: Math.ceil(Date.now()/1000),
+      export_timestamp: Math.ceil(Date.now() / 1000),
       export_app: 'star-rail-warp-export',
       export_app_version: `v${version}`,
       region_time_zone: data.region_time_zone,
@@ -39,19 +39,19 @@ const start = async () => {
   for (let [type, arr] of data.result) {
     arr.forEach(log => {
       listTemp.push({
-        gacha_id:log.gacha_id,
-        gacha_type: log.gacha_type,
-        item_id:log.item_id,
-        count:"1",
-        time:log.time,
-        name:log.name,
-        item_type:log.item_type,
-        rank_type:log.rank_type,
-        id:log.id
+        gacha_id: log.gacha_id,
+        gacha_type:  log.gacha_type,
+        item_id: log.item_id,
+        count: '1',
+        time: log.time,
+        name: log.name,
+        item_type: log.item_type,
+        rank_type: log.rank_type,
+        id: log.id
       })
     })
   }
-  listTemp.sort((a, b) => BigInt(a.id) - BigInt(b.id))
+  listTemp.sort((a, b) => Number(BigInt(a.id) - BigInt(b.id)))
   listTemp.forEach(item => {
     result.list.push({
       ...item

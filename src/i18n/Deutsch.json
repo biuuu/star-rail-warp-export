@@ -3,7 +3,7 @@
    "ui.button.load": "Lade Daten",
    "ui.button.update": "Aktualisieren",
    "ui.button.excel": "In Excel exportieren",
-   "ui.button.srgf": "In SRGF exportieren",
+   "ui.button.srgf": "In JSON exportieren",
    "ui.button.url": "Eingabe URL",
    "ui.button.setting": "Einstellungen",
    "ui.button.option": "Optionen",
