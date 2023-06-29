@@ -3,6 +3,7 @@
   "ui.button.load": "データの読み込み",
   "ui.button.update": "更新データ",
   "ui.button.excel": "Excelにエクスポート",
+  "ui.button.srgf": "SRGFにエクスポート",
   "ui.button.url": "URL入力",
   "ui.button.setting": "設定",
   "ui.button.option": "オプション",

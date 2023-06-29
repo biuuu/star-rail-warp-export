@@ -139,10 +139,6 @@ const disableProxy = async () => {
 const openGithub = () => shell.openExternal('https://github.com/biuuu/star-rail-warp-export')
 const openLink = (link) => shell.openExternal(link)
 
-const exportUIGFJSON = () => {
-  ipcRenderer.invoke('EXPORT_UIGF_JSON')
-}
-
 const deleteData = async (uid, action) => {
   state.dataActionLoading = true
   await ipcRenderer.invoke('DELETE_DATA', uid, action)

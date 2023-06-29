@@ -4,6 +4,7 @@
   "ui.button.update": "Mettre à jour",
   "ui.button.directUpdate": "Mise à jour directe",
   "ui.button.excel": "Exporter vers Excel",
+  "ui.button.srgf": "Exporter vers SRGF",
   "ui.button.url": "URL d'import",
   "ui.button.setting": "Paramètres",
   "ui.button.option": "Options",

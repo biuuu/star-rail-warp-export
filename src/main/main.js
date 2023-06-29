@@ -4,7 +4,7 @@ const { disableProxy, proxyStatus } = require('./module/system-proxy')
 require('./getData')
 require('./bridge')
 require('./excel')
-require('./UIGFJson')
+require('./SRGFJson')
 const { getUpdateInfo } = require('./update/index')
 
 const isDev = !app.isPackaged
