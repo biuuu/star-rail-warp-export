@@ -3,7 +3,7 @@ const util = require('util')
 const path = require('path')
 const { URL } = require('url')
 const { app, ipcMain, shell } = require('electron')
-const { sleep, request, sendMsg, readJSON, saveJSON, detectLocale, userDataPath, userPath, localIp, langMap, globalUserDataPath } = require('./utils')
+const { sleep, request, sendMsg, readJSON, saveJSON, detectLocale, getCacheText, userDataPath, userPath, localIp, langMap, globalUserDataPath } = require('./utils')
 const config = require('./config')
 const i18n = require('./i18n')
 const { enableProxy, disableProxy } = require('./module/system-proxy')
@@ -142,13 +142,10 @@ const readLog = async () => {
       const logText = await fs.readFile(logpath, 'utf8')
       const gamePathMch = logText.match(/\w:\/.*?\/StarRail_Data\//i)
       if (gamePathMch) {
-        let cacheText = ''
-        try {
-          cacheText = await fs.readFile(path.join(gamePathMch[0], '/webCaches/Cache/Cache_Data/data_2'), 'utf8')
-        } catch (e) {}
+        const [cacheText, cacheFile] = await getCacheText(gamePathMch[0])
         const urlMch = cacheText.match(/https.+?&auth_appid=webview_gacha&.+?authkey=.+?&game_biz=hkrpg_.+?&plat_type=pc/g)
         if (urlMch) {
-          cacheFolder = path.join(gamePathMch[0], '/webCaches/Cache/')
+          cacheFolder = cacheFile.replace(/Cache_Data[/\\]data_2$/, '')
           return getLatestUrl(urlMch)
         }
       }

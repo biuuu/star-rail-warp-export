@@ -6,6 +6,7 @@ const crypto = require('crypto')
 const unhandled = require('electron-unhandled')
 const windowStateKeeper = require('electron-window-state')
 const debounce = require('lodash/debounce')
+const { glob } = require('glob')
 
 const isDev = !app.isPackaged
 
@@ -202,8 +203,23 @@ const localIp = () => {
   return '127.0.0.1'
 }
 
+async function getCacheText(gamePath) {
+  const results = await glob(path.join(gamePath, '/webCaches{/,/*/}Cache/Cache_Data/data_2'), {
+    stat: true,
+		withFileTypes: true,
+    nodir: true,
+    windowsPathsNoEscape: true
+  })
+  const timeSortedFiles = results
+    .sort((a, b) => b.mtimeMs - a.mtimeMs)
+    .map(path => path.fullpath())
+  const cacheText = await fs.readFile(path.join(timeSortedFiles[0]), 'utf8')
+
+  return [cacheText, timeSortedFiles[0]]
+}
+
 module.exports = {
-  sleep, request, hash, cipherAes, decipherAes, saveLog,
+  sleep, request, hash, cipherAes, decipherAes, saveLog, getCacheText,
   sendMsg, readJSON, saveJSON, initWindow, getWin, localIp, userPath, detectLocale, langMap,
   appRoot, userDataPath, globalUserDataPath
 }
