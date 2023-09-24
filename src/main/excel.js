@@ -57,7 +57,7 @@ const start = async () => {
   const workbook = new ExcelJS.Workbook()
   for (let [key, value] of data.result) {
     const name = data.typeMap.get(key)
-    const sheet = workbook.addWorksheet(name, {views: [{state: 'frozen', ySplit: 1}]})
+    const sheet = workbook.addWorksheet(name.replace(/[*?:\/\\]/g, ' '), {views: [{state: 'frozen', ySplit: 1}]})
     let width = [24, 14, 8, 8, 8, 8, 8]
     if (!data.lang.includes('zh-')) {
       width = [24, 32, 16, 12, 12, 12, 8]
