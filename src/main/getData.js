@@ -290,7 +290,7 @@ const fixAuthkey = (url) => {
 const getQuerystring = (url) => {
   const text = i18n.log
   const { searchParams, host } = new URL(fixAuthkey(url))
-  if (host.includes('webstatic-sea') || host.includes('hkrpg-api-os') || host.includes("api-os-takumi") || host.includes("gs") || config.logType === 2) {
+  if (host.includes('webstatic-sea') || host.includes('hkrpg-api-os') || host.includes('api-os-takumi') || host.includes('hoyoverse.com')) {
     apiDomain = 'https://api-os-takumi.mihoyo.com'
   } else {
     apiDomain = 'https://api-takumi.mihoyo.com'
