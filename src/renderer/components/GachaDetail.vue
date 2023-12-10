@@ -34,7 +34,7 @@
     </span>
   </p>
   <p v-if="detail.ssrPos.length" class="text-gray-600 text-xs">{{text.average}}{{colon}}<span class="text-green-600">{{avg5(detail.ssrPos)}}</span></p>
-  <p v-if="detail.ssrPos.length && type === '11'" class="text-gray-600 text-xs">
+  <p v-if="detail.ssrPos.length && (type === '11' || type === '12')" class="text-gray-600 text-xs">
     {{ text.averageUP }}{{ colon }}
     <span class="text-green-600">{{ avg6(detail.ssrPos) }}</span>
   </p>
@@ -64,12 +64,12 @@ const avg5 = (list) => {
 
 const avg6 = (list) => {
   let n = 0,
-    length = 0;
+    length = list.length;
   const regularList = text.value?.regular?.split(',') ?? [];
   list.forEach((item) => {
     n += item[1];
-    if (!regularList.includes(item[0])) {
-      length += 1;
+    if (regularList.includes(item[0]) && length > 1) {
+      length -= 1;
     }
   });
   return parseInt((n / length) * 100) / 100;
