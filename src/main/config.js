@@ -1,4 +1,4 @@
-const { readJSON, saveJSON, decipherAes, cipherAes, detectLocale, userDataPath, globalUserDataPath } = require('./utils')
+const { readJSON, saveJSON, decipherAes, cipherAes, detectLocale, userDataPath } = require('./utils')
 
 const config = {
   urls: [],
@@ -14,9 +14,7 @@ const config = {
 
 const getLocalConfig = async () => {
   let localConfig = await readJSON(userDataPath, 'config.json')
-  if (!localConfig) {
-    localConfig = await readJSON(globalUserDataPath, 'config.json')
-  }
+
   if (!localConfig) return
   const configTemp = {}
   for (let key in localConfig) {

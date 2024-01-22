@@ -3,7 +3,7 @@ const util = require('util')
 const path = require('path')
 const { URL } = require('url')
 const { app, ipcMain, shell } = require('electron')
-const { sleep, request, sendMsg, readJSON, saveJSON, detectLocale, getCacheText, userDataPath, userPath, localIp, langMap, globalUserDataPath } = require('./utils')
+const { sleep, request, sendMsg, readJSON, saveJSON, detectLocale, getCacheText, userDataPath, userPath, localIp, langMap } = require('./utils')
 const config = require('./config')
 const i18n = require('./i18n')
 const { enableProxy, disableProxy } = require('./module/system-proxy')
@@ -42,10 +42,8 @@ const findDataFiles = async (dataPath, fileMap) => {
 
 const collectDataFiles = async () => {
   await fs.ensureDir(userDataPath)
-  await fs.ensureDir(globalUserDataPath)
   const fileMap = new Map()
   await findDataFiles(userDataPath, fileMap)
-  await findDataFiles(globalUserDataPath, fileMap)
   return fileMap
 }
 

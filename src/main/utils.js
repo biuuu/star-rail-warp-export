@@ -13,7 +13,7 @@ const isDev = !app.isPackaged
 const userPath = app.getPath('userData')
 const appRoot = isDev ? path.resolve(__dirname, '..', '..') : path.resolve(app.getAppPath(), '..', '..')
 const userDataPath = path.resolve(appRoot, 'userData')
-const globalUserDataPath = path.resolve(userPath, 'userData')
+// const globalUserDataPath = path.resolve(userPath, 'userData')
 
 let win = null
 const initWindow = () => {
@@ -147,9 +147,6 @@ const detectLocale = (value) => {
 const saveJSON = async (name, data) => {
   try {
     await fs.outputJSON(path.join(userDataPath, name), data)
-    if (!isDev) {
-      await fs.outputJSON(path.join(globalUserDataPath, name), data)
-    }
   } catch (e) {
     sendMsg(e, 'ERROR')
     await sleep(3)
@@ -221,5 +218,5 @@ async function getCacheText(gamePath) {
 module.exports = {
   sleep, request, hash, cipherAes, decipherAes, saveLog, getCacheText,
   sendMsg, readJSON, saveJSON, initWindow, getWin, localIp, userPath, detectLocale, langMap,
-  appRoot, userDataPath, globalUserDataPath
+  appRoot, userDataPath
 }
