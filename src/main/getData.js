@@ -141,7 +141,7 @@ const readLog = async () => {
       const gamePathMch = logText.match(/\w:\/.*?\/StarRail_Data\//i)
       if (gamePathMch) {
         const [cacheText, cacheFile] = await getCacheText(gamePathMch[0])
-        const urlMch = cacheText.match(/https.+?&auth_appid=webview_gacha&.+?authkey=.+?&game_biz=hkrpg_.+?&plat_type=pc/g)
+        const urlMch = cacheText.match(/https[^?]+?\?[^?]+?&auth_appid=webview_gacha&.+?authkey=.+?&game_biz=hkrpg_.+?&plat_type=pc/g)
         if (urlMch) {
           cacheFolder = cacheFile.replace(/Cache_Data[/\\]data_2$/, '')
           return getLatestUrl(urlMch)
