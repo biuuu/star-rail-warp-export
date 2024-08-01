@@ -1,6 +1,6 @@
 {
   "name": "star-rail-warp-export",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "./dist/electron/main/main.js",
   "author": "biuuu <https://github.com/biuuu>",
   "homepage": "https://github.com/biuuu/star-rail-warp-export",

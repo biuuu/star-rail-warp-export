@@ -289,9 +289,9 @@ const getQuerystring = (url) => {
   const text = i18n.log
   const { searchParams, host } = new URL(fixAuthkey(url))
   if (host.includes('webstatic-sea') || host.includes('hkrpg-api-os') || host.includes('api-os-takumi') || host.includes('hoyoverse.com')) {
-    apiDomain = 'https://api-os-takumi.mihoyo.com'
+    apiDomain = 'https://public-operation-hkrpg-sg.hoyoverse.com'
   } else {
-    apiDomain = 'https://api-takumi.mihoyo.com'
+    apiDomain = 'https://public-operation-hkrpg.mihoyo.com'
   }
   const authkey = searchParams.get('authkey')
   if (!authkey) {
@@ -417,6 +417,7 @@ const fetchData = async (urlOverride) => {
   let originTimeZone = ''
   for (const type of gachaType) {
     const { list, uid, region, region_time_zone } = await getGachaLogs(type, queryString)
+    await sleep(0.3)
     const logs = list.map((item) => {
       const { id, item_id, item_type, name, rank_type, time, gacha_id, gacha_type } = item
       return { id, item_id, item_type, name, rank_type, time, gacha_id, gacha_type }
