@@ -6,6 +6,7 @@
   "ui.button.files": "导出文件",
   "ui.button.excel": "导出Excel",
   "ui.button.uigf":"导出UIGF",
+  "ui.button.import":"导入UIGF",
   "ui.button.url": "输入URL",
   "ui.button.setting": "设置",
   "ui.button.option": "选项",

@@ -4,7 +4,7 @@
       <div class="space-x-3">
         <el-button type="primary" :icon="state.status === 'init' ? 'milk-tea': 'refresh-right'" class="focus:outline-none" :disabled="!allowClick()" plain @click="fetchData()" :loading="state.status === 'loading'">{{state.status === 'init' ? ui.button.load: ui.button.update}}</el-button>
         <el-dropdown :disabled="!gachaData" @command="exportCommand">
-          <el-button :disabled="!gachaData" icon="folder-opened" class="focus:outline-none" type="success" plain>
+          <el-button :disabled="!gachaData" icon="download" class="focus:outline-none" type="success" plain>
             {{ui.button.files}}
             <el-icon class="el-icon--right"><arrow-down /></el-icon>
           </el-button>
@@ -15,6 +15,7 @@
             </el-dropdown-menu>
           </template>
         </el-dropdown>
+        <el-button @click="importData()" icon="upload" class="focus:outline-none" type="success" plain>{{ui.button.import}}</el-button>
         <el-tooltip v-if="detail && state.status !== 'loading'" :content="ui.hint.newAccount" placement="bottom">
           <el-button @click="newUser()" plain icon="plus"  class="focus:outline-none"></el-button>
         </el-tooltip>
@@ -270,6 +271,18 @@ const exportUIGFJSON = () => {
   }).then(() => {
   }).catch(() => {
   });
+}
+
+const importData = async () => {
+  state.status = 'loading'
+  const data = await ipcRenderer.invoke('IMPORT_UIGF_JSON')
+  if (data) {
+    state.dataMap = data.dataMap
+    state.current = data.current
+    state.status = 'loaded'
+  } else {
+    state.status = 'failed'
+  }
 }
 
 const exportCommand = (type) => {

@@ -6,6 +6,7 @@
   "ui.button.files": "Export Files",
   "ui.button.excel": "Export Excel",
   "ui.button.uigf": "Export UIGF",
+  "ui.button.import": "Import UIGF",
   "ui.button.url": "Input URL",
   "ui.button.setting": "Settings",
   "ui.button.option": "Option",

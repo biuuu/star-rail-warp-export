@@ -6,6 +6,7 @@
   "ui.button.files": "匯出檔案",
   "ui.button.excel": "匯出 Excel",
   "ui.button.uigf": "匯出 UIGF",
+  "ui.button.import":"導入 UIGF",
   "ui.button.url": "輸入 URL",
   "ui.button.setting": "設定",
   "ui.button.option": "選項",
