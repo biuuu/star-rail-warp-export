@@ -7,6 +7,7 @@ const { name, version } = require('../../package.json')
 const i18n = require('./i18n')
 const { mergeData } =  require('./utils/mergeData')
 const { sendMsg } = require('./utils')
+const idJson = require('../idJson.json')
 
 const getTimeString = () => {
   return new Date().toLocaleString('sv').replace(/[- :]/g, '').slice(0, -2)
@@ -105,19 +106,30 @@ const importUIGF = async () => {
     jsonData.hkrpg.forEach(uidData => {
       const resultTemp = []
       const isNew = !Boolean(dataMap.has(uidData.uid))
+
       let region_time_zone
       if (!isNew) region_time_zone = dataMap.get(uidData.uid).region_time_zone
       else region_time_zone = uidData.timezone
 
+      let targetLang
+      if (!isNew) targetLang = dataMap.get(uidData.uid).lang
+      else targetLang = uidData.lang
+      if(!idJson[targetLang] && (!uidData.list[0].name || !uidData.list[0].item_type || !uidData.list[0].rank_type)) targetLang = config.lang
+
+      let idTargetLangJson = idJson[targetLang]
+
       uidData.list.forEach(recordEntry => {
+        let rank_type
+        if (idTargetLangJson?.[recordEntry.item_id].rank_type) rank_type = String(idTargetLangJson[recordEntry.item_id].rank_type)
+        else rank_type = recordEntry.rank_type
         resultTemp.push({
           gacha_id: recordEntry.gacha_id,
           gacha_type: recordEntry.gacha_type,
           item_id: recordEntry.item_id,
-          count: recordEntry.count,
+          count: recordEntry.count ?? "1",
           time: convertTimeZone(recordEntry.time, uidData.timezone, region_time_zone),
-          name: recordEntry.name,
-          item_type: recordEntry.item_type,
+          name: idTargetLangJson?.[recordEntry.item_id].name ?? recordEntry.name,
+          item_type: idTargetLangJson?.[recordEntry.item_id].item_type ?? recordEntry.item_type,
           rank_type: recordEntry.rank_type,
           id: recordEntry.id
         })
@@ -134,9 +146,9 @@ const importUIGF = async () => {
       let data
       const mergedData = mergeData(dataMap.get(uidData.uid), resultMap)
       if (isNew) {
-        data = { result: mergedData, time: Date.now(), uid: uidData.uid, lang: uidData.lang, region_time_zone: uidData.timezone, deleted: false }
+        data = { result: mergedData, time: Date.now(), uid: uidData.uid, lang: targetLang, region_time_zone: uidData.timezone, deleted: false }
       } else {
-        data = { result: mergedData, time: Date.now(), uid: dataMap.get(uidData.uid).uid, lang: dataMap.get(uidData.uid).lang, region_time_zone: dataMap.get(uidData.uid).region_time_zone, deleted: dataMap.get(uidData.uid).deleted }
+        data = { result: mergedData, time: Date.now(), uid: dataMap.get(uidData.uid).uid, lang: targetLang, region_time_zone: dataMap.get(uidData.uid).region_time_zone, deleted: dataMap.get(uidData.uid).deleted }
       }
       
       saveData(data, '')
