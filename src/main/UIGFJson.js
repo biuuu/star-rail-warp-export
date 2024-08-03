@@ -2,8 +2,9 @@ const { app, ipcMain, dialog } = require('electron')
 const fs = require('fs-extra')
 const path = require('path')
 const getData = require('./getData').getData
-const { version } = require('../../package.json')
+const { name, version } = require('../../package.json')
 const i18n = require('./i18n')
+const { exit } = require('process')
 
 const getTimeString = () => {
   return new Date().toLocaleString('sv').replace(/[- :]/g, '').slice(0, -2)
@@ -24,25 +25,28 @@ const start = async () => {
   }
   const result = {
     info: {
-      uid: data.uid,
-      lang: data.lang,
-      export_time: formatDate(new Date()),
       export_timestamp: Math.ceil(Date.now() / 1000),
-      export_app: 'star-rail-warp-export',
+      export_app: `${name}`,
       export_app_version: `v${version}`,
-      region_time_zone: data.region_time_zone,
-      srgf_version: 'v1.0'
+      version: "v4.0"
     },
-    list: []
+    hkrpg: [
+      {
+        uid: current,
+        timezone: data.region_time_zone,
+        lang: data.lang,
+        list: []
+      }
+    ]
   }
   const listTemp = []
   for (let [type, arr] of data.result) {
     arr.forEach(log => {
       listTemp.push({
         gacha_id: log.gacha_id,
-        gacha_type:  log.gacha_type,
+        gacha_type: log.gacha_type,
         item_id: log.item_id,
-        count: '1',
+        count: log.count,
         time: log.time,
         name: log.name,
         item_type: log.item_type,
@@ -53,14 +57,14 @@ const start = async () => {
   }
   listTemp.sort((a, b) => Number(BigInt(a.id) - BigInt(b.id)))
   listTemp.forEach(item => {
-    result.list.push({
+    result.nap[0].list.push({
       ...item
     })
   })
   const filePath = dialog.showSaveDialogSync({
-    defaultPath: path.join(app.getPath('downloads'), `SRGF_${data.uid}_${getTimeString()}`),
+    defaultPath: path.join(app.getPath('downloads'), `UIGF_${data.uid}_${getTimeString()}`),
     filters: [
-      { name: i18n.srgf.fileType, extensions: ['json'] }
+      { name: i18n.uigf.fileType, extensions: ['json'] }
     ]
   })
   if (filePath) {
@@ -69,6 +73,6 @@ const start = async () => {
   }
 }
 
-ipcMain.handle('EXPORT_SRGF_JSON', async () => {
+ipcMain.handle('EXPORT_UIGF_JSON', async () => {
   await start()
 })

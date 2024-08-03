@@ -11,7 +11,7 @@
           <template #dropdown>
             <el-dropdown-menu>
               <el-dropdown-item command="excel">{{ui.button.excel}}</el-dropdown-item>
-              <el-dropdown-item command="srgf-json">{{ui.button.srgf}}</el-dropdown-item>
+              <el-dropdown-item command="uigf-json">{{ui.button.uigf}}</el-dropdown-item>
             </el-dropdown-menu>
           </template>
         </el-dropdown>
@@ -238,15 +238,15 @@ const saveExcel = async () => {
   await ipcRenderer.invoke('SAVE_EXCEL')
 }
 
-const exportSRGFJSON = () => {
-  ipcRenderer.invoke('EXPORT_SRGF_JSON')
+const exportUIGFJSON = () => {
+  ipcRenderer.invoke('EXPORT_UIGF_JSON')
 }
 
 const exportCommand = (type) => {
   if (type === 'excel') {
     saveExcel()
-  } else if (type === 'srgf-json') {
-    exportSRGFJSON()
+  } else if (type === 'uigf-json') {
+    exportUIGFJSON()
   }
 }
 
