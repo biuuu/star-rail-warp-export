@@ -91,7 +91,7 @@ import Setting from './components/Setting.vue'
 import gachaDetail from './gachaDetail'
 import { version } from '../../package.json'
 import gachaType from '../gachaType.json'
-import { ElMessage } from 'element-plus'
+import { ElMessage, ElMessageBox } from 'element-plus'
 
 const state = reactive({
   status: 'init',
@@ -239,7 +239,37 @@ const saveExcel = async () => {
 }
 
 const exportUIGFJSON = () => {
-  ipcRenderer.invoke('EXPORT_UIGF_JSON')
+  let uidList = []
+  dataMap.value.forEach(item => {
+    uidList.push(item.uid)
+  })
+
+  ElMessageBox({
+    title: state.i18n.ui.uigf.title,
+    message: `
+      <div>
+        ${uidList.map(uid => `
+          <div>
+            <input type="checkbox" id="${uid}" value="${uid}" />
+            <label for="${uid}">${uid}</label>
+          </div>
+        `).join('')}
+      </div>
+    `,
+    dangerouslyUseHTMLString: true,
+    showCancelButton: true,
+    confirmButtonText: state.i18n.ui.common.ok,
+    cancelButtonText: state.i18n.ui.common.cancel,
+    beforeClose: (action, instance, done) => {
+      if (action === 'confirm') {
+        const selected_uids = uidList.filter(uid => document.getElementById(uid).checked);
+        ipcRenderer.invoke('EXPORT_UIGF_JSON', selected_uids);
+      }
+      done();
+    }
+  }).then(() => {
+  }).catch(() => {
+  });
 }
 
 const exportCommand = (type) => {
