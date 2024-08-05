@@ -6,7 +6,7 @@
     </div>
     <el-form :model="settingForm" label-width="120px">
       <el-form-item :label="text.language">
-        <el-select @change="saveLang" v-model="settingForm.lang">
+        <el-select @change="saveLang" v-model="settingForm.lang" class="!w-44">
           <el-option v-for="item of data.langMap" :key="item[0]" :label="item[1]" :value="item[0]"></el-option>
         </el-select>
         <p class="text-gray-400 text-xs m-1.5">{{text.languageHint}}</p>
