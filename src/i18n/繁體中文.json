@@ -5,7 +5,8 @@
   "ui.button.directUpdate": "直接更新",
   "ui.button.files": "匯出檔案",
   "ui.button.excel": "匯出 Excel",
-  "ui.button.srgf": "匯出 JSON",
+  "ui.button.uigf": "匯出 UIGF",
+  "ui.button.import":"導入 UIGF",
   "ui.button.url": "輸入 URL",
   "ui.button.setting": "設定",
   "ui.button.option": "選項",
@@ -85,7 +86,8 @@
   "excel.customFont": "微軟正黑體",
   "excel.filePrefix": "星穹鐵道躍遷紀錄",
   "excel.fileType": "Excel 檔案",
-  "srgf.fileType":"星穹鐵道躍遷紀錄格式檔案",
+  "srgf.fileType":"統一可交換抽卡記錄標準 v4.0",
   "ui.extra.cacheClean": "1. 確認是否已經開啟遊戲內的躍遷歷史紀錄，如果仍然出現「身分驗證已過期」的錯誤，再嘗試下面的步驟\n2. 關閉「崩壞：星穹鐵道」的遊戲視窗\n3. 按一下上方的「開啟快取資料夾」按鈕，開啟「Cache」資料夾\n4. 刪除「Cache_Data」資料夾\n5. 啟動「崩壞：星穹鐵道」遊戲，開啟遊戲內躍遷歷史紀錄頁面\n6. 關閉這個對話方塊，再按下「更新資料」按鈕",
-  "ui.extra.findCacheFolder": "如果按下「開啟快取資料夾」按鈕沒有回應，可以手動找到遊戲的網頁快取資料夾，目錄為「您的遊戲安裝路徑/Star Rail/Games/StarRail_Data/webCaches/Cache/」"
+  "ui.extra.findCacheFolder": "如果按下「開啟快取資料夾」按鈕沒有回應，可以手動找到遊戲的網頁快取資料夾，目錄為「您的遊戲安裝路徑/Star Rail/Games/StarRail_Data/webCaches/Cache/」",
+  "ui.uigf.title": "請選擇要導出的UID"
 }

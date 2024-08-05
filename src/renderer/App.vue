@@ -4,17 +4,18 @@
       <div class="space-x-3">
         <el-button type="primary" :icon="state.status === 'init' ? 'milk-tea': 'refresh-right'" class="focus:outline-none" :disabled="!allowClick()" plain @click="fetchData()" :loading="state.status === 'loading'">{{state.status === 'init' ? ui.button.load: ui.button.update}}</el-button>
         <el-dropdown :disabled="!gachaData" @command="exportCommand">
-          <el-button :disabled="!gachaData" icon="folder-opened" class="focus:outline-none" type="success" plain>
+          <el-button :disabled="!gachaData" icon="download" class="focus:outline-none" type="success" plain>
             {{ui.button.files}}
             <el-icon class="el-icon--right"><arrow-down /></el-icon>
           </el-button>
           <template #dropdown>
             <el-dropdown-menu>
               <el-dropdown-item command="excel">{{ui.button.excel}}</el-dropdown-item>
-              <el-dropdown-item command="srgf-json">{{ui.button.srgf}}</el-dropdown-item>
+              <el-dropdown-item command="uigf-json">{{ui.button.uigf}}</el-dropdown-item>
             </el-dropdown-menu>
           </template>
         </el-dropdown>
+        <el-button @click="importData()" icon="upload" class="focus:outline-none" type="success" plain>{{ui.button.import}}</el-button>
         <el-tooltip v-if="detail && state.status !== 'loading'" :content="ui.hint.newAccount" placement="bottom">
           <el-button @click="newUser()" plain icon="plus"  class="focus:outline-none"></el-button>
         </el-tooltip>
@@ -91,7 +92,7 @@ import Setting from './components/Setting.vue'
 import gachaDetail from './gachaDetail'
 import { version } from '../../package.json'
 import gachaType from '../gachaType.json'
-import { ElMessage } from 'element-plus'
+import { ElMessage, ElMessageBox } from 'element-plus'
 
 const state = reactive({
   status: 'init',
@@ -238,15 +239,57 @@ const saveExcel = async () => {
   await ipcRenderer.invoke('SAVE_EXCEL')
 }
 
-const exportSRGFJSON = () => {
-  ipcRenderer.invoke('EXPORT_SRGF_JSON')
+const exportUIGFJSON = () => {
+  let uidList = []
+  dataMap.value.forEach(item => {
+    uidList.push(item.uid)
+  })
+
+  ElMessageBox({
+    title: state.i18n.ui.uigf.title,
+    message: `
+      <div>
+        ${uidList.map(uid => `
+          <div>
+            <input type="checkbox" id="${uid}" value="${uid}" />
+            <label for="${uid}">${uid}</label>
+          </div>
+        `).join('')}
+      </div>
+    `,
+    dangerouslyUseHTMLString: true,
+    showCancelButton: true,
+    confirmButtonText: state.i18n.ui.common.ok,
+    cancelButtonText: state.i18n.ui.common.cancel,
+    beforeClose: (action, instance, done) => {
+      if (action === 'confirm') {
+        const selected_uids = uidList.filter(uid => document.getElementById(uid).checked);
+        ipcRenderer.invoke('EXPORT_UIGF_JSON', selected_uids);
+      }
+      done();
+    }
+  }).then(() => {
+  }).catch(() => {
+  });
+}
+
+const importData = async () => {
+  state.status = 'loading'
+  const data = await ipcRenderer.invoke('IMPORT_UIGF_JSON')
+  if (data) {
+    state.dataMap = data.dataMap
+    state.current = data.current
+    state.status = 'loaded'
+  } else {
+    state.status = 'failed'
+  }
 }
 
 const exportCommand = (type) => {
   if (type === 'excel') {
     saveExcel()
-  } else if (type === 'srgf-json') {
-    exportSRGFJSON()
+  } else if (type === 'uigf-json') {
+    exportUIGFJSON()
   }
 }
 

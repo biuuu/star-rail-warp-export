@@ -1,0 +1,4312 @@
+{
+  "zh-cn": {
+    "20000": {
+      "name": "锋镝",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20001": {
+      "name": "物穰",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20002": {
+      "name": "天倾",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20003": {
+      "name": "琥珀",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20004": {
+      "name": "幽邃",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20005": {
+      "name": "齐颂",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20006": {
+      "name": "智库",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20007": {
+      "name": "离弦",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20008": {
+      "name": "嘉果",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20009": {
+      "name": "乐圮",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20010": {
+      "name": "戍御",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20011": {
+      "name": "渊环",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20012": {
+      "name": "轮契",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20013": {
+      "name": "灵钥",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20014": {
+      "name": "相抗",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20015": {
+      "name": "蕃息",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20016": {
+      "name": "俱殁",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20017": {
+      "name": "开疆",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20018": {
+      "name": "匿影",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20019": {
+      "name": "调和",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20020": {
+      "name": "睿见",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "21000": {
+      "name": "一场术后对话",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21001": {
+      "name": "晚安与睡颜",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21002": {
+      "name": "余生的第一天",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21003": {
+      "name": "唯有沉默",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21004": {
+      "name": "记忆中的模样",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21005": {
+      "name": "鼹鼠党欢迎你",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21006": {
+      "name": "「我」的诞生",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21007": {
+      "name": "同一种心情",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21008": {
+      "name": "猎物的视线",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21009": {
+      "name": "朗道的选择",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21010": {
+      "name": "论剑",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21011": {
+      "name": "与行星相会",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21012": {
+      "name": "秘密誓心",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21013": {
+      "name": "别让世界静下来",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21014": {
+      "name": "此时恰好",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21015": {
+      "name": "决心如汗珠般闪耀",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21016": {
+      "name": "宇宙市场趋势",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21017": {
+      "name": "点个关注吧！",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21018": {
+      "name": "舞！舞！舞！",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21019": {
+      "name": "在蓝天下",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21020": {
+      "name": "天才们的休憩",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21021": {
+      "name": "等价交换",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21022": {
+      "name": "延长记号",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21023": {
+      "name": "我们是地火",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21024": {
+      "name": "春水初生",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21025": {
+      "name": "过往未来",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21026": {
+      "name": "汪！散步时间！",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21027": {
+      "name": "早餐的仪式感",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21028": {
+      "name": "暖夜不会漫长",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21029": {
+      "name": "后会有期",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21030": {
+      "name": "这就是我啦！",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21031": {
+      "name": "重返幽冥",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21032": {
+      "name": "镂月裁云之意",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21033": {
+      "name": "无处可逃",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21034": {
+      "name": "今日亦是和平的一日",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21035": {
+      "name": "何物为真",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21036": {
+      "name": "美梦小镇大冒险",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21037": {
+      "name": "最后的赢家",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21038": {
+      "name": "在火的远处",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21039": {
+      "name": "织造命运之线",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21040": {
+      "name": "银河沦陷日",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21041": {
+      "name": "好戏开演",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21042": {
+      "name": "铭记于心的约定",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21043": {
+      "name": "两个人的演唱会",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21044": {
+      "name": "无边曼舞",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21045": {
+      "name": "谐乐静默之后",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21046": {
+      "name": "芳华待灼",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21047": {
+      "name": "黑夜如影随行",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "22000": {
+      "name": "新手任务开始前",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "22001": {
+      "name": "嘿，我在这儿",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "22002": {
+      "name": "为了明日的旅途",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "23000": {
+      "name": "银河铁道之夜",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23001": {
+      "name": "于夜色中",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23002": {
+      "name": "无可取代的东西",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23003": {
+      "name": "但战斗还未结束",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23004": {
+      "name": "以世界之名",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23005": {
+      "name": "制胜的瞬间",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23006": {
+      "name": "只需等待",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23007": {
+      "name": "雨一直下",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23008": {
+      "name": "棺的回响",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23009": {
+      "name": "到不了的彼岸",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23010": {
+      "name": "拂晓之前",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23011": {
+      "name": "她已闭上双眼",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23012": {
+      "name": "如泥酣眠",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23013": {
+      "name": "时节不居",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23014": {
+      "name": "此身为剑",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23015": {
+      "name": "比阳光更明亮的",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23016": {
+      "name": "烦恼着，幸福着",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23017": {
+      "name": "惊魂夜",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23018": {
+      "name": "片刻，留在眼底",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23019": {
+      "name": "镜中故我",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23020": {
+      "name": "纯粹思维的洗礼",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23021": {
+      "name": "游戏尘寰",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23022": {
+      "name": "重塑时光之忆",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23023": {
+      "name": "命运从未公平",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23024": {
+      "name": "行于流逝的岸",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23025": {
+      "name": "梦应归于何处",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23026": {
+      "name": "夜色流光溢彩",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23027": {
+      "name": "驶向第二次生命",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23028": {
+      "name": "偏偏希望无价",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23029": {
+      "name": "那无数个春天",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23030": {
+      "name": "落日时起舞",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23031": {
+      "name": "我将，巡征追猎",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23032": {
+      "name": "唯有香如故",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "24000": {
+      "name": "记一位星神的陨落",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "24001": {
+      "name": "星海巡航",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "24002": {
+      "name": "记忆的质料",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "24003": {
+      "name": "孤独的疗愈",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "24004": {
+      "name": "不息的演算",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "1001": {
+      "name": "三月七",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1002": {
+      "name": "丹恒",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1003": {
+      "name": "姬子",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1004": {
+      "name": "瓦尔特",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1005": {
+      "name": "卡芙卡",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1006": {
+      "name": "银狼",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1008": {
+      "name": "阿兰",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1009": {
+      "name": "艾丝妲",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1013": {
+      "name": "黑塔",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1101": {
+      "name": "布洛妮娅",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1102": {
+      "name": "希儿",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1103": {
+      "name": "希露瓦",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1104": {
+      "name": "杰帕德",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1105": {
+      "name": "娜塔莎",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1106": {
+      "name": "佩拉",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1107": {
+      "name": "克拉拉",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1108": {
+      "name": "桑博",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1109": {
+      "name": "虎克",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1110": {
+      "name": "玲可",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1111": {
+      "name": "卢卡",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1112": {
+      "name": "托帕&账账",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1201": {
+      "name": "青雀",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1202": {
+      "name": "停云",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1203": {
+      "name": "罗刹",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1204": {
+      "name": "景元",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1205": {
+      "name": "刃",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1206": {
+      "name": "素裳",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1207": {
+      "name": "驭空",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1208": {
+      "name": "符玄",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1209": {
+      "name": "彦卿",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1210": {
+      "name": "桂乃芬",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1211": {
+      "name": "白露",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1212": {
+      "name": "镜流",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1213": {
+      "name": "丹恒•饮月",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1214": {
+      "name": "雪衣",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1215": {
+      "name": "寒鸦",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1217": {
+      "name": "藿藿",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1218": {
+      "name": "椒丘",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1220": {
+      "name": "飞霄",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1221": {
+      "name": "云璃",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1222": {
+      "name": "灵砂",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1223": {
+      "name": "貊泽",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1224": {
+      "name": "三月七",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1301": {
+      "name": "加拉赫",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1302": {
+      "name": "银枝",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1303": {
+      "name": "阮•梅",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1304": {
+      "name": "砂金",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1305": {
+      "name": "真理医生",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1306": {
+      "name": "花火",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1307": {
+      "name": "黑天鹅",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1308": {
+      "name": "黄泉",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1309": {
+      "name": "知更鸟",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1310": {
+      "name": "流萤",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1312": {
+      "name": "米沙",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1314": {
+      "name": "翡翠",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1315": {
+      "name": "波提欧",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8001": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8002": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8003": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8004": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8005": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8006": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    }
+  },
+  "zh-tw": {
+    "20000": {
+      "name": "鋒鏑",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20001": {
+      "name": "物穰",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20002": {
+      "name": "天傾",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20003": {
+      "name": "琥珀",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20004": {
+      "name": "幽邃",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20005": {
+      "name": "齊頌",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20006": {
+      "name": "智庫",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20007": {
+      "name": "離弦",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20008": {
+      "name": "嘉果",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20009": {
+      "name": "樂圮",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20010": {
+      "name": "戍御",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20011": {
+      "name": "淵環",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20012": {
+      "name": "輪契",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20013": {
+      "name": "靈鑰",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20014": {
+      "name": "相抗",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20015": {
+      "name": "蕃息",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20016": {
+      "name": "俱歿",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20017": {
+      "name": "開疆",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20018": {
+      "name": "匿影",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20019": {
+      "name": "調和",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20020": {
+      "name": "睿見",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "21000": {
+      "name": "一場術後對話",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21001": {
+      "name": "晚安與睡顏",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21002": {
+      "name": "餘生的第一天",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21003": {
+      "name": "唯有沉默",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21004": {
+      "name": "記憶中的模樣",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21005": {
+      "name": "鼴鼠黨歡迎你",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21006": {
+      "name": "「我」的誕生",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21007": {
+      "name": "同一種心情",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21008": {
+      "name": "獵物的視線",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21009": {
+      "name": "朗道的選擇",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21010": {
+      "name": "論劍",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21011": {
+      "name": "與行星相會",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21012": {
+      "name": "祕密誓心",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21013": {
+      "name": "別讓世界靜下來",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21014": {
+      "name": "此時恰好",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21015": {
+      "name": "決心如汗珠般閃耀",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21016": {
+      "name": "宇宙市場趨勢",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21017": {
+      "name": "點個關注吧！",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21018": {
+      "name": "舞！舞！舞！",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21019": {
+      "name": "在藍天下",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21020": {
+      "name": "天才們的休憩",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21021": {
+      "name": "等價交換",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21022": {
+      "name": "延長記號",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21023": {
+      "name": "我們是地火",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21024": {
+      "name": "春水初生",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21025": {
+      "name": "過往未來",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21026": {
+      "name": "汪！散步時間！",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21027": {
+      "name": "早餐的儀式感",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21028": {
+      "name": "暖夜不會漫長",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21029": {
+      "name": "後會有期",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21030": {
+      "name": "這就是我啦！",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21031": {
+      "name": "重返幽冥",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21032": {
+      "name": "鏤月裁雲之意",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21033": {
+      "name": "無處可逃",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21034": {
+      "name": "今日亦是和平的一日",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21035": {
+      "name": "何物爲真",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21036": {
+      "name": "美夢小鎮大冒險",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21037": {
+      "name": "最後的贏家",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21038": {
+      "name": "在火的遠處",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21039": {
+      "name": "織造命運之線",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21040": {
+      "name": "銀河淪陷日",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21041": {
+      "name": "好戲開演",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21042": {
+      "name": "銘記於心的約定",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21043": {
+      "name": "兩個人的演唱會",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21044": {
+      "name": "無邊曼舞",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21045": {
+      "name": "諧樂靜默之後",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21046": {
+      "name": "芳華待灼",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21047": {
+      "name": "黑夜如影隨行",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "22000": {
+      "name": "新手任務開始前",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "22001": {
+      "name": "嘿，我在這兒",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "22002": {
+      "name": "爲了明日的旅途",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "23000": {
+      "name": "銀河鐵道之夜",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23001": {
+      "name": "於夜色中",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23002": {
+      "name": "無可取代的東西",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23003": {
+      "name": "但戰鬥還未結束",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23004": {
+      "name": "以世界之名",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23005": {
+      "name": "制勝的瞬間",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23006": {
+      "name": "只需等待",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23007": {
+      "name": "雨一直下",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23008": {
+      "name": "棺的迴響",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23009": {
+      "name": "到不了的彼岸",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23010": {
+      "name": "拂曉之前",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23011": {
+      "name": "她已閉上雙眼",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23012": {
+      "name": "如泥酣眠",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23013": {
+      "name": "時節不居",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23014": {
+      "name": "此身爲劍",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23015": {
+      "name": "比陽光更明亮的",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23016": {
+      "name": "煩惱着，幸福着",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23017": {
+      "name": "驚魂夜",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23018": {
+      "name": "片刻，留在眼底",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23019": {
+      "name": "鏡中故我",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23020": {
+      "name": "純粹思維的洗禮",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23021": {
+      "name": "遊戲塵寰",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23022": {
+      "name": "重塑時光之憶",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23023": {
+      "name": "命運從未公平",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23024": {
+      "name": "行於流逝的岸",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23025": {
+      "name": "夢應歸於何處",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23026": {
+      "name": "夜色流光溢彩",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23027": {
+      "name": "駛向第二次生命",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23028": {
+      "name": "偏偏希望無價",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23029": {
+      "name": "那無數個春天",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23030": {
+      "name": "落日時起舞",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23031": {
+      "name": "我將，巡徵追獵",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23032": {
+      "name": "唯有香如故",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "24000": {
+      "name": "記一位星神的隕落",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "24001": {
+      "name": "星海巡航",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "24002": {
+      "name": "記憶的質料",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "24003": {
+      "name": "孤獨的療愈",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "24004": {
+      "name": "不息的演算",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "1001": {
+      "name": "三月七",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1002": {
+      "name": "丹恆",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1003": {
+      "name": "姬子",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1004": {
+      "name": "瓦爾特",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1005": {
+      "name": "卡芙卡",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1006": {
+      "name": "銀狼",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1008": {
+      "name": "阿蘭",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1009": {
+      "name": "艾絲妲",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1013": {
+      "name": "黑塔",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1101": {
+      "name": "布洛妮婭",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1102": {
+      "name": "希兒",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1103": {
+      "name": "希露瓦",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1104": {
+      "name": "傑帕德",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1105": {
+      "name": "娜塔莎",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1106": {
+      "name": "佩拉",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1107": {
+      "name": "克拉拉",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1108": {
+      "name": "桑博",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1109": {
+      "name": "虎克",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1110": {
+      "name": "玲可",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1111": {
+      "name": "盧卡",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1112": {
+      "name": "託帕&賬賬",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1201": {
+      "name": "青雀",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1202": {
+      "name": "停雲",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1203": {
+      "name": "羅剎",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1204": {
+      "name": "景元",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1205": {
+      "name": "刃",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1206": {
+      "name": "素裳",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1207": {
+      "name": "馭空",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1208": {
+      "name": "符玄",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1209": {
+      "name": "彥卿",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1210": {
+      "name": "桂乃芬",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1211": {
+      "name": "白露",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1212": {
+      "name": "鏡流",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1213": {
+      "name": "丹恆•飲月",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1214": {
+      "name": "雪衣",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1215": {
+      "name": "寒鴉",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1217": {
+      "name": "藿藿",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1218": {
+      "name": "椒丘",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1220": {
+      "name": "飛霄",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1221": {
+      "name": "雲璃",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1222": {
+      "name": "靈砂",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1223": {
+      "name": "貊澤",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1224": {
+      "name": "三月七",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1301": {
+      "name": "加拉赫",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1302": {
+      "name": "銀枝",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1303": {
+      "name": "阮•梅",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1304": {
+      "name": "砂金",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1305": {
+      "name": "真理醫生",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1306": {
+      "name": "花火",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1307": {
+      "name": "黑天鵝",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1308": {
+      "name": "黃泉",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1309": {
+      "name": "知更鳥",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1310": {
+      "name": "流螢",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1312": {
+      "name": "米沙",
+      "item_type": "角色",
+      "rank_type": "4"
+    },
+    "1314": {
+      "name": "翡翠",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1315": {
+      "name": "波提歐",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8001": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8002": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8003": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8004": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8005": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8006": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    }
+  },
+  "en-us": {
+    "20000": {
+      "name": "Arrows",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20001": {
+      "name": "Cornucopia",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20002": {
+      "name": "Collapsing Sky",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20003": {
+      "name": "Amber",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20004": {
+      "name": "Void",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20005": {
+      "name": "Chorus",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20006": {
+      "name": "Data Bank",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20007": {
+      "name": "Darting Arrow",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20008": {
+      "name": "Fine Fruit",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20009": {
+      "name": "Shattered Home",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20010": {
+      "name": "Defense",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20011": {
+      "name": "Loop",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20012": {
+      "name": "Meshing Cogs",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20013": {
+      "name": "Passkey",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20014": {
+      "name": "Adversarial",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20015": {
+      "name": "Multiplication",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20016": {
+      "name": "Mutual Demise",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20017": {
+      "name": "Pioneering",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20018": {
+      "name": "Hidden Shadow",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20019": {
+      "name": "Mediation",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20020": {
+      "name": "Sagacity",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "21000": {
+      "name": "Post-Op Conversation",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21001": {
+      "name": "Good Night and Sleep Well",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21002": {
+      "name": "Day One of My New Life",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21003": {
+      "name": "Only Silence Remains",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21004": {
+      "name": "Memories of the Past",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21005": {
+      "name": "The Moles Welcome You",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21006": {
+      "name": "The Birth of the Self",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21007": {
+      "name": "Shared Feeling",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21008": {
+      "name": "Eyes of the Prey",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21009": {
+      "name": "Landau's Choice",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21010": {
+      "name": "Swordplay",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21011": {
+      "name": "Planetary Rendezvous",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21012": {
+      "name": "A Secret Vow",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21013": {
+      "name": "Make the World Clamor",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21014": {
+      "name": "Perfect Timing",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21015": {
+      "name": "Resolution Shines As Pearls of Sweat",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21016": {
+      "name": "Trend of the Universal Market",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21017": {
+      "name": "Subscribe for More!",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21018": {
+      "name": "Dance! Dance! Dance!",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21019": {
+      "name": "Under the Blue Sky",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21020": {
+      "name": "Geniuses' Repose",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21021": {
+      "name": "Quid Pro Quo",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21022": {
+      "name": "Fermata",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21023": {
+      "name": "We Are Wildfire",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21024": {
+      "name": "River Flows in Spring",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21025": {
+      "name": "Past and Future",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21026": {
+      "name": "Woof! Walk Time!",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21027": {
+      "name": "The Seriousness of Breakfast",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21028": {
+      "name": "Warmth Shortens Cold Nights",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21029": {
+      "name": "We Will Meet Again",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21030": {
+      "name": "This Is Me!",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21031": {
+      "name": "Return to Darkness",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21032": {
+      "name": "Carve the Moon, Weave the Clouds",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21033": {
+      "name": "Nowhere to Run",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21034": {
+      "name": "Today Is Another Peaceful Day",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21035": {
+      "name": "What Is Real?",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21036": {
+      "name": "Dreamville Adventure",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21037": {
+      "name": "Final Victor",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21038": {
+      "name": "Flames Afar",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21039": {
+      "name": "Destiny's Threads Forewoven",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21040": {
+      "name": "The Day The Cosmos Fell",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21041": {
+      "name": "It's Showtime",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21042": {
+      "name": "Indelible Promise",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21043": {
+      "name": "Concert for Two",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21044": {
+      "name": "Boundless Choreo",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21045": {
+      "name": "After the Charmony Fall",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21046": {
+      "name": "Poised to Bloom",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21047": {
+      "name": "Shadowed by Night",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "22000": {
+      "name": "Before the Tutorial Mission Starts",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "22001": {
+      "name": "Hey, Over Here",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "22002": {
+      "name": "For Tomorrow's Journey",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "23000": {
+      "name": "Night on the Milky Way",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23001": {
+      "name": "In the Night",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23002": {
+      "name": "Something Irreplaceable",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23003": {
+      "name": "But the Battle Isn't Over",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23004": {
+      "name": "In the Name of the World",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23005": {
+      "name": "Moment of Victory",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23006": {
+      "name": "Patience Is All You Need",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23007": {
+      "name": "Incessant Rain",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23008": {
+      "name": "Echoes of the Coffin",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23009": {
+      "name": "The Unreachable Side",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23010": {
+      "name": "Before Dawn",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23011": {
+      "name": "She Already Shut Her Eyes",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23012": {
+      "name": "Sleep Like the Dead",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23013": {
+      "name": "Time Waits for No One",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23014": {
+      "name": "I Shall Be My Own Sword",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23015": {
+      "name": "Brighter Than the Sun",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23016": {
+      "name": "Worrisome, Blissful",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23017": {
+      "name": "Night of Fright",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23018": {
+      "name": "An Instant Before A Gaze",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23019": {
+      "name": "Past Self in Mirror",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23020": {
+      "name": "Baptism of Pure Thought",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23021": {
+      "name": "Earthly Escapade",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23022": {
+      "name": "Reforged Remembrance",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23023": {
+      "name": "Inherently Unjust Destiny",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23024": {
+      "name": "Along the Passing Shore",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23025": {
+      "name": "Whereabouts Should Dreams Rest",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23026": {
+      "name": "Flowing Nightglow",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23027": {
+      "name": "Sailing Towards a Second Life",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23028": {
+      "name": "Yet Hope Is Priceless",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23029": {
+      "name": "Those Many Springs",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23030": {
+      "name": "Dance at Sunset",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23031": {
+      "name": "I Venture Forth to Hunt",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23032": {
+      "name": "Scent Alone Stays True",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "24000": {
+      "name": "On the Fall of an Aeon",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "24001": {
+      "name": "Cruising in the Stellar Sea",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "24002": {
+      "name": "Texture of Memories",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "24003": {
+      "name": "Solitary Healing",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "24004": {
+      "name": "Eternal Calculus",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "1001": {
+      "name": "March 7th",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1002": {
+      "name": "Dan Heng",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1003": {
+      "name": "Himeko",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1004": {
+      "name": "Welt",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1005": {
+      "name": "Kafka",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1006": {
+      "name": "Silver Wolf",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1008": {
+      "name": "Arlan",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1009": {
+      "name": "Asta",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1013": {
+      "name": "Herta",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1101": {
+      "name": "Bronya",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1102": {
+      "name": "Seele",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1103": {
+      "name": "Serval",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1104": {
+      "name": "Gepard",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1105": {
+      "name": "Natasha",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1106": {
+      "name": "Pela",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1107": {
+      "name": "Clara",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1108": {
+      "name": "Sampo",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1109": {
+      "name": "Hook",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1110": {
+      "name": "Lynx",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1111": {
+      "name": "Luka",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1112": {
+      "name": "Topaz & Numby",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1201": {
+      "name": "Qingque",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1202": {
+      "name": "Tingyun",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1203": {
+      "name": "Luocha",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1204": {
+      "name": "Jing Yuan",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1205": {
+      "name": "Blade",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1206": {
+      "name": "Sushang",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1207": {
+      "name": "Yukong",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1208": {
+      "name": "Fu Xuan",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1209": {
+      "name": "Yanqing",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1210": {
+      "name": "Guinaifen",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1211": {
+      "name": "Bailu",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1212": {
+      "name": "Jingliu",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1213": {
+      "name": "Dan Heng • Imbibitor Lunae",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1214": {
+      "name": "Xueyi",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1215": {
+      "name": "Hanya",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1217": {
+      "name": "Huohuo",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1218": {
+      "name": "Jiaoqiu",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1220": {
+      "name": "Feixiao",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1221": {
+      "name": "Yunli",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1222": {
+      "name": "Lingsha",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1223": {
+      "name": "Moze",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1224": {
+      "name": "March 7th",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1301": {
+      "name": "Gallagher",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1302": {
+      "name": "Argenti",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1303": {
+      "name": "Ruan Mei",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1304": {
+      "name": "Aventurine",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1305": {
+      "name": "Dr. Ratio",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1306": {
+      "name": "Sparkle",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1307": {
+      "name": "Black Swan",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1308": {
+      "name": "Acheron",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1309": {
+      "name": "Robin",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1310": {
+      "name": "Firefly",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1312": {
+      "name": "Misha",
+      "item_type": "Character",
+      "rank_type": "4"
+    },
+    "1314": {
+      "name": "Jade",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1315": {
+      "name": "Boothill",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "8001": {
+      "name": "{NICKNAME}",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "8002": {
+      "name": "{NICKNAME}",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "8003": {
+      "name": "{NICKNAME}",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "8004": {
+      "name": "{NICKNAME}",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "8005": {
+      "name": "{NICKNAME}",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "8006": {
+      "name": "{NICKNAME}",
+      "item_type": "Character",
+      "rank_type": "5"
+    }
+  },
+  "ja-jp": {
+    "20000": {
+      "name": "{RUBY_B#や}矢{RUBY_E#}じり",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20001": {
+      "name": "{RUBY_B#ぶつじょう}物穣{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20002": {
+      "name": "{RUBY_B#てんけい}天傾{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20003": {
+      "name": "{RUBY_B#こはく}琥珀{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20004": {
+      "name": "{RUBY_B#ゆうすい}幽邃{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20005": {
+      "name": "{RUBY_B#せいしょう}斉頌{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20006": {
+      "name": "アーカイブ",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20007": {
+      "name": "{RUBY_B#りげん}離弦{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20008": {
+      "name": "{RUBY_B#かか}嘉果{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20009": {
+      "name": "{RUBY_B#らくかい}楽壊{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20010": {
+      "name": "{RUBY_B#ぼうえい}防衛{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20011": {
+      "name": "{RUBY_B#えんかん}淵環{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20012": {
+      "name": "{RUBY_B#りんけい}輪契{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20013": {
+      "name": "{RUBY_B#れいけん}霊鍵{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20014": {
+      "name": "{RUBY_B#そうこう}相抗{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20015": {
+      "name": "{RUBY_B#はんしょく}蕃殖{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20016": {
+      "name": "{RUBY_B#くぼつ}倶歿{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20017": {
+      "name": "{RUBY_B#しんてんち}新天地{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20018": {
+      "name": "{RUBY_B#とくえい}匿影{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20019": {
+      "name": "{RUBY_B#どうちょう}同調{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20020": {
+      "name": "{RUBY_B#けんしき}見識{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "21000": {
+      "name": "{RUBY_B#しゅじゅつご}手術後{RUBY_E#}の{RUBY_B#かいわ}会話{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21001": {
+      "name": "おやすみなさいと{RUBY_B#ねがお}寝顔{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21002": {
+      "name": "{RUBY_B#よせい}余生{RUBY_E#}の{RUBY_B#しょにち}初日{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21003": {
+      "name": "{RUBY_B#ちんもく}沈黙{RUBY_E#}のみ",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21004": {
+      "name": "{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}の{RUBY_B#すがた}姿{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21005": {
+      "name": "モグラ{RUBY_B#とう}党{RUBY_E#}へようこそ",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21006": {
+      "name": "「{RUBY_B#わたし}私{RUBY_E#}」の{RUBY_B#たんじょう}誕生{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21007": {
+      "name": "{RUBY_B#おな}同{RUBY_E#}じ{RUBY_B#きも}気持{RUBY_E#}ち",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21008": {
+      "name": "{RUBY_B#えもの}獲物{RUBY_E#}の{RUBY_B#しせん}視線{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21009": {
+      "name": "ランドゥーの{RUBY_B#せんたく}選択{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21010": {
+      "name": "{RUBY_B#ろんけん}論剣{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21011": {
+      "name": "{RUBY_B#わくせい}惑星{RUBY_E#}との{RUBY_B#であ}出会{RUBY_E#}い",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21012": {
+      "name": "{RUBY_B#ひみつ}秘密{RUBY_E#}の{RUBY_B#ちか}誓{RUBY_E#}い",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21013": {
+      "name": "この{RUBY_B#せかい}世界{RUBY_E#}に{RUBY_B#けんそう}喧噪{RUBY_E#}を",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21014": {
+      "name": "{RUBY_B#いま}今{RUBY_E#}が{RUBY_B#ちょうど}丁度{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21015": {
+      "name": "{RUBY_B#けつい}決意{RUBY_E#}は{RUBY_B#あせ}汗{RUBY_E#}のように{RUBY_B#かがや}輝{RUBY_E#}く",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21016": {
+      "name": "{RUBY_B#せいかんいちば}星間市場{RUBY_E#}のトレンド",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21017": {
+      "name": "フォローして！",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21018": {
+      "name": "ダンス！ダンス！ダンス！",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21019": {
+      "name": "{RUBY_B#あおぞら}青空{RUBY_E#}の{RUBY_B#した}下{RUBY_E#}で",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21020": {
+      "name": "{RUBY_B#てんさい}天才{RUBY_E#}たちの{RUBY_B#きゅうそく}休息{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21021": {
+      "name": "{RUBY_B#とうかこうかん}等価交換{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21022": {
+      "name": "フェルマータ",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21023": {
+      "name": "{RUBY_B#われ}我{RUBY_E#}ら{RUBY_B#ちえん}地炎{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21024": {
+      "name": "{RUBY_B#しゅんすい}春水{RUBY_E#}に{RUBY_B#しょせい}初生{RUBY_E#}する",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21025": {
+      "name": "{RUBY_B#かこ}過去{RUBY_E#}と{RUBY_B#みらい}未来{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21026": {
+      "name": "ワン！{RUBY_B#さんぽ}散歩{RUBY_E#}の{RUBY_B#じかん}時間{RUBY_E#}！",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21027": {
+      "name": "{RUBY_B#ちょうしょく}朝食{RUBY_E#}の{RUBY_B#ぎしきかん}儀式感{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21028": {
+      "name": "{RUBY_B#あたた}暖{RUBY_E#}かい{RUBY_B#よる}夜{RUBY_E#}は{RUBY_B#なが}長{RUBY_E#}くない",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21029": {
+      "name": "またお{RUBY_B#あ}会{RUBY_E#}いしましょう",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21030": {
+      "name": "これがウチだよ！",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21031": {
+      "name": "{RUBY_B#ゆうめい}幽冥{RUBY_E#}に{RUBY_B#き}帰{RUBY_E#}す",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21032": {
+      "name": "{RUBY_B#ちょうげつさいうん}彫月裁雲{RUBY_E#}の{RUBY_B#い}意{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21033": {
+      "name": "{RUBY_B#に}逃{RUBY_E#}げ{RUBY_B#ば}場{RUBY_E#}なし",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21034": {
+      "name": "{RUBY_B#きょう}今日{RUBY_E#}も{RUBY_B#へいわ}平和{RUBY_E#}な{RUBY_B#いちにち}一日{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21035": {
+      "name": "{RUBY_B#なに}何{RUBY_E#}が{RUBY_B#まこと}真{RUBY_E#}か",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21036": {
+      "name": "ドリームタウンの{RUBY_B#だいぼうけん}大冒険{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21037": {
+      "name": "{RUBY_B#さいご}最後{RUBY_E#}の{RUBY_B#しょうしゃ}勝者{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21038": {
+      "name": "{RUBY_B#れっか}烈火{RUBY_E#}の{RUBY_B#かなた}彼方{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21039": {
+      "name": "{RUBY_B#うんめい}運命{RUBY_E#}を{RUBY_B#つむ}紡{RUBY_E#}ぐ{RUBY_B#いと}糸{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21040": {
+      "name": "{RUBY_B#ぎんが}銀河{RUBY_E#}が{RUBY_B#かんらく}陥落{RUBY_E#}した{RUBY_B#ひ}日{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21041": {
+      "name": "ショーの{RUBY_B#はじ}始{RUBY_E#}まり",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21042": {
+      "name": "{RUBY_B#こころ}心{RUBY_E#}に{RUBY_B#きざ}刻{RUBY_E#}まれた{RUBY_B#やくそく}約束{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21043": {
+      "name": "{RUBY_B#ふたり}二人{RUBY_E#}だけのコンサート",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21044": {
+      "name": "{RUBY_B#お}終{RUBY_E#}わりなき{RUBY_B#ぶとう}舞踏{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21045": {
+      "name": "{RUBY_B#ちょうわ}調和{RUBY_E#}が{RUBY_B#ちんもく}沈黙{RUBY_E#}した{RUBY_B#あと}後{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21046": {
+      "name": "{RUBY_B#うつく}美{RUBY_E#}しき{RUBY_B#はな}華{RUBY_E#}よ{RUBY_B#いま}今{RUBY_E#}{RUBY_B#さ}咲{RUBY_E#}かん",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21047": {
+      "name": "夜は影のように付き纏う",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "22000": {
+      "name": "{RUBY_B#はじ}初{RUBY_E#}めてのクエストの{RUBY_B#まえ}前{RUBY_E#}に",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "22001": {
+      "name": "よぉ、ここにいるぜ",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "22002": {
+      "name": "{RUBY_B#あす}明日{RUBY_E#}のための{RUBY_B#たび}旅{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "23000": {
+      "name": "{RUBY_B#ぎんがてつどう}銀河鉄道{RUBY_E#}の{RUBY_B#よる}夜{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23001": {
+      "name": "{RUBY_B#よる}夜{RUBY_E#}の{RUBY_B#とばり}帳{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}で",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23002": {
+      "name": "かけがえのないもの",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23003": {
+      "name": "だが{RUBY_B#せんそう}戦争{RUBY_E#}は{RUBY_B#お}終{RUBY_E#}わらない",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23004": {
+      "name": "{RUBY_B#せかい}世界{RUBY_E#}の{RUBY_B#な}名{RUBY_E#}を{RUBY_B#もっ}以{RUBY_E#}て",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23005": {
+      "name": "{RUBY_B#しょうり}勝利{RUBY_E#}の{RUBY_B#せつな}刹那{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23006": {
+      "name": "{RUBY_B#ま}待{RUBY_E#}つのみ",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23007": {
+      "name": "{RUBY_B#ふ}降{RUBY_E#}りやまぬ{RUBY_B#あめ}雨{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23008": {
+      "name": "{RUBY_B#ひつぎ}棺{RUBY_E#}のこだま",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23009": {
+      "name": "{RUBY_B#つ}着{RUBY_E#}かない{RUBY_B#ひがん}彼岸{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23010": {
+      "name": "{RUBY_B#よあ}夜明{RUBY_E#}け{RUBY_B#まえ}前{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23011": {
+      "name": "{RUBY_B#と}閉{RUBY_E#}ざした{RUBY_B#ひとみ}瞳{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23012": {
+      "name": "{RUBY_B#どろ}泥{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}き{RUBY_B#ねむ}眠{RUBY_E#}り",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23013": {
+      "name": "{RUBY_B#じせつ}時節{RUBY_E#}は{RUBY_B#お}居{RUBY_E#}らず",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23014": {
+      "name": "この{RUBY_B#み}身{RUBY_E#}は{RUBY_B#けん}剣{RUBY_E#}なり",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23015": {
+      "name": "{RUBY_B#ようこう}陽光{RUBY_E#}より{RUBY_B#かがや}輝{RUBY_E#}くもの",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23016": {
+      "name": "{RUBY_B#なや}悩{RUBY_E#}んで{RUBY_B#わら}笑{RUBY_E#}って",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23017": {
+      "name": "{RUBY_B#きょうこん}驚魂{RUBY_E#}の{RUBY_B#よる}夜{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23018": {
+      "name": "その{RUBY_B#いっこく}一刻{RUBY_E#}、{RUBY_B#め}目{RUBY_E#}に{RUBY_B#や}焼{RUBY_E#}き{RUBY_B#つ}付{RUBY_E#}けて",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23019": {
+      "name": "{RUBY_B#かがみ}鏡{RUBY_E#}の{RUBY_B#なか}中{RUBY_E#}の{RUBY_B#わたし}私{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23020": {
+      "name": "{RUBY_B#じゅんすい}純粋{RUBY_E#}なる{RUBY_B#しい}思惟{RUBY_E#}の{RUBY_B#せんれい}洗礼{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23021": {
+      "name": "{RUBY_B#じんせい}人生{RUBY_E#}は{RUBY_B#あそ}遊{RUBY_E#}び",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23022": {
+      "name": "{RUBY_B#とき}時間{RUBY_E#}の{RUBY_B#きおく}記憶{RUBY_E#}を{RUBY_B#さいこうちく}再構築{RUBY_E#}して",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23023": {
+      "name": "{RUBY_B#うんめい}運命{RUBY_E#}は{RUBY_B#つね}常{RUBY_E#}に{RUBY_B#ふこうへい}不公平{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23024": {
+      "name": "{RUBY_B#なが}流{RUBY_E#}れ{RUBY_B#ゆ}逝{RUBY_E#}く{RUBY_B#きし}岸{RUBY_E#}を{RUBY_B#ある}歩{RUBY_E#}いて",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23025": {
+      "name": "{RUBY_B#ゆめ}夢{RUBY_E#}が{RUBY_B#かえ}帰{RUBY_E#}り{RUBY_B#つ}着{RUBY_E#}く{RUBY_B#ばしょ}場所{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23026": {
+      "name": "{RUBY_B#ひかり}光{RUBY_E#}あふれる{RUBY_B#よる}夜{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23027": {
+      "name": "{RUBY_B#にどめ}二度目{RUBY_E#}の{RUBY_B#せい}生{RUBY_E#}に{RUBY_B#む}向{RUBY_E#}かって",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23028": {
+      "name": "されど{RUBY_B#きぼう}希望{RUBY_E#}の{RUBY_B#めい}銘{RUBY_E#}は{RUBY_B#むか}無価{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23029": {
+      "name": "{RUBY_B#いくどめ}幾度目{RUBY_E#}かの{RUBY_B#はる}春{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23030": {
+      "name": "{RUBY_B#ゆうひ}夕日{RUBY_E#}に{RUBY_B#ま}舞{RUBY_E#}う",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23031": {
+      "name": "我が征く巡狩の道",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23032": {
+      "name": "唯香りが故の如く",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "24000": {
+      "name": "とある{RUBY_B#アイオーン}星神{RUBY_E#}の{RUBY_B#うんらく}殞落{RUBY_E#}を{RUBY_B#しる}記{RUBY_E#}す",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "24001": {
+      "name": "{RUBY_B#せいかいじゅんこう}星海巡航{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "24002": {
+      "name": "{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#そざい}素材{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "24003": {
+      "name": "{RUBY_B#こどく}孤独{RUBY_E#}の{RUBY_B#いや}癒{RUBY_E#}し",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "24004": {
+      "name": "{RUBY_B#た}絶{RUBY_E#}え{RUBY_B#ま}間{RUBY_E#}ない{RUBY_B#えんざん}演算{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "1001": {
+      "name": "三月なのか",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1002": {
+      "name": "丹恒",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1003": {
+      "name": "姫子",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1004": {
+      "name": "ヴェルト",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1005": {
+      "name": "カフカ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1006": {
+      "name": "銀狼",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1008": {
+      "name": "アーラン",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1009": {
+      "name": "アスター",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1013": {
+      "name": "ヘルタ",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1101": {
+      "name": "ブローニャ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1102": {
+      "name": "ゼーレ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1103": {
+      "name": "セーバル",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1104": {
+      "name": "ジェパード",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1105": {
+      "name": "ナターシャ",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1106": {
+      "name": "ペラ",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1107": {
+      "name": "クラーラ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1108": {
+      "name": "サンポ",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1109": {
+      "name": "フック",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1110": {
+      "name": "リンクス",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1111": {
+      "name": "ルカ",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1112": {
+      "name": "トパーズ&カブ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1201": {
+      "name": "青雀",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1202": {
+      "name": "停雲",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1203": {
+      "name": "羅刹",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1204": {
+      "name": "景元",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1205": {
+      "name": "刃",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1206": {
+      "name": "素裳",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1207": {
+      "name": "御空",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1208": {
+      "name": "符玄",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1209": {
+      "name": "彦卿",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1210": {
+      "name": "桂乃芬",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1211": {
+      "name": "白露",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1212": {
+      "name": "鏡流",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1213": {
+      "name": "丹恒・飲月",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1214": {
+      "name": "雪衣",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1215": {
+      "name": "寒鴉",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1217": {
+      "name": "フォフォ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1218": {
+      "name": "椒丘",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1220": {
+      "name": "飛霄",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1221": {
+      "name": "雲璃",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1222": {
+      "name": "霊砂",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1223": {
+      "name": "モゼ",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1224": {
+      "name": "三月なのか",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1301": {
+      "name": "ギャラガー",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1302": {
+      "name": "アルジェンティ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1303": {
+      "name": "ルアン・メェイ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1304": {
+      "name": "アベンチュリン",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1305": {
+      "name": "Dr.レイシオ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1306": {
+      "name": "花火",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1307": {
+      "name": "ブラックスワン",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1308": {
+      "name": "黄泉",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1309": {
+      "name": "ロビン",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1310": {
+      "name": "ホタル",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1312": {
+      "name": "ミーシャ",
+      "item_type": "キャラ",
+      "rank_type": "4"
+    },
+    "1314": {
+      "name": "ジェイド",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1315": {
+      "name": "ブートヒル",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "8001": {
+      "name": "{NICKNAME}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "8002": {
+      "name": "{NICKNAME}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "8003": {
+      "name": "{NICKNAME}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "8004": {
+      "name": "{NICKNAME}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "8005": {
+      "name": "{NICKNAME}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "8006": {
+      "name": "{NICKNAME}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    }
+  },
+  "ko-kr": {
+    "20000": {
+      "name": "화살촉",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20001": {
+      "name": "풍작",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20002": {
+      "name": "천경",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20003": {
+      "name": "앰버",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20004": {
+      "name": "그윽",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20005": {
+      "name": "합창",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20006": {
+      "name": "아카이브",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20007": {
+      "name": "시위를 떠난 화살",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20008": {
+      "name": "알찬 열매",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20009": {
+      "name": "무너진 행복",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20010": {
+      "name": "수비",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20011": {
+      "name": "심연의 고리",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20012": {
+      "name": "맞물린 톱니",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20013": {
+      "name": "영험한 열쇠",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20014": {
+      "name": "대립",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20015": {
+      "name": "증식",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20016": {
+      "name": "전멸",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20017": {
+      "name": "강토 개척",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20018": {
+      "name": "숨은 그림자",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20019": {
+      "name": "어울림",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20020": {
+      "name": "식견",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "21000": {
+      "name": "수술 후의 대화",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21001": {
+      "name": "밤 인사와 잠든 얼굴",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21002": {
+      "name": "여생의 첫날",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21003": {
+      "name": "침묵만이",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21004": {
+      "name": "기억 속 모습",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21005": {
+      "name": "두더지파가 환영해",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21006": {
+      "name": "「나」의 탄생",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21007": {
+      "name": "같은 심정",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21008": {
+      "name": "사냥감의 시선",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21009": {
+      "name": "랜도의 선택",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21010": {
+      "name": "논검",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21011": {
+      "name": "행성과의 만남",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21012": {
+      "name": "비밀 맹세",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21013": {
+      "name": "세상을 진정시키지 마",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21014": {
+      "name": "알맞은 타이밍",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21015": {
+      "name": "땀방울처럼 빛나는 결심",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21016": {
+      "name": "우주 시장 동향",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21017": {
+      "name": "팔로우를 부탁해!",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21018": {
+      "name": "댄스! 댄스! 댄스!",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21019": {
+      "name": "푸른 하늘 아래",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21020": {
+      "name": "천재들의 휴식",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21021": {
+      "name": "등가교환",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21022": {
+      "name": "페르마타",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21023": {
+      "name": "우리는 와일드 파이어",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21024": {
+      "name": "움트는 봄물",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21025": {
+      "name": "과거와 미래",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21026": {
+      "name": "멍! 산책 시간!",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21027": {
+      "name": "느낌 있는 아침 식사 루틴",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21028": {
+      "name": "따듯한 밤은 길지 않고",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21029": {
+      "name": "훗날 기약",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21030": {
+      "name": "이게 바로 나야!",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21031": {
+      "name": "또다시 저승으로",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21032": {
+      "name": "누월재운의 뜻",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21033": {
+      "name": "도망칠 곳은 없다",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21034": {
+      "name": "오늘도 평화로운 하루",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21035": {
+      "name": "무엇이 진실인가",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21036": {
+      "name": "좋은꿈 마을 대모험",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21037": {
+      "name": "최후의 승자",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21038": {
+      "name": "불의 먼 곳에서",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21039": {
+      "name": "운명의 실을 엮다",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21040": {
+      "name": "은하 함락의 날",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21041": {
+      "name": "쇼타임",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21042": {
+      "name": "마음에 새긴 약속",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21043": {
+      "name": "두 사람의 콘서트",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21044": {
+      "name": "끝없는 춤",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21045": {
+      "name": "조화가 침묵한 후",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21046": {
+      "name": "피어나길 기다리는 꽃",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21047": {
+      "name": "그림자처럼 따라다니는 밤",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "22000": {
+      "name": "초보자 임무 시작 전",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "22001": {
+      "name": "저기, 나 여기 있어",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "22002": {
+      "name": "내일을 위한 여정",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "23000": {
+      "name": "은하철도의 밤",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23001": {
+      "name": "야경 속에서",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23002": {
+      "name": "대체할 수 없는 것",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23003": {
+      "name": "아직 전투는 끝나지 않았다",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23004": {
+      "name": "세계의 이름으로",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23005": {
+      "name": "승리의 순간",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23006": {
+      "name": "필요한 건 기다림뿐",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23007": {
+      "name": "계속 내리는 비",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23008": {
+      "name": "관의 울림",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23009": {
+      "name": "닿을 수 없는 저편",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23010": {
+      "name": "동트기 전",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23011": {
+      "name": "그녀는 두 눈을 감았네",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23012": {
+      "name": "깊게 든 단잠",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23013": {
+      "name": "세월은 흐를 뿐",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23014": {
+      "name": "이 몸이 검이니",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23015": {
+      "name": "태양보다 밝게 빛나는 것",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23016": {
+      "name": "고민, 그리고 행복",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23017": {
+      "name": "섬뜩한 밤",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23018": {
+      "name": "눈에 담긴 순간",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23019": {
+      "name": "거울 속 지난날의 나",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23020": {
+      "name": "순수 사유의 세례",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23021": {
+      "name": "속세에서의 유희",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23022": {
+      "name": "시간의 기억에 대한 재구성",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23023": {
+      "name": "언제나 불공평한 운명",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23024": {
+      "name": "흘러가는 강가를 따라",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23025": {
+      "name": "꿈은 어디로 돌아가야 하는가",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23026": {
+      "name": "찬란하게 빛나는 밤",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23027": {
+      "name": "두 번째 생명을 향해",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23028": {
+      "name": "값을 매길 수 없는 건 희망뿐",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23029": {
+      "name": "그 무수한 봄날",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23030": {
+      "name": "해 질 무렵 시작되는 춤",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23031": {
+      "name": "나는 사냥을 멈추지 않으리",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23032": {
+      "name": "오직 향만이 변함없이",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "24000": {
+      "name": "어떤 에이언즈의 몰락",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "24001": {
+      "name": "별바다 순항",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "24002": {
+      "name": "기억의 소재",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "24003": {
+      "name": "고독의 치유",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "24004": {
+      "name": "멈추지 않는 연산",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "1001": {
+      "name": "Mar. 7th",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1002": {
+      "name": "단항",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1003": {
+      "name": "히메코",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1004": {
+      "name": "웰트",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1005": {
+      "name": "카프카",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1006": {
+      "name": "은랑",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1008": {
+      "name": "아를란",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1009": {
+      "name": "아스타",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1013": {
+      "name": "헤르타",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1101": {
+      "name": "브로냐",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1102": {
+      "name": "제레",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1103": {
+      "name": "서벌",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1104": {
+      "name": "게파드",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1105": {
+      "name": "나타샤",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1106": {
+      "name": "페라",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1107": {
+      "name": "클라라",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1108": {
+      "name": "삼포",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1109": {
+      "name": "후크",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1110": {
+      "name": "링스",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1111": {
+      "name": "루카",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1112": {
+      "name": "토파즈&복순이",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1201": {
+      "name": "청작",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1202": {
+      "name": "정운",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1203": {
+      "name": "나찰",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1204": {
+      "name": "경원",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1205": {
+      "name": "블레이드",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1206": {
+      "name": "소상",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1207": {
+      "name": "어공",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1208": {
+      "name": "부현",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1209": {
+      "name": "연경",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1210": {
+      "name": "계네빈",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1211": {
+      "name": "백로",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1212": {
+      "name": "경류",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1213": {
+      "name": "단항•음월",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1214": {
+      "name": "설의",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1215": {
+      "name": "한아",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1217": {
+      "name": "곽향",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1218": {
+      "name": "초구",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1220": {
+      "name": "비소",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1221": {
+      "name": "운리",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1222": {
+      "name": "영사",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1223": {
+      "name": "맥택",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1224": {
+      "name": "Mar. 7th",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1301": {
+      "name": "갤러거",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1302": {
+      "name": "아젠티",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1303": {
+      "name": "완•매",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1304": {
+      "name": "어벤츄린",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1305": {
+      "name": "Dr. 레이시오",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1306": {
+      "name": "스파클",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1307": {
+      "name": "블랙 스완",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1308": {
+      "name": "아케론",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1309": {
+      "name": "로빈",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1310": {
+      "name": "반디",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1312": {
+      "name": "미샤",
+      "item_type": "캐릭터",
+      "rank_type": "4"
+    },
+    "1314": {
+      "name": "제이드",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1315": {
+      "name": "부트힐",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "8001": {
+      "name": "{NICKNAME}",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "8002": {
+      "name": "{NICKNAME}",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "8003": {
+      "name": "{NICKNAME}",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "8004": {
+      "name": "{NICKNAME}",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "8005": {
+      "name": "{NICKNAME}",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "8006": {
+      "name": "{NICKNAME}",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    }
+  }
+}
