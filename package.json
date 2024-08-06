@@ -1,6 +1,6 @@
 {
   "name": "star-rail-warp-export",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "main": "./dist/electron/main/main.js",
   "author": "biuuu <https://github.com/biuuu>",
   "homepage": "https://github.com/biuuu/star-rail-warp-export",
@@ -108,7 +108,7 @@
     "tailwindcss": "^3.0.16",
     "vite": "2.7.13",
     "vue": "^3.2.29",
-    "winreg": "^1.2.4",
+    "winreg": "1.2.4",
     "yauzl": "^2.10.0"
   },
   "keywords": [
