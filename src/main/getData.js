@@ -443,9 +443,9 @@ const fetchData = async (urlOverride) => {
         localTimeZone = region_time_zone
       }
     }
-    list.forEach(item => {
-      item.time = convertTimeZone(item.time, region_time_zone, localTimeZone)
-    })
+    // list.forEach(item => {
+    //   item.time = convertTimeZone(item.time, region_time_zone, localTimeZone)
+    // })
     const logs = list.map((item) => {
       const { id, item_id, item_type, name, rank_type, time, gacha_id, gacha_type, count} = item
       return { id, item_id, item_type, name, rank_type, time, gacha_id, gacha_type, count }

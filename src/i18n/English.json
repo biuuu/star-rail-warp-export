@@ -3,7 +3,7 @@
   "ui.button.load": "Load data",
   "ui.button.update": "Update",
   "ui.button.directUpdate": "Direct update",
-  "ui.button.files": "Export Files",
+  "ui.button.files": "Import/Export",
   "ui.button.excel": "Export Excel",
   "ui.button.uigf": "Export UIGF",
   "ui.button.import": "Import UIGF",

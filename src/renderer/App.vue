@@ -4,7 +4,7 @@
       <div class="space-x-3">
         <el-button type="primary" :icon="state.status === 'init' ? 'milk-tea': 'refresh-right'" class="focus:outline-none" :disabled="!allowClick()" plain @click="fetchData()" :loading="state.status === 'loading'">{{state.status === 'init' ? ui.button.load: ui.button.update}}</el-button>
         <el-dropdown :disabled="!gachaData" @command="exportCommand">
-          <el-button :disabled="!gachaData" icon="download" class="focus:outline-none" type="success" plain>
+          <el-button :disabled="!gachaData" icon="folder-opened" class="focus:outline-none" type="success" plain>
             {{ui.button.files}}
             <el-icon class="el-icon--right"><arrow-down /></el-icon>
           </el-button>
@@ -12,10 +12,10 @@
             <el-dropdown-menu>
               <el-dropdown-item command="excel">{{ui.button.excel}}</el-dropdown-item>
               <el-dropdown-item command="uigf-json">{{ui.button.uigf}}</el-dropdown-item>
+              <el-dropdown-item command="import-json" divided>{{ui.button.import}}</el-dropdown-item>
             </el-dropdown-menu>
           </template>
         </el-dropdown>
-        <el-button @click="importData()" icon="upload" class="focus:outline-none" type="success" plain>{{ui.button.import}}</el-button>
         <el-tooltip v-if="detail && state.status !== 'loading'" :content="ui.hint.newAccount" placement="bottom">
           <el-button @click="newUser()" plain icon="plus"  class="focus:outline-none"></el-button>
         </el-tooltip>
@@ -290,6 +290,8 @@ const exportCommand = (type) => {
     saveExcel()
   } else if (type === 'uigf-json') {
     exportUIGFJSON()
+  } else if (type === 'import-json') {
+    importData()
   }
 }
 

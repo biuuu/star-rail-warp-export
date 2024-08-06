@@ -127,7 +127,7 @@ const importUIGF = async () => {
           gacha_type: recordEntry.gacha_type,
           item_id: recordEntry.item_id,
           count: recordEntry.count ?? "1",
-          time: convertTimeZone(recordEntry.time, uidData.timezone, region_time_zone),
+          time: recordEntry.time,
           name: idTargetLangJson?.[recordEntry.item_id].name ?? recordEntry.name,
           item_type: idTargetLangJson?.[recordEntry.item_id].item_type ?? recordEntry.item_type,
           rank_type: recordEntry.rank_type,
@@ -150,7 +150,7 @@ const importUIGF = async () => {
       } else {
         data = { result: mergedData, time: Date.now(), uid: dataMap.get(uidData.uid).uid, lang: targetLang, region_time_zone: dataMap.get(uidData.uid).region_time_zone, deleted: dataMap.get(uidData.uid).deleted }
       }
-      
+
       saveData(data, '')
       changeCurrent(uidData.uid)
       dataMap.set(uidData.uid, data)
