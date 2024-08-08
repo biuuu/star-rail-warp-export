@@ -11,6 +11,7 @@ const itemCount = (map, name) => {
 const order = ['11', '12', '1', '2']
 
 const gachaDetail = (data) => {
+  if (!data) return
   const detailMap = new Map()
   for (let key of order) {
     if (!data.has(key)) return

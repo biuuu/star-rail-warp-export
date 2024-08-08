@@ -15,7 +15,7 @@ const dataMap = new Map()
 const order = ['11', '12', '1', '2']
 let apiDomain = 'https://api-takumi.mihoyo.com'
 
-const saveData = async (data, url) => {
+const saveData = async (data) => {
   const obj = Object.assign({}, data)
   obj.result = [...obj.result]
   await config.save()
@@ -466,7 +466,7 @@ const fetchData = async (urlOverride) => {
   data.result = mergedResult
   dataMap.set(originUid, data)
   await changeCurrent(originUid)
-  await saveData(data, url)
+  await saveData(data)
 }
 
 let proxyStarted = false
@@ -546,3 +546,4 @@ exports.deleteData = deleteData
 exports.saveData = saveData
 exports.changeCurrent = changeCurrent
 exports.convertTimeZone = convertTimeZone
+exports.getGachaType = getGachaType

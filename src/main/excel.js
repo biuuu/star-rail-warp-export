@@ -4,6 +4,7 @@ const { app, ipcMain, dialog } = require('electron')
 const fs = require('fs-extra')
 const path = require('path')
 const i18n = require('./i18n')
+const { getGachaType } = require('./getData')
 
 function pad(num) {
   return `${num}`.padStart(2, "0");
@@ -53,10 +54,11 @@ const start = async () => {
   const { header, customFont, filePrefix, fileType, wish2 } = i18n.excel
   const { dataMap, current } = await getData()
   const data = dataMap.get(current)
+  const typeMap = getGachaType(data.lang)
   // https://github.com/sunfkny/genshin-gacha-export-js/blob/main/index.js
   const workbook = new ExcelJS.Workbook()
   for (let [key, value] of data.result) {
-    const name = data.typeMap.get(key)
+    const name = typeMap.find(item => item.key === key)?.name
     const sheet = workbook.addWorksheet(name.replace(/[*?:\/\\]/g, ' '), {views: [{state: 'frozen', ySplit: 1}]})
     let width = [24, 14, 8, 8, 8, 8, 8]
     if (!data.lang.includes('zh-')) {

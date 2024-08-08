@@ -81,15 +81,61 @@ const exportUIGF = async (uids) => {
   }
 }
 
+function parseData(data, dataMap) {
+  const resultTemp = []
+  const isNew = !dataMap.has(data.uid)
+
+  let targetLang
+  if (!isNew) targetLang = dataMap.get(data.uid).lang
+  else targetLang = data.lang
+  if(!idJson[targetLang] && (!data.list[0].name || !data.list[0].item_type || !data.list[0].rank_type)) targetLang = config.lang
+
+  let idTargetLangJson = idJson[targetLang]
+
+  data.list.forEach(recordEntry => {
+    resultTemp.push({
+      gacha_id: recordEntry.gacha_id,
+      gacha_type: recordEntry.gacha_type,
+      item_id: recordEntry.item_id,
+      count: recordEntry.count ?? "1",
+      time: recordEntry.time,
+      name: idTargetLangJson?.[recordEntry.item_id].name ?? recordEntry.name,
+      item_type: idTargetLangJson?.[recordEntry.item_id].item_type ?? recordEntry.item_type,
+      rank_type: recordEntry.rank_type,
+      id: recordEntry.id
+    })
+  })
+  const resultTempGrouped = resultTemp.reduce((acc, curr) => {
+    if (!acc[curr.gacha_type]) {
+      acc[curr.gacha_type] = []
+    }
+    acc[curr.gacha_type].push(curr)
+    return acc
+  }, {})
+  const resultTempMap = new Map(Object.entries(resultTempGrouped))
+  const resultMap = { result: resultTempMap, uid: data.uid}
+  let temp
+  const mergedData = mergeData(dataMap.get(data.uid), resultMap)
+  if (isNew) {
+    temp = { result: mergedData, time: Date.now(), uid: data.uid, lang: targetLang, region_time_zone: data.timezone, deleted: false }
+  } else {
+    temp = { result: mergedData, time: Date.now(), uid: dataMap.get(data.uid).uid, lang: targetLang, region_time_zone: dataMap.get(data.uid).region_time_zone, deleted: dataMap.get(data.uid).deleted }
+  }
+
+  saveData(temp)
+  changeCurrent(data.uid)
+  dataMap.set(data.uid, temp)
+}
+
 const importUIGF = async () => {
-  const filepath = await dialog.showOpenDialogSync({
+  const filepath = dialog.showOpenDialogSync({
     properties: ['openFile'],
     filters: [
       { name: i18n.uigf.fileType, extensions: ['json'] }
     ]
   })
   if (!filepath) return
-  const { dataMap, current } = await getData()
+  const { dataMap, current } = getData()
   try {
     const jsonData = fs.readJsonSync(filepath[0])
     if('info' in jsonData && 'version' in jsonData.info) {
@@ -98,63 +144,21 @@ const importUIGF = async () => {
         console.error('不支持此版本UIGF')
         return
       }
+      jsonData.hkrpg.forEach(uidData => {
+        parseData(uidData, dataMap)
+      })
+    } else if (jsonData?.info?.srgf_version) {
+      parseData({
+        uid: jsonData.info.uid,
+        lang: jsonData.info.lang,
+        timezone: jsonData.info.region_time_zone,
+        ...jsonData
+      }, dataMap)
     } else {
       sendMsg('UIGF格式错误')
       console.error('UIGF格式错误')
       return
     }
-    jsonData.hkrpg.forEach(uidData => {
-      const resultTemp = []
-      const isNew = !Boolean(dataMap.has(uidData.uid))
-
-      let region_time_zone
-      if (!isNew) region_time_zone = dataMap.get(uidData.uid).region_time_zone
-      else region_time_zone = uidData.timezone
-
-      let targetLang
-      if (!isNew) targetLang = dataMap.get(uidData.uid).lang
-      else targetLang = uidData.lang
-      if(!idJson[targetLang] && (!uidData.list[0].name || !uidData.list[0].item_type || !uidData.list[0].rank_type)) targetLang = config.lang
-
-      let idTargetLangJson = idJson[targetLang]
-
-      uidData.list.forEach(recordEntry => {
-        let rank_type
-        if (idTargetLangJson?.[recordEntry.item_id].rank_type) rank_type = String(idTargetLangJson[recordEntry.item_id].rank_type)
-        else rank_type = recordEntry.rank_type
-        resultTemp.push({
-          gacha_id: recordEntry.gacha_id,
-          gacha_type: recordEntry.gacha_type,
-          item_id: recordEntry.item_id,
-          count: recordEntry.count ?? "1",
-          time: recordEntry.time,
-          name: idTargetLangJson?.[recordEntry.item_id].name ?? recordEntry.name,
-          item_type: idTargetLangJson?.[recordEntry.item_id].item_type ?? recordEntry.item_type,
-          rank_type: recordEntry.rank_type,
-          id: recordEntry.id
-        })
-      })
-      const resultTempGrouped = resultTemp.reduce((acc, curr) => {
-        if (!acc[curr.gacha_type]) {
-          acc[curr.gacha_type] = []
-        }
-        acc[curr.gacha_type].push(curr)
-        return acc;
-      }, {})
-      const resultTempMap = new Map(Object.entries(resultTempGrouped))
-      const resultMap = { result: resultTempMap, uid: uidData.uid}
-      let data
-      const mergedData = mergeData(dataMap.get(uidData.uid), resultMap)
-      if (isNew) {
-        data = { result: mergedData, time: Date.now(), uid: uidData.uid, lang: targetLang, region_time_zone: uidData.timezone, deleted: false }
-      } else {
-        data = { result: mergedData, time: Date.now(), uid: dataMap.get(uidData.uid).uid, lang: targetLang, region_time_zone: dataMap.get(uidData.uid).region_time_zone, deleted: dataMap.get(uidData.uid).deleted }
-      }
-
-      saveData(data, '')
-      changeCurrent(uidData.uid)
-      dataMap.set(uidData.uid, data)
-    })
     return {
       dataMap,
       current: config.current
