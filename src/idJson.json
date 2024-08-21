@@ -2927,7 +2927,7 @@
       "rank_type": "4"
     },
     "21047": {
-      "name": "夜は影のように付き纏う",
+      "name": "{RUBY_B#よる}夜{RUBY_E#}は{RUBY_B#かげ}影{RUBY_E#}のように{RUBY_B#つ}付{RUBY_E#}き{RUBY_B#まと}纏{RUBY_E#}う",
       "item_type": "光円錐",
       "rank_type": "4"
     },
@@ -3102,12 +3102,12 @@
       "rank_type": "5"
     },
     "23031": {
-      "name": "我が征く巡狩の道",
+      "name": "{RUBY_B#われ}我{RUBY_E#}が{RUBY_B#ゆ}征{RUBY_E#}く{RUBY_B#じゅんしゅ}巡狩{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "5"
     },
     "23032": {
-      "name": "唯香りが故の如く",
+      "name": "{RUBY_B#せきじつ}昔日{RUBY_E#}の{RUBY_B#かお}香{RUBY_E#}りは{RUBY_B#いま}今{RUBY_E#}も{RUBY_B#なお}猶{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -3789,7 +3789,7 @@
       "rank_type": "4"
     },
     "21047": {
-      "name": "그림자처럼 따라다니는 밤",
+      "name": "그림자처럼 뒤따르는 밤",
       "item_type": "무기",
       "rank_type": "4"
     },
@@ -3964,7 +3964,7 @@
       "rank_type": "5"
     },
     "23031": {
-      "name": "나는 사냥을 멈추지 않으리",
+      "name": "정복하고 사냥하리",
       "item_type": "무기",
       "rank_type": "5"
     },
@@ -4308,5 +4308,6 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     }
-  }
+  },
+  "version": "2.4.54"
 }
