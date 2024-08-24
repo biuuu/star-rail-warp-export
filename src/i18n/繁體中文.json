@@ -52,6 +52,7 @@
   "ui.setting.fetchFullHistoryHint": "開啟時按下「更新資料」按鈕將會完整取得 6 個月內所有的抽卡紀錄，紀錄內有 6 個月範圍以內的錯誤資料時可以透過此功能修復。",
   "ui.setting.closeProxy": "停用系統 Proxy",
   "ui.setting.closeProxyHint": "如果使用 Proxy 模式時程式當機，可能會影響系統網路，可以透過這個按鈕以清除系統 Proxy 設定。",
+  "ui.setting.idVersion": "ID 數據庫版本",
   "ui.about.title": "關於",
   "ui.about.license": "本工具為開放原始碼軟體，原始碼使用 MIT 授權",
   "ui.urlDialog.title": "手動輸入 URL",
