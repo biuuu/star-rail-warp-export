@@ -14,7 +14,7 @@ const gachaDetail = (data) => {
   if (!data) return
   const detailMap = new Map()
   for (let key of order) {
-    if (!data.has(key)) return
+    if (!data.has(key)) continue
     let value = data.get(key)
     let detail = {
       count3: 0, count4: 0, count5: 0,

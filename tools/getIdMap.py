@@ -8,6 +8,7 @@ cc = OpenCC('s2t')
 # 获取 JSON 数据
 weapon_url = 'https://api.hakush.in/hsr/data/lightcone.json'
 character_url = 'https://api.hakush.in/hsr/data/character.json'
+version_url = 'https://api.hakush.in/hsr/new.json'
 
 # 语言映射配置
 language_map = {
@@ -45,8 +46,11 @@ def main():
     try:
         weapon_data = fetch_json(weapon_url)
         character_data = fetch_json(character_url)
+        version_data = fetch_json(version_url)
 
         transformed_data = {lang: {} for lang in language_map.keys()}
+
+        transformed_data["version"] = version_data["version"]
 
         weapon_transformed = transform_data(weapon_data, "weapon")
         character_transformed = transform_data(character_data, "character")

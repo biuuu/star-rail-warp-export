@@ -345,6 +345,11 @@
       "item_type": "光锥",
       "rank_type": "4"
     },
+    "21048": {
+      "name": "梦的蒙太奇",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "新手任务开始前",
       "item_type": "光锥",
@@ -357,6 +362,11 @@
     },
     "22002": {
       "name": "为了明日的旅途",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "22003": {
+      "name": "忍事录•音律狩猎",
       "item_type": "光锥",
       "rank_type": "4"
     },
@@ -522,6 +532,11 @@
     },
     "23032": {
       "name": "唯有香如故",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23033": {
+      "name": "忍法帖•缭乱破魔",
       "item_type": "光锥",
       "rank_type": "5"
     },
@@ -827,6 +842,11 @@
     },
     "1315": {
       "name": "波提欧",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1317": {
+      "name": "乱破",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1207,6 +1227,11 @@
       "item_type": "光錐",
       "rank_type": "4"
     },
+    "21048": {
+      "name": "夢的蒙太奇",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "新手任務開始前",
       "item_type": "光錐",
@@ -1219,6 +1244,11 @@
     },
     "22002": {
       "name": "爲了明日的旅途",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "22003": {
+      "name": "忍事錄•音律狩獵",
       "item_type": "光錐",
       "rank_type": "4"
     },
@@ -1384,6 +1414,11 @@
     },
     "23032": {
       "name": "唯有香如故",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23033": {
+      "name": "忍法帖•繚亂破魔",
       "item_type": "光錐",
       "rank_type": "5"
     },
@@ -1689,6 +1724,11 @@
     },
     "1315": {
       "name": "波提歐",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1317": {
+      "name": "亂破",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -2069,6 +2109,11 @@
       "item_type": "Light Cone",
       "rank_type": "4"
     },
+    "21048": {
+      "name": "Dream's Montage",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "Before the Tutorial Mission Starts",
       "item_type": "Light Cone",
@@ -2081,6 +2126,11 @@
     },
     "22002": {
       "name": "For Tomorrow's Journey",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "22003": {
+      "name": "Ninja Record: Sound Hunt",
       "item_type": "Light Cone",
       "rank_type": "4"
     },
@@ -2246,6 +2296,11 @@
     },
     "23032": {
       "name": "Scent Alone Stays True",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23033": {
+      "name": "Ninjutsu Inscription: Dazzling Evilbreaker",
       "item_type": "Light Cone",
       "rank_type": "5"
     },
@@ -2551,6 +2606,11 @@
     },
     "1315": {
       "name": "Boothill",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1317": {
+      "name": "Rappa",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -2927,7 +2987,12 @@
       "rank_type": "4"
     },
     "21047": {
-      "name": "夜は影のように付き纏う",
+      "name": "{RUBY_B#よる}夜{RUBY_E#}は{RUBY_B#かげ}影{RUBY_E#}のように{RUBY_B#つ}付{RUBY_E#}き{RUBY_B#まと}纏{RUBY_E#}う",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21048": {
+      "name": "夢のモンタージュ",
       "item_type": "光円錐",
       "rank_type": "4"
     },
@@ -2943,6 +3008,11 @@
     },
     "22002": {
       "name": "{RUBY_B#あす}明日{RUBY_E#}のための{RUBY_B#たび}旅{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "22003": {
+      "name": "忍事録・音律狩り",
       "item_type": "光円錐",
       "rank_type": "4"
     },
@@ -3102,12 +3172,17 @@
       "rank_type": "5"
     },
     "23031": {
-      "name": "我が征く巡狩の道",
+      "name": "{RUBY_B#われ}我{RUBY_E#}が{RUBY_B#ゆ}征{RUBY_E#}く{RUBY_B#じゅんしゅ}巡狩{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "5"
     },
     "23032": {
-      "name": "唯香りが故の如く",
+      "name": "{RUBY_B#せきじつ}昔日{RUBY_E#}の{RUBY_B#かお}香{RUBY_E#}りは{RUBY_B#いま}今{RUBY_E#}も{RUBY_B#なお}猶{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23033": {
+      "name": "忍法帖・繚乱破魔",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -3413,6 +3488,11 @@
     },
     "1315": {
       "name": "ブートヒル",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1317": {
+      "name": "乱破",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -3789,7 +3869,12 @@
       "rank_type": "4"
     },
     "21047": {
-      "name": "그림자처럼 따라다니는 밤",
+      "name": "그림자처럼 뒤따르는 밤",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21048": {
+      "name": "꿈의 몽타주",
       "item_type": "무기",
       "rank_type": "4"
     },
@@ -3805,6 +3890,11 @@
     },
     "22002": {
       "name": "내일을 위한 여정",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "22003": {
+      "name": "인사록•음률 사냥",
       "item_type": "무기",
       "rank_type": "4"
     },
@@ -3964,12 +4054,17 @@
       "rank_type": "5"
     },
     "23031": {
-      "name": "나는 사냥을 멈추지 않으리",
+      "name": "정복하고 사냥하리",
       "item_type": "무기",
       "rank_type": "5"
     },
     "23032": {
       "name": "오직 향만이 변함없이",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23033": {
+      "name": "인법첩•요란 파마",
       "item_type": "무기",
       "rank_type": "5"
     },
@@ -4278,6 +4373,11 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1317": {
+      "name": "라파",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
@@ -4308,5 +4408,6 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     }
-  }
+  },
+  "version": "2.5.52"
 }
