@@ -105,6 +105,16 @@
       "item_type": "光锥",
       "rank_type": "3"
     },
+    "20021": {
+      "name": "焚影",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
+    "20022": {
+      "name": "溯忆",
+      "item_type": "光锥",
+      "rank_type": "3"
+    },
     "21000": {
       "name": "一场术后对话",
       "item_type": "光锥",
@@ -350,6 +360,21 @@
       "item_type": "光锥",
       "rank_type": "4"
     },
+    "21050": {
+      "name": "多流汗，少流泪",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21051": {
+      "name": "天才们的问候",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21052": {
+      "name": "胜利只在朝夕间",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "新手任务开始前",
       "item_type": "光锥",
@@ -537,6 +562,26 @@
     },
     "23033": {
       "name": "忍法帖•缭乱破魔",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23034": {
+      "name": "回到大地的飞行",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23035": {
+      "name": "长路终有归途",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23036": {
+      "name": "将光阴织成黄金",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23037": {
+      "name": "向着不可追问处",
       "item_type": "光锥",
       "rank_type": "5"
     },
@@ -780,6 +825,11 @@
       "item_type": "角色",
       "rank_type": "4"
     },
+    "1225": {
+      "name": "忘归人",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
     "1301": {
       "name": "加拉赫",
       "item_type": "角色",
@@ -835,6 +885,11 @@
       "item_type": "角色",
       "rank_type": "4"
     },
+    "1313": {
+      "name": "星期日",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
     "1314": {
       "name": "翡翠",
       "item_type": "角色",
@@ -847,6 +902,16 @@
     },
     "1317": {
       "name": "乱破",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1401": {
+      "name": "大黑塔",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1402": {
+      "name": "阿格莱雅",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -876,6 +941,16 @@
       "rank_type": "5"
     },
     "8006": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8007": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8008": {
       "name": "{NICKNAME}",
       "item_type": "角色",
       "rank_type": "5"
@@ -984,6 +1059,16 @@
     },
     "20020": {
       "name": "睿見",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20021": {
+      "name": "焚影",
+      "item_type": "光錐",
+      "rank_type": "3"
+    },
+    "20022": {
+      "name": "溯憶",
       "item_type": "光錐",
       "rank_type": "3"
     },
@@ -1232,6 +1317,21 @@
       "item_type": "光錐",
       "rank_type": "4"
     },
+    "21050": {
+      "name": "多流汗，少流淚",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21051": {
+      "name": "天才們的問候",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21052": {
+      "name": "勝利只在朝夕間",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "新手任務開始前",
       "item_type": "光錐",
@@ -1419,6 +1519,26 @@
     },
     "23033": {
       "name": "忍法帖•繚亂破魔",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23034": {
+      "name": "回到大地的飛行",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23035": {
+      "name": "長路終有歸途",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23036": {
+      "name": "將光陰織成黃金",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23037": {
+      "name": "向着不可追問處",
       "item_type": "光錐",
       "rank_type": "5"
     },
@@ -1662,6 +1782,11 @@
       "item_type": "角色",
       "rank_type": "4"
     },
+    "1225": {
+      "name": "忘歸人",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
     "1301": {
       "name": "加拉赫",
       "item_type": "角色",
@@ -1717,6 +1842,11 @@
       "item_type": "角色",
       "rank_type": "4"
     },
+    "1313": {
+      "name": "星期日",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
     "1314": {
       "name": "翡翠",
       "item_type": "角色",
@@ -1729,6 +1859,16 @@
     },
     "1317": {
       "name": "亂破",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1401": {
+      "name": "大黑塔",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1402": {
+      "name": "阿格萊雅",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1758,6 +1898,16 @@
       "rank_type": "5"
     },
     "8006": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8007": {
+      "name": "{NICKNAME}",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "8008": {
       "name": "{NICKNAME}",
       "item_type": "角色",
       "rank_type": "5"
@@ -1866,6 +2016,16 @@
     },
     "20020": {
       "name": "Sagacity",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20021": {
+      "name": "Shadowburn",
+      "item_type": "Light Cone",
+      "rank_type": "3"
+    },
+    "20022": {
+      "name": "Reminiscence",
       "item_type": "Light Cone",
       "rank_type": "3"
     },
@@ -2114,6 +2274,21 @@
       "item_type": "Light Cone",
       "rank_type": "4"
     },
+    "21050": {
+      "name": "Sweat Now, Cry Less",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21051": {
+      "name": "Geniuses' Greetings",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21052": {
+      "name": "Victory In a Blink",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "Before the Tutorial Mission Starts",
       "item_type": "Light Cone",
@@ -2301,6 +2476,26 @@
     },
     "23033": {
       "name": "Ninjutsu Inscription: Dazzling Evilbreaker",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23034": {
+      "name": "A Grounded Ascent",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23035": {
+      "name": "Long Road Leads Home",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23036": {
+      "name": "Time Woven Into Gold",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23037": {
+      "name": "Into the Unreachable Veil",
       "item_type": "Light Cone",
       "rank_type": "5"
     },
@@ -2544,6 +2739,11 @@
       "item_type": "Character",
       "rank_type": "4"
     },
+    "1225": {
+      "name": "Fugue",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
     "1301": {
       "name": "Gallagher",
       "item_type": "Character",
@@ -2599,6 +2799,11 @@
       "item_type": "Character",
       "rank_type": "4"
     },
+    "1313": {
+      "name": "Sunday",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
     "1314": {
       "name": "Jade",
       "item_type": "Character",
@@ -2611,6 +2816,16 @@
     },
     "1317": {
       "name": "Rappa",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1401": {
+      "name": "The Herta",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1402": {
+      "name": "Aglaea",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -2640,6 +2855,16 @@
       "rank_type": "5"
     },
     "8006": {
+      "name": "{NICKNAME}",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "8007": {
+      "name": "{NICKNAME}",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "8008": {
       "name": "{NICKNAME}",
       "item_type": "Character",
       "rank_type": "5"
@@ -2748,6 +2973,16 @@
     },
     "20020": {
       "name": "{RUBY_B#けんしき}見識{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20021": {
+      "name": "影を焚く",
+      "item_type": "光円錐",
+      "rank_type": "3"
+    },
+    "20022": {
+      "name": "記憶を遡る",
       "item_type": "光円錐",
       "rank_type": "3"
     },
@@ -2992,7 +3227,22 @@
       "rank_type": "4"
     },
     "21048": {
-      "name": "夢のモンタージュ",
+      "name": "{RUBY_B#ゆめ}夢{RUBY_E#}のモンタージュ",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21050": {
+      "name": "涙より汗を流せ",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21051": {
+      "name": "天才たちの挨拶",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21052": {
+      "name": "勝利は一朝一夕にある",
       "item_type": "光円錐",
       "rank_type": "4"
     },
@@ -3012,7 +3262,7 @@
       "rank_type": "4"
     },
     "22003": {
-      "name": "忍事録・音律狩り",
+      "name": "{RUBY_B#にんじろく}忍事録{RUBY_E#}・{RUBY_B#おんりつしゅりょう}音律狩猟{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "4"
     },
@@ -3182,7 +3432,27 @@
       "rank_type": "5"
     },
     "23033": {
-      "name": "忍法帖・繚乱破魔",
+      "name": "{RUBY_B#にんぽうちょう}忍法帖{RUBY_E#}・{RUBY_B#りょうらんはま}繚乱破魔{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23034": {
+      "name": "{RUBY_B#だいち}大地{RUBY_E#}より{RUBY_B#てん}天{RUBY_E#}を{RUBY_B#めざ}目指{RUBY_E#}して",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23035": {
+      "name": "{RUBY_B#ちょうと}長途{RUBY_E#}はやがて{RUBY_B#きと}帰途{RUBY_E#}へと{RUBY_B#つづ}続{RUBY_E#}く",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23036": {
+      "name": "光陰を黄金に織り成す",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23037": {
+      "name": "触れてはならない場所へ",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -3426,6 +3696,11 @@
       "item_type": "キャラ",
       "rank_type": "4"
     },
+    "1225": {
+      "name": "帰忘の流離人",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
     "1301": {
       "name": "ギャラガー",
       "item_type": "キャラ",
@@ -3481,6 +3756,11 @@
       "item_type": "キャラ",
       "rank_type": "4"
     },
+    "1313": {
+      "name": "サンデー",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
     "1314": {
       "name": "ジェイド",
       "item_type": "キャラ",
@@ -3493,6 +3773,16 @@
     },
     "1317": {
       "name": "乱破",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1401": {
+      "name": "ビッグヘルタ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1402": {
+      "name": "アグライア",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -3522,6 +3812,16 @@
       "rank_type": "5"
     },
     "8006": {
+      "name": "{NICKNAME}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "8007": {
+      "name": "{NICKNAME}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "8008": {
       "name": "{NICKNAME}",
       "item_type": "キャラ",
       "rank_type": "5"
@@ -3630,6 +3930,16 @@
     },
     "20020": {
       "name": "식견",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20021": {
+      "name": "불타는 그림자",
+      "item_type": "무기",
+      "rank_type": "3"
+    },
+    "20022": {
+      "name": "추억 회상",
       "item_type": "무기",
       "rank_type": "3"
     },
@@ -3878,6 +4188,21 @@
       "item_type": "무기",
       "rank_type": "4"
     },
+    "21050": {
+      "name": "땀은 많이, 눈물은 적게",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21051": {
+      "name": "천재들의 안부 인사",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21052": {
+      "name": "찰나에 결정되는 승리",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "초보자 임무 시작 전",
       "item_type": "무기",
@@ -4065,6 +4390,26 @@
     },
     "23033": {
       "name": "인법첩•요란 파마",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23034": {
+      "name": "대지로 돌아온 비행",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23035": {
+      "name": "먼 길 끝의 귀로",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23036": {
+      "name": "시간을 황금으로 엮어",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23037": {
+      "name": "추궁할 수 없는 곳을 향해",
       "item_type": "무기",
       "rank_type": "5"
     },
@@ -4308,6 +4653,11 @@
       "item_type": "캐릭터",
       "rank_type": "4"
     },
+    "1225": {
+      "name": "망귀인",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "1301": {
       "name": "갤러거",
       "item_type": "캐릭터",
@@ -4363,6 +4713,11 @@
       "item_type": "캐릭터",
       "rank_type": "4"
     },
+    "1313": {
+      "name": "선데이",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "1314": {
       "name": "제이드",
       "item_type": "캐릭터",
@@ -4375,6 +4730,16 @@
     },
     "1317": {
       "name": "라파",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1401": {
+      "name": "더 헤르타",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1402": {
+      "name": "아글라이아",
       "item_type": "캐릭터",
       "rank_type": "5"
     },
@@ -4407,7 +4772,17 @@
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
       "rank_type": "5"
+    },
+    "8007": {
+      "name": "{NICKNAME}",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "8008": {
+      "name": "{NICKNAME}",
+      "item_type": "캐릭터",
+      "rank_type": "5"
     }
   },
-  "version": "2.5.52"
+  "version": "2.7.51"
 }
