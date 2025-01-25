@@ -361,7 +361,7 @@
       "rank_type": "4"
     },
     "21050": {
-      "name": "多流汗，少流泪",
+      "name": "胜利只在朝夕间",
       "item_type": "光锥",
       "rank_type": "4"
     },
@@ -371,7 +371,7 @@
       "rank_type": "4"
     },
     "21052": {
-      "name": "胜利只在朝夕间",
+      "name": "多流汗，少流泪",
       "item_type": "光锥",
       "rank_type": "4"
     },
@@ -585,6 +585,16 @@
       "item_type": "光锥",
       "rank_type": "5"
     },
+    "23038": {
+      "name": "如果时间是一朵花",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23039": {
+      "name": "血火啊，燃烧前路",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "记一位星神的陨落",
       "item_type": "光锥",
@@ -607,6 +617,11 @@
     },
     "24004": {
       "name": "不息的演算",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "24005": {
+      "name": "记忆永不落幕",
       "item_type": "光锥",
       "rank_type": "5"
     },
@@ -912,6 +927,16 @@
     },
     "1402": {
       "name": "阿格莱雅",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1403": {
+      "name": "缇宝",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1404": {
+      "name": "万敌",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1318,7 +1343,7 @@
       "rank_type": "4"
     },
     "21050": {
-      "name": "多流汗，少流淚",
+      "name": "勝利只在朝夕間",
       "item_type": "光錐",
       "rank_type": "4"
     },
@@ -1328,7 +1353,7 @@
       "rank_type": "4"
     },
     "21052": {
-      "name": "勝利只在朝夕間",
+      "name": "多流汗，少流淚",
       "item_type": "光錐",
       "rank_type": "4"
     },
@@ -1542,6 +1567,16 @@
       "item_type": "光錐",
       "rank_type": "5"
     },
+    "23038": {
+      "name": "如果時間是一朵花",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23039": {
+      "name": "血火啊，燃燒前路",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "記一位星神的隕落",
       "item_type": "光錐",
@@ -1564,6 +1599,11 @@
     },
     "24004": {
       "name": "不息的演算",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "24005": {
+      "name": "記憶永不落幕",
       "item_type": "光錐",
       "rank_type": "5"
     },
@@ -1869,6 +1909,16 @@
     },
     "1402": {
       "name": "阿格萊雅",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1403": {
+      "name": "緹寶",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1404": {
+      "name": "萬敵",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -2275,7 +2325,7 @@
       "rank_type": "4"
     },
     "21050": {
-      "name": "Sweat Now, Cry Less",
+      "name": "Victory In a Blink",
       "item_type": "Light Cone",
       "rank_type": "4"
     },
@@ -2285,7 +2335,7 @@
       "rank_type": "4"
     },
     "21052": {
-      "name": "Victory In a Blink",
+      "name": "Sweat Now, Cry Less",
       "item_type": "Light Cone",
       "rank_type": "4"
     },
@@ -2499,6 +2549,16 @@
       "item_type": "Light Cone",
       "rank_type": "5"
     },
+    "23038": {
+      "name": "If Time Were a Flower",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23039": {
+      "name": "Flame of Blood, Blaze My Path",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "On the Fall of an Aeon",
       "item_type": "Light Cone",
@@ -2521,6 +2581,11 @@
     },
     "24004": {
       "name": "Eternal Calculus",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "24005": {
+      "name": "Memory's Curtain Never Falls",
       "item_type": "Light Cone",
       "rank_type": "5"
     },
@@ -2829,6 +2894,16 @@
       "item_type": "Character",
       "rank_type": "5"
     },
+    "1403": {
+      "name": "Tribbie",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1404": {
+      "name": "Mydei",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "Character",
@@ -2977,12 +3052,12 @@
       "rank_type": "3"
     },
     "20021": {
-      "name": "影を焚く",
+      "name": "{RUBY_B#も}燃{RUBY_E#}ゆる{RUBY_B#かげ}影{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "3"
     },
     "20022": {
-      "name": "記憶を遡る",
+      "name": "{RUBY_B#たど}辿{RUBY_E#}る{RUBY_B#きおく}記憶{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "3"
     },
@@ -3232,17 +3307,17 @@
       "rank_type": "4"
     },
     "21050": {
-      "name": "涙より汗を流せ",
+      "name": "{RUBY_B#しゅんこく}瞬刻{RUBY_E#}の{RUBY_B#しょうき}勝機{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "4"
     },
     "21051": {
-      "name": "天才たちの挨拶",
+      "name": "{RUBY_B#てんさい}天才{RUBY_E#}たちの「{RUBY_B#あいさつ}挨拶{RUBY_E#}」",
       "item_type": "光円錐",
       "rank_type": "4"
     },
     "21052": {
-      "name": "勝利は一朝一夕にある",
+      "name": "{RUBY_B#なが}流{RUBY_E#}すなら{RUBY_B#なみだ}涙{RUBY_E#}より{RUBY_B#あせ}汗{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "4"
     },
@@ -3447,12 +3522,22 @@
       "rank_type": "5"
     },
     "23036": {
-      "name": "光陰を黄金に織り成す",
+      "name": "{RUBY_B#こういん}光陰{RUBY_E#}を{RUBY_B#お}織{RUBY_E#}り{RUBY_B#おうごん}黄金{RUBY_E#}と{RUBY_B#な}成{RUBY_E#}す",
       "item_type": "光円錐",
       "rank_type": "5"
     },
     "23037": {
-      "name": "触れてはならない場所へ",
+      "name": "{RUBY_B#ふ}触{RUBY_E#}れてはならぬ{RUBY_B#りょういき}領域{RUBY_E#}へ",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23038": {
+      "name": "もしも時が花だったら",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23039": {
+      "name": "前途燃やす血の如き炎",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -3478,6 +3563,11 @@
     },
     "24004": {
       "name": "{RUBY_B#た}絶{RUBY_E#}え{RUBY_B#ま}間{RUBY_E#}ない{RUBY_B#えんざん}演算{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "24005": {
+      "name": "尽きぬ追憶",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -3777,12 +3867,22 @@
       "rank_type": "5"
     },
     "1401": {
-      "name": "ビッグヘルタ",
+      "name": "マダム・ヘルタ",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1402": {
       "name": "アグライア",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1403": {
+      "name": "トリビー",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1404": {
+      "name": "モーディス",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -4189,7 +4289,7 @@
       "rank_type": "4"
     },
     "21050": {
-      "name": "땀은 많이, 눈물은 적게",
+      "name": "찰나에 결정되는 승리",
       "item_type": "무기",
       "rank_type": "4"
     },
@@ -4199,7 +4299,7 @@
       "rank_type": "4"
     },
     "21052": {
-      "name": "찰나에 결정되는 승리",
+      "name": "땀은 많이, 눈물은 적게",
       "item_type": "무기",
       "rank_type": "4"
     },
@@ -4413,6 +4513,16 @@
       "item_type": "무기",
       "rank_type": "5"
     },
+    "23038": {
+      "name": "시간이 한 송이 꽃이라면",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23039": {
+      "name": "피의 불꽃이여, 앞길을 태워라",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "어떤 에이언즈의 몰락",
       "item_type": "무기",
@@ -4435,6 +4545,11 @@
     },
     "24004": {
       "name": "멈추지 않는 연산",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "24005": {
+      "name": "기억은 영원히 막을 내리지 않는다",
       "item_type": "무기",
       "rank_type": "5"
     },
@@ -4743,6 +4858,16 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1403": {
+      "name": "트리비",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1404": {
+      "name": "마이데이",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
@@ -4784,5 +4909,5 @@
       "rank_type": "5"
     }
   },
-  "version": "2.7.51"
+  "version": "3.0.53"
 }
