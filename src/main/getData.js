@@ -161,7 +161,7 @@ const readLog = async () => {
       const gamePathMch = logText.match(/\w:\/.*?\/StarRail_Data\//i)
       if (gamePathMch) {
         const [cacheText, cacheFile] = await getCacheText(gamePathMch[0])
-        const urlMch = cacheText.match(/https[^?]+?\?[^?]+?&auth_appid=webview_gacha&.+?authkey=.+?&game_biz=hkrpg_.+?&plat_type=pc/g)
+        const urlMch = cacheText.match(/https[^?]+?\?[^?]+?&auth_appid=webview_gacha&.+?authkey=.+?&game_biz=hkrpg_/g)
         if (urlMch) {
           cacheFolder = cacheFile.replace(/Cache_Data[/\\]data_2$/, '')
           return getLatestUrl(urlMch)
@@ -215,13 +215,13 @@ const getGachaLogs = async ({ name, key }, queryString) => {
   let endId = '0'
   const url = `${apiDomain}/common/gacha_record/api/getGachaLog?${queryString}`
   do {
-    if (page % 10 === 0) {
-      sendMsg(i18n.parse(text.fetch.interval, { name, page }))
-      await sleep(1)
-    }
+    // if (page % 10 === 0) {
+    //   sendMsg(i18n.parse(text.fetch.interval, { name, page }))
+    //   await sleep(1)
+    // }
+    await sleep(0.3)
     sendMsg(i18n.parse(text.fetch.current, { name, page }))
     res = await getGachaLog({ key, page, name, url, endId, retryCount: 5 })
-    await sleep(0.3)
     logs = res?.list || []
     if (!uid && logs.length) {
       uid = logs[0].uid
