@@ -12,7 +12,7 @@ const { mergeData } =  require('./utils/mergeData')
 const gachaTypeRaw = require('../gachaType.json')
 
 const dataMap = new Map()
-const order = ['11', '12', '1', '2']
+const order = ['11', '12', '21', '22', '1', '2']
 let apiDomain = 'https://api-takumi.mihoyo.com'
 
 const saveData = async (data) => {
@@ -25,6 +25,8 @@ const saveData = async (data) => {
 const defaultTypeMap = new Map([
   ['11', '角色活动跃迁'],
   ['12', '光锥活动跃迁'],
+  ['21', '「角色联动跃迁」'],
+  ['22', '「光锥联动跃迁」'],
   ['1', '常驻跃迁'],
   ['2', '新手跃迁']
 ])
@@ -182,10 +184,15 @@ const readLog = async () => {
   }
 }
 
-const getGachaLog = async ({ key, page, name, retryCount, url, endId }) => {
+const getGachaLog = async ({queryString, key, page, name, retryCount, url, endId }) => {
   const text = i18n.log
   try {
-    const res = await request(`${url}&gacha_type=${key}&page=${page}&size=${20}${endId ? '&end_id=' + endId : ''}`)
+    let res
+    if (key == '21' || key == '22') {
+          res = await request(`${url}getLdGachaLog?${queryString}&gacha_type=${key}&page=${page}&size=${20}${endId ? '&end_id=' + endId : ''}`)
+    } else {
+          res = await request(`${url}getGachaLog?${queryString}&gacha_type=${key}&page=${page}&size=${20}${endId ? '&end_id=' + endId : ''}`)
+    }
     if (res?.data?.list) {
       return res?.data
     }
@@ -213,7 +220,7 @@ const getGachaLogs = async ({ name, key }, queryString) => {
   let region = ''
   let region_time_zone = ''
   let endId = '0'
-  const url = `${apiDomain}/common/gacha_record/api/getGachaLog?${queryString}`
+  const url = `${apiDomain}/common/gacha_record/api/`
   do {
     // if (page % 10 === 0) {
     //   sendMsg(i18n.parse(text.fetch.interval, { name, page }))
@@ -221,7 +228,7 @@ const getGachaLogs = async ({ name, key }, queryString) => {
     // }
     await sleep(0.3)
     sendMsg(i18n.parse(text.fetch.current, { name, page }))
-    res = await getGachaLog({ key, page, name, url, endId, retryCount: 5 })
+    res = await getGachaLog({queryString, key, page, name, url, endId, retryCount: 5 })
     logs = res?.list || []
     if (!uid && logs.length) {
       uid = logs[0].uid
