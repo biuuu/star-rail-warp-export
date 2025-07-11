@@ -213,7 +213,11 @@ const getGachaLogs = async ({ name, key }, queryString) => {
   let region = ''
   let region_time_zone = ''
   let endId = '0'
-  const url = `${apiDomain}/common/gacha_record/api/getGachaLog?${queryString}`
+  let gachaURLPath = 'getGachaLog'
+  if (queryString.includes('gacha_type=21') || queryString.includes('gacha_type=22')) {
+    gachaURLPath = 'getLdGachaLog'
+  }
+  const url = `${apiDomain}/common/gacha_record/api/${gachaURLPath}?${queryString}`
   do {
     // if (page % 10 === 0) {
     //   sendMsg(i18n.parse(text.fetch.interval, { name, page }))

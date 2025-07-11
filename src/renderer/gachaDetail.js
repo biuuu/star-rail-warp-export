@@ -8,7 +8,7 @@ const itemCount = (map, name) => {
   }
 }
 
-const order = ['11', '12', '1', '2']
+const order = ['11', '12', '21', '22', '1', '2']
 
 const gachaDetail = (data) => {
   if (!data) return
