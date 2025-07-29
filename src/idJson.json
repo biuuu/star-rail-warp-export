@@ -375,6 +375,51 @@
       "item_type": "光锥",
       "rank_type": "4"
     },
+    "21053": {
+      "name": "愿旅途永远坦然",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21054": {
+      "name": "故事的下一页",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21055": {
+      "name": "直到明天的明天",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21056": {
+      "name": "追逐风的时候",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21057": {
+      "name": "花儿不会忘记",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21058": {
+      "name": "一行往日的血",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21060": {
+      "name": "氤氲麦香的梦",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21061": {
+      "name": "假日浴场大冒险",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "21062": {
+      "name": "于那终点再见",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "新手任务开始前",
       "item_type": "光锥",
@@ -392,6 +437,16 @@
     },
     "22003": {
       "name": "忍事录•音律狩猎",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "22004": {
+      "name": "宇宙大生意",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "22005": {
+      "name": "永远的迷境饭",
       "item_type": "光锥",
       "rank_type": "4"
     },
@@ -595,6 +650,51 @@
       "item_type": "光锥",
       "rank_type": "5"
     },
+    "23040": {
+      "name": "让告别，更美一些",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23041": {
+      "name": "生命当付之一炬",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23042": {
+      "name": "愿虹光永驻天空",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23043": {
+      "name": "谎言在风中飘扬",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23044": {
+      "name": "黎明恰如此燃烧",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23045": {
+      "name": "没有回报的加冕",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23046": {
+      "name": "理想燃烧的地狱",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23047": {
+      "name": "海洋为何而歌",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23048": {
+      "name": "金血铭刻的时代",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "记一位星神的陨落",
       "item_type": "光锥",
@@ -669,6 +769,16 @@
       "name": "黑塔",
       "item_type": "角色",
       "rank_type": "4"
+    },
+    "1014": {
+      "name": "Saber",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1015": {
+      "name": "Archer",
+      "item_type": "角色",
+      "rank_type": "5"
     },
     "1101": {
       "name": "布洛妮娅",
@@ -937,6 +1047,41 @@
     },
     "1404": {
       "name": "万敌",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1405": {
+      "name": "那刻夏",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1406": {
+      "name": "赛飞儿",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1407": {
+      "name": "遐蝶",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1408": {
+      "name": "白厄",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1409": {
+      "name": "风堇",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1410": {
+      "name": "海瑟音",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1412": {
+      "name": "刻律德菈",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1357,6 +1502,51 @@
       "item_type": "光錐",
       "rank_type": "4"
     },
+    "21053": {
+      "name": "願旅途永遠坦然",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21054": {
+      "name": "故事的下一頁",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21055": {
+      "name": "直到明天的明天",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21056": {
+      "name": "追逐風的時候",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21057": {
+      "name": "花兒不會忘記",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21058": {
+      "name": "一行往日的血",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21060": {
+      "name": "氤氳麥香的夢",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21061": {
+      "name": "假日浴場大冒險",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "21062": {
+      "name": "於那終點再見",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "新手任務開始前",
       "item_type": "光錐",
@@ -1374,6 +1564,16 @@
     },
     "22003": {
       "name": "忍事錄•音律狩獵",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "22004": {
+      "name": "宇宙大生意",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "22005": {
+      "name": "永遠的迷境飯",
       "item_type": "光錐",
       "rank_type": "4"
     },
@@ -1577,6 +1777,51 @@
       "item_type": "光錐",
       "rank_type": "5"
     },
+    "23040": {
+      "name": "讓告別，更美一些",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23041": {
+      "name": "生命當付之一炬",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23042": {
+      "name": "願虹光永駐天空",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23043": {
+      "name": "謊言在風中飄揚",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23044": {
+      "name": "黎明恰如此燃燒",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23045": {
+      "name": "沒有回報的加冕",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23046": {
+      "name": "理想燃燒的地獄",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23047": {
+      "name": "海洋爲何而歌",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23048": {
+      "name": "金血銘刻的時代",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "記一位星神的隕落",
       "item_type": "光錐",
@@ -1651,6 +1896,16 @@
       "name": "黑塔",
       "item_type": "角色",
       "rank_type": "4"
+    },
+    "1014": {
+      "name": "Saber",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1015": {
+      "name": "Archer",
+      "item_type": "角色",
+      "rank_type": "5"
     },
     "1101": {
       "name": "布洛妮婭",
@@ -1919,6 +2174,41 @@
     },
     "1404": {
       "name": "萬敵",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1405": {
+      "name": "那刻夏",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1406": {
+      "name": "賽飛兒",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1407": {
+      "name": "遐蝶",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1408": {
+      "name": "白厄",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1409": {
+      "name": "風堇",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1410": {
+      "name": "海瑟音",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1412": {
+      "name": "刻律德菈",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -2339,6 +2629,51 @@
       "item_type": "Light Cone",
       "rank_type": "4"
     },
+    "21053": {
+      "name": "Journey, Forever Peaceful",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21054": {
+      "name": "The Story's Next Page",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21055": {
+      "name": "Unto Tomorrow's Morrow",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21056": {
+      "name": "In Pursuit of the Wind",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21057": {
+      "name": "The Flower Remembers",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21058": {
+      "name": "A Trail of Bygone Blood",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21060": {
+      "name": "A Dream Scented in Wheat",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21061": {
+      "name": "Holiday Thermae Escapade",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "21062": {
+      "name": "See You at the End",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "Before the Tutorial Mission Starts",
       "item_type": "Light Cone",
@@ -2356,6 +2691,16 @@
     },
     "22003": {
       "name": "Ninja Record: Sound Hunt",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "22004": {
+      "name": "The Great Cosmic Enterprise",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "22005": {
+      "name": "The Forever Victual",
       "item_type": "Light Cone",
       "rank_type": "4"
     },
@@ -2559,6 +2904,51 @@
       "item_type": "Light Cone",
       "rank_type": "5"
     },
+    "23040": {
+      "name": "Make Farewells More Beautiful",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23041": {
+      "name": "Life Should Be Cast to Flames",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23042": {
+      "name": "Long May Rainbows Adorn the Sky",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23043": {
+      "name": "Lies Dance on the Breeze",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23044": {
+      "name": "Thus Burns the Dawn",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23045": {
+      "name": "A Thankless Coronation",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23046": {
+      "name": "The Hell Where Ideals Burn",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23047": {
+      "name": "Why Does the Ocean Sing",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23048": {
+      "name": "Epoch Etched in Golden Blood",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "On the Fall of an Aeon",
       "item_type": "Light Cone",
@@ -2633,6 +3023,16 @@
       "name": "Herta",
       "item_type": "Character",
       "rank_type": "4"
+    },
+    "1014": {
+      "name": "Saber",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1015": {
+      "name": "Archer",
+      "item_type": "Character",
+      "rank_type": "5"
     },
     "1101": {
       "name": "Bronya",
@@ -2901,6 +3301,41 @@
     },
     "1404": {
       "name": "Mydei",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1405": {
+      "name": "Anaxa",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1406": {
+      "name": "Cipher",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1407": {
+      "name": "Castorice",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1408": {
+      "name": "Phainon",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1409": {
+      "name": "Hyacine",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1410": {
+      "name": "Hysilens",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1412": {
+      "name": "Cerydra",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -3321,6 +3756,51 @@
       "item_type": "光円錐",
       "rank_type": "4"
     },
+    "21053": {
+      "name": "{RUBY_B#たび}旅{RUBY_E#}が{RUBY_B#へいおん}平穏{RUBY_E#}であるように",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21054": {
+      "name": "{RUBY_B#ものがたり}物語{RUBY_E#}をめくって",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21055": {
+      "name": "{RUBY_B#あした}明日{RUBY_E#}の{RUBY_B#あした}明日{RUBY_E#}まで",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21056": {
+      "name": "{RUBY_B#かぜ}風{RUBY_E#}を{RUBY_B#お}追{RUBY_E#}う{RUBY_B#とき}時{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21057": {
+      "name": "{RUBY_B#はな}花{RUBY_E#}は{RUBY_B#わす}忘{RUBY_E#}れない",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21058": {
+      "name": "{RUBY_B#いにしえ}古{RUBY_E#}より{RUBY_B#う}受{RUBY_E#}け{RUBY_B#つ}継{RUBY_E#}がれる{RUBY_B#ち}血{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21060": {
+      "name": "{RUBY_B#むぎ}麦{RUBY_E#}の{RUBY_B#かお}香{RUBY_E#}り{RUBY_B#ただよ}漂{RUBY_E#}う{RUBY_B#ゆめ}夢{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21061": {
+      "name": "{RUBY_B#きゅうじつ}休日{RUBY_E#}のバルネア{RUBY_B#だいぼうけん}大冒険{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "21062": {
+      "name": "{RUBY_B#しゅうてん}終点{RUBY_E#}でまた{RUBY_B#あ}会{RUBY_E#}おう",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "{RUBY_B#はじ}初{RUBY_E#}めてのクエストの{RUBY_B#まえ}前{RUBY_E#}に",
       "item_type": "光円錐",
@@ -3338,6 +3818,16 @@
     },
     "22003": {
       "name": "{RUBY_B#にんじろく}忍事録{RUBY_E#}・{RUBY_B#おんりつしゅりょう}音律狩猟{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "22004": {
+      "name": "{RUBY_B#うちゅういち}宇宙一{RUBY_E#}の{RUBY_B#おおあきな}大商{RUBY_E#}い！",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "22005": {
+      "name": "{RUBY_B#えいえん}永遠{RUBY_E#}の{RUBY_B#めいきょう}迷境{RUBY_E#}ごはん",
       "item_type": "光円錐",
       "rank_type": "4"
     },
@@ -3532,12 +4022,57 @@
       "rank_type": "5"
     },
     "23038": {
-      "name": "もしも時が花だったら",
+      "name": "もしも{RUBY_B#とき}時{RUBY_E#}が{RUBY_B#はな}花{RUBY_E#}だったら",
       "item_type": "光円錐",
       "rank_type": "5"
     },
     "23039": {
-      "name": "前途燃やす血の如き炎",
+      "name": "{RUBY_B#ぜんと}前途{RUBY_E#}{RUBY_B#も}燃{RUBY_E#}やす{RUBY_B#ち}血{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}き{RUBY_B#ほのお}炎{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23040": {
+      "name": "{RUBY_B#えいけつ}永訣{RUBY_E#}よ{RUBY_B#うつく}美{RUBY_E#}しくあれ",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23041": {
+      "name": "{RUBY_B#せいめい}生命{RUBY_E#}、{RUBY_B#しょうめつ}焼滅{RUBY_E#}すべし",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23042": {
+      "name": "{RUBY_B#そら}空{RUBY_E#}の{RUBY_B#にじ}虹{RUBY_E#}が{RUBY_B#き}消{RUBY_E#}えぬように",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23043": {
+      "name": "{RUBY_B#かぜ}風{RUBY_E#}に{RUBY_B#たゆた}揺蕩{RUBY_E#}う{RUBY_B#きょげん}虚言{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23044": {
+      "name": "{RUBY_B#も}燃{RUBY_E#}え{RUBY_B#さか}盛{RUBY_E#}る{RUBY_B#れいめい}黎明{RUBY_E#}のように",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23045": {
+      "name": "{RUBY_B#むく}報{RUBY_E#}われぬ{RUBY_B#たいかん}戴冠{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23046": {
+      "name": "{RUBY_B#りそう}理想{RUBY_E#}を{RUBY_B#や}焼{RUBY_E#}く{RUBY_B#ならく}奈落{RUBY_E#}で",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23047": {
+      "name": "{RUBY_B#うみ}海{RUBY_E#}の{RUBY_B#うた}歌{RUBY_E#}は{RUBY_B#なに}何{RUBY_E#}がため",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23048": {
+      "name": "{RUBY_B#おうごん}黄金{RUBY_E#}の{RUBY_B#ち}血{RUBY_E#}で{RUBY_B#きざ}刻{RUBY_E#}む{RUBY_B#じだい}時代{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -3567,22 +4102,22 @@
       "rank_type": "5"
     },
     "24005": {
-      "name": "尽きぬ追憶",
+      "name": "{RUBY_B#つ}尽{RUBY_E#}きぬ{RUBY_B#ついおく}追憶{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "5"
     },
     "1001": {
-      "name": "三月なのか",
+      "name": "{RUBY_B#みつき}三月{RUBY_E#}なのか",
       "item_type": "キャラ",
       "rank_type": "4"
     },
     "1002": {
-      "name": "丹恒",
+      "name": "{RUBY_B#タンコウ}丹恒{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "4"
     },
     "1003": {
-      "name": "姫子",
+      "name": "{RUBY_B#ひめこ}姫子{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -3597,7 +4132,7 @@
       "rank_type": "5"
     },
     "1006": {
-      "name": "銀狼",
+      "name": "{RUBY_B#ぎんろう}銀狼{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -3615,6 +4150,16 @@
       "name": "ヘルタ",
       "item_type": "キャラ",
       "rank_type": "4"
+    },
+    "1014": {
+      "name": "セイバー",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1015": {
+      "name": "アーチャー",
+      "item_type": "キャラ",
+      "rank_type": "5"
     },
     "1101": {
       "name": "ブローニャ",
@@ -3677,77 +4222,77 @@
       "rank_type": "5"
     },
     "1201": {
-      "name": "青雀",
+      "name": "{RUBY_B#セイジャク}青雀{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "4"
     },
     "1202": {
-      "name": "停雲",
+      "name": "{RUBY_B#テイウン}停雲{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "4"
     },
     "1203": {
-      "name": "羅刹",
+      "name": "{RUBY_B#ラセツ}羅刹{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1204": {
-      "name": "景元",
+      "name": "{RUBY_B#ケイゲン}景元{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1205": {
-      "name": "刃",
+      "name": "{RUBY_B#ジン}刃{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1206": {
-      "name": "素裳",
+      "name": "{RUBY_B#スショウ}素裳{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "4"
     },
     "1207": {
-      "name": "御空",
+      "name": "{RUBY_B#ギョクウ}御空{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "4"
     },
     "1208": {
-      "name": "符玄",
+      "name": "{RUBY_B#フゲン}符玄{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1209": {
-      "name": "彦卿",
+      "name": "{RUBY_B#ゲンキョウ}彦卿{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1210": {
-      "name": "桂乃芬",
+      "name": "{RUBY_B#ケイナイフン}桂乃芬{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "4"
     },
     "1211": {
-      "name": "白露",
+      "name": "{RUBY_B#ビャクロ}白露{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1212": {
-      "name": "鏡流",
+      "name": "{RUBY_B#ケイリュウ}鏡流{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1213": {
-      "name": "丹恒・飲月",
+      "name": "{RUBY_B#タンコウ}丹恒{RUBY_E#}・{RUBY_B#インゲツ}飲月{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1214": {
-      "name": "雪衣",
+      "name": "{RUBY_B#セツイ}雪衣{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "4"
     },
     "1215": {
-      "name": "寒鴉",
+      "name": "{RUBY_B#カンア}寒鴉{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "4"
     },
@@ -3757,22 +4302,22 @@
       "rank_type": "5"
     },
     "1218": {
-      "name": "椒丘",
+      "name": "{RUBY_B#ショウキュウ}椒丘{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1220": {
-      "name": "飛霄",
+      "name": "{RUBY_B#ヒショウ}飛霄{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1221": {
-      "name": "雲璃",
+      "name": "{RUBY_B#ウンリ}雲璃{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
     "1222": {
-      "name": "霊砂",
+      "name": "{RUBY_B#レイサ}霊砂{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -3782,12 +4327,12 @@
       "rank_type": "4"
     },
     "1224": {
-      "name": "三月なのか",
+      "name": "{RUBY_B#みつき}三月{RUBY_E#}なのか",
       "item_type": "キャラ",
       "rank_type": "4"
     },
     "1225": {
-      "name": "帰忘の流離人",
+      "name": "{RUBY_B#きぼう}帰忘{RUBY_E#}の{RUBY_B#さすらいびと}流離人{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -3817,7 +4362,7 @@
       "rank_type": "5"
     },
     "1306": {
-      "name": "花火",
+      "name": "{RUBY_B#はなび}花火{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -3827,7 +4372,7 @@
       "rank_type": "5"
     },
     "1308": {
-      "name": "黄泉",
+      "name": "{RUBY_B#よみ}黄泉{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -3862,7 +4407,7 @@
       "rank_type": "5"
     },
     "1317": {
-      "name": "乱破",
+      "name": "{RUBY_B#らんは}乱破{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -3883,6 +4428,41 @@
     },
     "1404": {
       "name": "モーディス",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1405": {
+      "name": "アナイクス",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1406": {
+      "name": "サフェル",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1407": {
+      "name": "キャストリス",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1408": {
+      "name": "ファイノン",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1409": {
+      "name": "ヒアンシー",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1410": {
+      "name": "セイレンス",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1412": {
+      "name": "ケリュドラ",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -4303,6 +4883,51 @@
       "item_type": "무기",
       "rank_type": "4"
     },
+    "21053": {
+      "name": "언제나 여정이 평탄하기를",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21054": {
+      "name": "이야기의 다음 페이지",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21055": {
+      "name": "내일의 내일이 올 때까지",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21056": {
+      "name": "바람을 쫓을 때",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21057": {
+      "name": "꽃은 잊지 않는다",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21058": {
+      "name": "과거의 핏자국",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21060": {
+      "name": "밀 내음이 가득한 꿈",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21061": {
+      "name": "휴일의 목욕탕 대모험",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "21062": {
+      "name": "그 종착지에서 다시 만나자",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "초보자 임무 시작 전",
       "item_type": "무기",
@@ -4320,6 +4945,16 @@
     },
     "22003": {
       "name": "인사록•음률 사냥",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "22004": {
+      "name": "우주 대사업",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "22005": {
+      "name": "영원한 미궁의 식사",
       "item_type": "무기",
       "rank_type": "4"
     },
@@ -4523,6 +5158,51 @@
       "item_type": "무기",
       "rank_type": "5"
     },
+    "23040": {
+      "name": "이별이 더 아름답도록",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23041": {
+      "name": "생명은 불태워야 하는 것",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23042": {
+      "name": "무지개가 영원히 하늘에 머물길",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23043": {
+      "name": "바람에 흩날리는 거짓말",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23044": {
+      "name": "이와 같이 타오르는 여명",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23045": {
+      "name": "보답 없는 왕관",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23046": {
+      "name": "이상이 불타는 지옥",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23047": {
+      "name": "바다는 왜 노래하는가",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23048": {
+      "name": "황금 피가 새긴 시대",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "어떤 에이언즈의 몰락",
       "item_type": "무기",
@@ -4597,6 +5277,16 @@
       "name": "헤르타",
       "item_type": "캐릭터",
       "rank_type": "4"
+    },
+    "1014": {
+      "name": "세이버",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1015": {
+      "name": "아처",
+      "item_type": "캐릭터",
+      "rank_type": "5"
     },
     "1101": {
       "name": "브로냐",
@@ -4868,6 +5558,41 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1405": {
+      "name": "아낙사",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1406": {
+      "name": "사이퍼",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1407": {
+      "name": "카스토리스",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1408": {
+      "name": "파이논",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1409": {
+      "name": "히아킨",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1410": {
+      "name": "히실렌스",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1412": {
+      "name": "케리드라",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
@@ -4909,5 +5634,5 @@
       "rank_type": "5"
     }
   },
-  "version": "3.0.53"
+  "version": "3.4"
 }
