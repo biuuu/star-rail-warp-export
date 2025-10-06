@@ -98,7 +98,7 @@
   "excel.customFont": "メイリオ",
   "excel.filePrefix": "スターレイル跳躍ログ",
   "excel.fileType": "Excelファイル",
-  "uigf.fileType":"統一交換可能ガチャ記録フォーマット標準（UIGF） v4.0",
+  "uigf.fileType":"統一交換可能ガチャ記録フォーマット標準（UIGF） v4.0, v4.1",
   "ui.extra.cacheClean": "1. ゲーム内の跳躍履歴を開いたことを確認し、それでも「Authkeyの有効期限が切れました」エラーが表示される場合は、以下の手順を再度お試しください\n2. スターレイルのゲーム画面を閉じる\n3. 上部の「キャッシュフォルダーを開く」ボタンをクリックして、Cacheフォルダーを開く\n4. Cache_Dataフォルダを削除する\n5. スターレイルを起動し、ゲーム内の跳躍履歴ページを開く\n6. このダイアログボックスを閉じ、「更新データ」ボタンをクリックします",
   "ui.extra.findCacheFolder": "もし「キャッシュフォルダーを開く」ボタンが反応しない場合、手動でゲームのウェブキャッシュフォルダを見つけることができます。そのディレクトリは、“あなたのゲームのインストールパス/Star Rail/Game/StarRail_Data/webCaches/Cache/”",
   "ui.extra.urlCopied": "URLがコピーされました",

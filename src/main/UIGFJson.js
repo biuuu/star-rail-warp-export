@@ -27,7 +27,7 @@ const exportUIGF = async (uids) => {
       export_timestamp: Math.ceil(Date.now() / 1000),
       export_app: `${name}`,
       export_app_version: `v${version}`,
-      version: "v4.0"
+      version: "v4.1"
     },
     hkrpg: []
   }
@@ -139,7 +139,7 @@ const importUIGF = async () => {
   try {
     const jsonData = fs.readJsonSync(filepath[0])
     if('info' in jsonData && 'version' in jsonData.info) {
-      if (jsonData.info.version !== 'v4.0') {
+      if (jsonData.info.version !== 'v4.0' && jsonData.info.version !== 'v4.1') {
         sendMsg('不支持此版本UIGF')
         console.error('不支持此版本UIGF')
         return
