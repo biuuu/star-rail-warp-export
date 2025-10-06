@@ -1,0 +1,91 @@
+name: Update ID Map and Version
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-idmap:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GH_PAT }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests opencc
+        
+    - name: Run getIdMap.py
+      run: |
+        python tools/getIdMap.py
+        
+    - name: Check if idJson.json changed
+      id: check_changes
+      run: |
+        git add -A
+        if git diff --staged --quiet -- src/idJson.json; then
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "No changes detected in src/idJson.json"
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "Changes detected in src/idJson.json"
+        fi
+        
+    - name: Get current version from idJson
+      if: steps.check_changes.outputs.changes == 'true'
+      id: get_version
+      run: |
+        VERSION=$(python -c "import json; print(json.load(open('src/idJson.json', encoding='utf-8'))['version'])")
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        echo "Current version in idJson: $VERSION"
+        
+    - name: Bump package.json version
+      if: steps.check_changes.outputs.changes == 'true'
+      id: bump_version
+      run: |
+        CURRENT_VERSION=$(node -p "require('./package.json').version")
+        echo "Current package.json version: $CURRENT_VERSION"
+        
+        IFS='.' read -ra VERSION_PARTS <<< "$CURRENT_VERSION"
+        MAJOR=${VERSION_PARTS[0]}
+        MINOR=${VERSION_PARTS[1]}
+        PATCH=${VERSION_PARTS[2]}
+        
+        NEW_PATCH=$((PATCH + 1))
+        NEW_VERSION="$MAJOR.$MINOR.$NEW_PATCH"
+        
+        echo "New package.json version: $NEW_VERSION"
+        echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+        
+        node -e "
+        const fs = require('fs');
+        const packageJson = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
+        packageJson.version = '$NEW_VERSION';
+        fs.writeFileSync('./package.json', JSON.stringify(packageJson, null, 2) + '\n');
+        "
+        
+    - name: Create and push tag
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add src/idJson.json package.json
+        git commit -m "chore: update idJson to ${{ steps.get_version.outputs.version }}"
+        
+        TAG_NAME="v${{ steps.bump_version.outputs.new_version }}"
+        git tag $TAG_NAME
+        
+        git push
+        git push origin $TAG_NAME
+        
+        echo "Created and pushed tag: $TAG_NAME"
