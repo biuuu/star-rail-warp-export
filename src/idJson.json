@@ -695,6 +695,16 @@
       "item_type": "光锥",
       "rank_type": "5"
     },
+    "23049": {
+      "name": "致长夜的星光",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23051": {
+      "name": "纵然山河万程",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "记一位星神的陨落",
       "item_type": "光锥",
@@ -1082,6 +1092,16 @@
     },
     "1412": {
       "name": "刻律德菈",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1413": {
+      "name": "长夜月",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1414": {
+      "name": "丹恒•腾荒",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1822,6 +1842,16 @@
       "item_type": "光錐",
       "rank_type": "5"
     },
+    "23049": {
+      "name": "致長夜的星光",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23051": {
+      "name": "縱然山河萬程",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "記一位星神的隕落",
       "item_type": "光錐",
@@ -2209,6 +2239,16 @@
     },
     "1412": {
       "name": "刻律德菈",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1413": {
+      "name": "長夜月",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1414": {
+      "name": "丹恆•騰荒",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -2949,6 +2989,16 @@
       "item_type": "Light Cone",
       "rank_type": "5"
     },
+    "23049": {
+      "name": "To Evernight's Stars",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23051": {
+      "name": "Though Worlds Apart",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "On the Fall of an Aeon",
       "item_type": "Light Cone",
@@ -3336,6 +3386,16 @@
     },
     "1412": {
       "name": "Cerydra",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1413": {
+      "name": "Evernight",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1414": {
+      "name": "Dan Heng • Permansor Terrae",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -4076,6 +4136,16 @@
       "item_type": "光円錐",
       "rank_type": "5"
     },
+    "23049": {
+      "name": "{RUBY_B#なが}長{RUBY_E#}き{RUBY_B#よる}夜{RUBY_E#}に{RUBY_B#かがや}輝{RUBY_E#}く{RUBY_B#ほし}星{RUBY_E#}へ",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23051": {
+      "name": "{RUBY_B#ばんり}万里{RUBY_E#}の{RUBY_B#さんが}山河{RUBY_E#}を{RUBY_B#こ}越{RUBY_E#}えて",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "とある{RUBY_B#アイオーン}星神{RUBY_E#}の{RUBY_B#うんらく}殞落{RUBY_E#}を{RUBY_B#しる}記{RUBY_E#}す",
       "item_type": "光円錐",
@@ -4463,6 +4533,16 @@
     },
     "1412": {
       "name": "ケリュドラ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1413": {
+      "name": "{RUBY_B#ながよづき}長夜月{RUBY_E#}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1414": {
+      "name": "{RUBY_B#たんこう}丹恒{RUBY_E#}・{RUBY_B#とうこう}騰荒{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -5203,6 +5283,16 @@
       "item_type": "무기",
       "rank_type": "5"
     },
+    "23049": {
+      "name": "긴 밤의 별빛에게",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23051": {
+      "name": "끝없는 산과 강을 거치더라도",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "어떤 에이언즈의 몰락",
       "item_type": "무기",
@@ -5593,6 +5683,16 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1413": {
+      "name": "에버나이트",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1414": {
+      "name": "단항•등황",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
@@ -5634,5 +5734,5 @@
       "rank_type": "5"
     }
   },
-  "version": "3.4"
+  "version": "3.6"
 }
