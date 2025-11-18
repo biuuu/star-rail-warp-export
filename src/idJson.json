@@ -450,6 +450,11 @@
       "item_type": "光锥",
       "rank_type": "4"
     },
+    "22006": {
+      "name": "飞向粉色的明天",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "银河铁道之夜",
       "item_type": "光锥",
@@ -702,6 +707,11 @@
     },
     "23051": {
       "name": "纵然山河万程",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23052": {
+      "name": "爱如此刻永恒",
       "item_type": "光锥",
       "rank_type": "5"
     },
@@ -1102,6 +1112,11 @@
     },
     "1414": {
       "name": "丹恒•腾荒",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1415": {
+      "name": "昔涟",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1597,6 +1612,11 @@
       "item_type": "光錐",
       "rank_type": "4"
     },
+    "22006": {
+      "name": "飛向粉色的明天",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "銀河鐵道之夜",
       "item_type": "光錐",
@@ -1849,6 +1869,11 @@
     },
     "23051": {
       "name": "縱然山河萬程",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23052": {
+      "name": "愛如此刻永恆",
       "item_type": "光錐",
       "rank_type": "5"
     },
@@ -2249,6 +2274,11 @@
     },
     "1414": {
       "name": "丹恆•騰荒",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1415": {
+      "name": "昔漣",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -2744,6 +2774,11 @@
       "item_type": "Light Cone",
       "rank_type": "4"
     },
+    "22006": {
+      "name": "Fly Into a Pink Tomorrow",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "Night on the Milky Way",
       "item_type": "Light Cone",
@@ -2996,6 +3031,11 @@
     },
     "23051": {
       "name": "Though Worlds Apart",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23052": {
+      "name": "This Love, Forever",
       "item_type": "Light Cone",
       "rank_type": "5"
     },
@@ -3396,6 +3436,11 @@
     },
     "1414": {
       "name": "Dan Heng • Permansor Terrae",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1415": {
+      "name": "Cyrene",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -3891,6 +3936,11 @@
       "item_type": "光円錐",
       "rank_type": "4"
     },
+    "22006": {
+      "name": "ピンク{RUBY_B#いろ}色{RUBY_E#}の{RUBY_B#あした}明日{RUBY_E#}へ",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "{RUBY_B#ぎんがてつどう}銀河鉄道{RUBY_E#}の{RUBY_B#よる}夜{RUBY_E#}",
       "item_type": "光円錐",
@@ -4143,6 +4193,11 @@
     },
     "23051": {
       "name": "{RUBY_B#ばんり}万里{RUBY_E#}の{RUBY_B#さんが}山河{RUBY_E#}を{RUBY_B#こ}越{RUBY_E#}えて",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23052": {
+      "name": "{RUBY_B#あい}愛{RUBY_E#}はいま{RUBY_B#えいえん}永遠{RUBY_E#}に",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -4543,6 +4598,11 @@
     },
     "1414": {
       "name": "{RUBY_B#たんこう}丹恒{RUBY_E#}・{RUBY_B#とうこう}騰荒{RUBY_E#}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1415": {
+      "name": "キュレネ",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -5038,6 +5098,11 @@
       "item_type": "무기",
       "rank_type": "4"
     },
+    "22006": {
+      "name": "핑크빛 내일을 향해",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "은하철도의 밤",
       "item_type": "무기",
@@ -5290,6 +5355,11 @@
     },
     "23051": {
       "name": "끝없는 산과 강을 거치더라도",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23052": {
+      "name": "이 순간처럼 영원한 사랑",
       "item_type": "무기",
       "rank_type": "5"
     },
@@ -5693,6 +5763,11 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1415": {
+      "name": "키레네",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
@@ -5734,5 +5809,5 @@
       "rank_type": "5"
     }
   },
-  "version": "3.6"
+  "version": "3.7"
 }
