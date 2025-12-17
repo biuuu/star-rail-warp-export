@@ -705,6 +705,11 @@
       "item_type": "光锥",
       "rank_type": "5"
     },
+    "23050": {
+      "name": "勿忘她的火焰",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
     "23051": {
       "name": "纵然山河万程",
       "item_type": "光锥",
@@ -1047,6 +1052,11 @@
     },
     "1317": {
       "name": "乱破",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1321": {
+      "name": "大丽花",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1867,6 +1877,11 @@
       "item_type": "光錐",
       "rank_type": "5"
     },
+    "23050": {
+      "name": "勿忘她的火焰",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
     "23051": {
       "name": "縱然山河萬程",
       "item_type": "光錐",
@@ -2209,6 +2224,11 @@
     },
     "1317": {
       "name": "亂破",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1321": {
+      "name": "大麗花",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -3029,6 +3049,11 @@
       "item_type": "Light Cone",
       "rank_type": "5"
     },
+    "23050": {
+      "name": "Never Forget Her Flame",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
     "23051": {
       "name": "Though Worlds Apart",
       "item_type": "Light Cone",
@@ -3371,6 +3396,11 @@
     },
     "1317": {
       "name": "Rappa",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1321": {
+      "name": "The Dahlia",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -4191,6 +4221,11 @@
       "item_type": "光円錐",
       "rank_type": "5"
     },
+    "23050": {
+      "name": "{RUBY_B#かのじょ}彼女{RUBY_E#}の{RUBY_B#ほのお}炎{RUBY_E#}を{RUBY_B#わす}忘{RUBY_E#}れずに",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
     "23051": {
       "name": "{RUBY_B#ばんり}万里{RUBY_E#}の{RUBY_B#さんが}山河{RUBY_E#}を{RUBY_B#こ}越{RUBY_E#}えて",
       "item_type": "光円錐",
@@ -4533,6 +4568,11 @@
     },
     "1317": {
       "name": "{RUBY_B#らんは}乱破{RUBY_E#}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1321": {
+      "name": "ダリア",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -5353,6 +5393,11 @@
       "item_type": "무기",
       "rank_type": "5"
     },
+    "23050": {
+      "name": "그녀의 불꽃을 잊지 말라",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
     "23051": {
       "name": "끝없는 산과 강을 거치더라도",
       "item_type": "무기",
@@ -5698,6 +5743,11 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1321": {
+      "name": "달리아",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "1401": {
       "name": "더 헤르타",
       "item_type": "캐릭터",
@@ -5809,5 +5859,5 @@
       "rank_type": "5"
     }
   },
-  "version": "3.7"
+  "version": "3.8"
 }
