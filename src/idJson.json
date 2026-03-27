@@ -750,6 +750,11 @@
       "item_type": "光锥",
       "rank_type": "5"
     },
+    "23056": {
+      "name": "一场谎言的终幕",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "记一位星神的陨落",
       "item_type": "光锥",
@@ -777,6 +782,11 @@
     },
     "24005": {
       "name": "记忆永不落幕",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "24006": {
+      "name": "欢愉满溢祝福",
       "item_type": "光锥",
       "rank_type": "5"
     },
@@ -1167,6 +1177,11 @@
     },
     "1502": {
       "name": "爻光",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1504": {
+      "name": "不死途",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1962,6 +1977,11 @@
       "item_type": "光錐",
       "rank_type": "5"
     },
+    "23056": {
+      "name": "一場謊言的終幕",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "記一位星神的隕落",
       "item_type": "光錐",
@@ -1989,6 +2009,11 @@
     },
     "24005": {
       "name": "記憶永不落幕",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "24006": {
+      "name": "歡愉滿溢祝福",
       "item_type": "光錐",
       "rank_type": "5"
     },
@@ -2379,6 +2404,11 @@
     },
     "1502": {
       "name": "爻光",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1504": {
+      "name": "不死途",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -3174,6 +3204,11 @@
       "item_type": "Light Cone",
       "rank_type": "5"
     },
+    "23056": {
+      "name": "The Finale of a Lie",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "On the Fall of an Aeon",
       "item_type": "Light Cone",
@@ -3201,6 +3236,11 @@
     },
     "24005": {
       "name": "Memory's Curtain Never Falls",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "24006": {
+      "name": "Elation Brimming With Blessings",
       "item_type": "Light Cone",
       "rank_type": "5"
     },
@@ -3591,6 +3631,11 @@
     },
     "1502": {
       "name": "Yao Guang",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1504": {
+      "name": "Ashveil",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -4386,6 +4431,11 @@
       "item_type": "光円錐",
       "rank_type": "5"
     },
+    "23056": {
+      "name": "{RUBY_B#あ}或{RUBY_E#}る{RUBY_B#うそ}嘘{RUBY_E#}の{RUBY_B#しゅうまく}終幕{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "とある{RUBY_B#アイオーン}星神{RUBY_E#}の{RUBY_B#うんらく}殞落{RUBY_E#}を{RUBY_B#しる}記{RUBY_E#}す",
       "item_type": "光円錐",
@@ -4413,6 +4463,11 @@
     },
     "24005": {
       "name": "{RUBY_B#つ}尽{RUBY_E#}きぬ{RUBY_B#ついおく}追憶{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "24006": {
+      "name": "{RUBY_B#ゆえつあふ}愉悦溢{RUBY_E#}れる{RUBY_B#しゅくふく}祝福{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -4803,6 +4858,11 @@
     },
     "1502": {
       "name": "{RUBY_B#コウコウ}爻光{RUBY_E#}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1504": {
+      "name": "{RUBY_B#しなず}不死途{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -5598,6 +5658,11 @@
       "item_type": "무기",
       "rank_type": "5"
     },
+    "23056": {
+      "name": "거짓말의 종막",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "어떤 에이언즈의 몰락",
       "item_type": "무기",
@@ -5625,6 +5690,11 @@
     },
     "24005": {
       "name": "기억은 영원히 막을 내리지 않는다",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "24006": {
+      "name": "넘치는 환락의 축복",
       "item_type": "무기",
       "rank_type": "5"
     },
@@ -6018,6 +6088,11 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1504": {
+      "name": "애쉬베일",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
@@ -6059,5 +6134,5 @@
       "rank_type": "5"
     }
   },
-  "version": "4.0"
+  "version": "4.1"
 }
