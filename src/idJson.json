@@ -770,6 +770,11 @@
       "item_type": "光锥",
       "rank_type": "5"
     },
+    "23059": {
+      "name": "灼尽炼狱的新骸",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "记一位星神的陨落",
       "item_type": "光锥",
@@ -1207,6 +1212,11 @@
     },
     "1506": {
       "name": "银狼LV.<unbreak>999</unbreak>",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1507": {
+      "name": "千冶•刃",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -2032,6 +2042,11 @@
       "item_type": "光錐",
       "rank_type": "5"
     },
+    "23059": {
+      "name": "灼盡煉獄的新骸",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "記一位星神的隕落",
       "item_type": "光錐",
@@ -2469,6 +2484,11 @@
     },
     "1506": {
       "name": "銀狼LV.<unbreak>999</unbreak>",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1507": {
+      "name": "千冶•刃",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -3294,6 +3314,11 @@
       "item_type": "Light Cone",
       "rank_type": "5"
     },
+    "23059": {
+      "name": "Reforged in Hellfire",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "On the Fall of an Aeon",
       "item_type": "Light Cone",
@@ -3731,6 +3756,11 @@
     },
     "1506": {
       "name": "Silver Wolf LV.<unbreak>999</unbreak>",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1507": {
+      "name": "Mortenax Blade",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -4556,6 +4586,11 @@
       "item_type": "光円錐",
       "rank_type": "5"
     },
+    "23059": {
+      "name": "{RUBY_B#れんごく}煉獄{RUBY_E#}に{RUBY_B#や}焼{RUBY_E#}かれし{RUBY_B#あらみ}新身{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "とある{RUBY_B#アイオーン}星神{RUBY_E#}の{RUBY_B#うんらく}殞落{RUBY_E#}を{RUBY_B#しる}記{RUBY_E#}す",
       "item_type": "光円錐",
@@ -4993,6 +5028,11 @@
     },
     "1506": {
       "name": "{RUBY_B#ぎんろう}銀狼{RUBY_E#}LV.<unbreak>999</unbreak>",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1507": {
+      "name": "{RUBY_B#センヤ}千冶{RUBY_E#}・{RUBY_B#ジン}刃{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -5818,6 +5858,11 @@
       "item_type": "무기",
       "rank_type": "5"
     },
+    "23059": {
+      "name": "연옥을 불사른 새로운 몸",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "어떤 에이언즈의 몰락",
       "item_type": "무기",
@@ -6258,6 +6303,11 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1507": {
+      "name": "천야•블레이드",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
@@ -6309,5 +6359,5 @@
       "rank_type": "5"
     }
   },
-  "version": "4.2"
+  "version": "4.3"
 }
