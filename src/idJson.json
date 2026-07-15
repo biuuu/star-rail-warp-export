@@ -775,6 +775,21 @@
       "item_type": "光锥",
       "rank_type": "5"
     },
+    "23060": {
+      "name": "当一颗星照亮夜空",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23061": {
+      "name": "星火悄然闪耀",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23062": {
+      "name": "所见即我",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "记一位星神的陨落",
       "item_type": "光锥",
@@ -1217,6 +1232,21 @@
     },
     "1507": {
       "name": "千冶•刃",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1508": {
+      "name": "远坂凛",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1509": {
+      "name": "吉尔伽美什",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1510": {
+      "name": "姬子•启行",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -2047,6 +2077,21 @@
       "item_type": "光錐",
       "rank_type": "5"
     },
+    "23060": {
+      "name": "當一顆星照亮夜空",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23061": {
+      "name": "星火悄然閃耀",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23062": {
+      "name": "所見即我",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "記一位星神的隕落",
       "item_type": "光錐",
@@ -2489,6 +2534,21 @@
     },
     "1507": {
       "name": "千冶•刃",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1508": {
+      "name": "遠坂凜",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1509": {
+      "name": "吉爾伽美什",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1510": {
+      "name": "姬子•啓行",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -3319,6 +3379,21 @@
       "item_type": "Light Cone",
       "rank_type": "5"
     },
+    "23060": {
+      "name": "A Star That Lights the Night",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23061": {
+      "name": "Flickering Stars",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23062": {
+      "name": "I Am As You Behold",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "On the Fall of an Aeon",
       "item_type": "Light Cone",
@@ -3761,6 +3836,21 @@
     },
     "1507": {
       "name": "Mortenax Blade",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1508": {
+      "name": "Rin Tohsaka",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1509": {
+      "name": "Gilgamesh",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1510": {
+      "name": "Himeko • Nova",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -4591,6 +4681,21 @@
       "item_type": "光円錐",
       "rank_type": "5"
     },
+    "23060": {
+      "name": "{RUBY_B#よる}夜{RUBY_E#}を{RUBY_B#て}照{RUBY_E#}らす{RUBY_B#みちび}導{RUBY_E#}きの{RUBY_B#ほし}星{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23061": {
+      "name": "{RUBY_B#しず}静{RUBY_E#}かに{RUBY_B#またた}瞬{RUBY_E#}く{RUBY_B#ちい}小{RUBY_E#}さな{RUBY_B#ひ}火{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23062": {
+      "name": "{RUBY_B#あ}在{RUBY_E#}るがままの{RUBY_B#オレ}我{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "とある{RUBY_B#アイオーン}星神{RUBY_E#}の{RUBY_B#うんらく}殞落{RUBY_E#}を{RUBY_B#しる}記{RUBY_E#}す",
       "item_type": "光円錐",
@@ -5033,6 +5138,21 @@
     },
     "1507": {
       "name": "{RUBY_B#センヤ}千冶{RUBY_E#}・{RUBY_B#ジン}刃{RUBY_E#}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1508": {
+      "name": "{RUBY_B#とおさかりん}遠坂凛{RUBY_E#}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1509": {
+      "name": "ギルガメッシュ",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1510": {
+      "name": "{RUBY_B#ひめこ}姫子{RUBY_E#}・{RUBY_B#たびだ}旅立{RUBY_E#}ち",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -5863,6 +5983,21 @@
       "item_type": "무기",
       "rank_type": "5"
     },
+    "23060": {
+      "name": "별이 밤하늘을 밝힐 때",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23061": {
+      "name": "고요히 빛나는 불티",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23062": {
+      "name": "보이는 것이 곧 나",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
     "24000": {
       "name": "어떤 에이언즈의 몰락",
       "item_type": "무기",
@@ -6308,6 +6443,21 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1508": {
+      "name": "토오사카 린",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1509": {
+      "name": "길가메시",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1510": {
+      "name": "히메코•노바",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
@@ -6359,5 +6509,5 @@
       "rank_type": "5"
     }
   },
-  "version": "4.3"
+  "version": "4.4"
 }
