@@ -440,6 +440,11 @@
       "item_type": "光锥",
       "rank_type": "4"
     },
+    "21066": {
+      "name": "放个短假",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "新手任务开始前",
       "item_type": "光锥",
@@ -477,6 +482,11 @@
     },
     "22007": {
       "name": "未来，有我们一起",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
+    "22008": {
+      "name": "向着地平线的终点",
       "item_type": "光锥",
       "rank_type": "4"
     },
@@ -787,6 +797,16 @@
     },
     "23062": {
       "name": "所见即我",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23063": {
+      "name": "你将起身歌唱",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23064": {
+      "name": "向浪花掷下盛夏",
       "item_type": "光锥",
       "rank_type": "5"
     },
@@ -1247,6 +1267,16 @@
     },
     "1510": {
       "name": "姬子•启行",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1512": {
+      "name": "知更鸟•晴歌",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1513": {
+      "name": "砂金•戏浪",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1742,6 +1772,11 @@
       "item_type": "光錐",
       "rank_type": "4"
     },
+    "21066": {
+      "name": "放個短假",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "新手任務開始前",
       "item_type": "光錐",
@@ -1779,6 +1814,11 @@
     },
     "22007": {
       "name": "未來，有我們一起",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
+    "22008": {
+      "name": "向着地平線的終點",
       "item_type": "光錐",
       "rank_type": "4"
     },
@@ -2089,6 +2129,16 @@
     },
     "23062": {
       "name": "所見即我",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23063": {
+      "name": "你將起身歌唱",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23064": {
+      "name": "向浪花擲下盛夏",
       "item_type": "光錐",
       "rank_type": "5"
     },
@@ -2549,6 +2599,16 @@
     },
     "1510": {
       "name": "姬子•啓行",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1512": {
+      "name": "知更鳥•晴歌",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1513": {
+      "name": "砂金•戲浪",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -3044,6 +3104,11 @@
       "item_type": "Light Cone",
       "rank_type": "4"
     },
+    "21066": {
+      "name": "A Little Getaway",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "Before the Tutorial Mission Starts",
       "item_type": "Light Cone",
@@ -3081,6 +3146,11 @@
     },
     "22007": {
       "name": "Tomorrow, Together",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
+    "22008": {
+      "name": "Race to the Horizon",
       "item_type": "Light Cone",
       "rank_type": "4"
     },
@@ -3391,6 +3461,16 @@
     },
     "23062": {
       "name": "I Am As You Behold",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23063": {
+      "name": "Rise and Sing",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23064": {
+      "name": "Summer Rides the Surf",
       "item_type": "Light Cone",
       "rank_type": "5"
     },
@@ -3851,6 +3931,16 @@
     },
     "1510": {
       "name": "Himeko • Nova",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1512": {
+      "name": "Robin • Summeretto",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1513": {
+      "name": "Aventurine • Waveflair",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -4346,6 +4436,11 @@
       "item_type": "光円錐",
       "rank_type": "4"
     },
+    "21066": {
+      "name": "バカンスのひと{RUBY_B#とき}時{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "{RUBY_B#はじ}初{RUBY_E#}めてのクエストの{RUBY_B#まえ}前{RUBY_E#}に",
       "item_type": "光円錐",
@@ -4383,6 +4478,11 @@
     },
     "22007": {
       "name": "みんなで{RUBY_B#いっしょ}一緒{RUBY_E#}に{RUBY_B#みらい}未来{RUBY_E#}へ",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
+    "22008": {
+      "name": "{RUBY_B#ちへいせん}地平線{RUBY_E#}のゴールへ",
       "item_type": "光円錐",
       "rank_type": "4"
     },
@@ -4693,6 +4793,16 @@
     },
     "23062": {
       "name": "{RUBY_B#あ}在{RUBY_E#}るがままの{RUBY_B#オレ}我{RUBY_E#}",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23063": {
+      "name": "{RUBY_B#た}立{RUBY_E#}ち{RUBY_B#あ}上{RUBY_E#}がり{RUBY_B#たか}高{RUBY_E#}らかな{RUBY_B#うた}歌{RUBY_E#}を",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23064": {
+      "name": "{RUBY_B#なみ}波{RUBY_E#}しぶきが{RUBY_B#おど}躍{RUBY_E#}る{RUBY_B#なつ}夏{RUBY_E#}へ",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -5153,6 +5263,16 @@
     },
     "1510": {
       "name": "{RUBY_B#ひめこ}姫子{RUBY_E#}・{RUBY_B#たびだ}旅立{RUBY_E#}ち",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1512": {
+      "name": "ロビン・{RUBY_B#なつぞら}夏空{RUBY_E#}の{RUBY_B#うた}歌{RUBY_E#}",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1513": {
+      "name": "アベンチュリン・{RUBY_B#なみ}波{RUBY_E#}と{RUBY_B#たわむ}戯{RUBY_E#}れる{RUBY_B#なつ}夏{RUBY_E#}",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -5648,6 +5768,11 @@
       "item_type": "무기",
       "rank_type": "4"
     },
+    "21066": {
+      "name": "짧은 휴가",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
     "22000": {
       "name": "초보자 임무 시작 전",
       "item_type": "무기",
@@ -5685,6 +5810,11 @@
     },
     "22007": {
       "name": "미래엔 우리가 함께할 거야",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
+    "22008": {
+      "name": "지평선의 끝을 향해",
       "item_type": "무기",
       "rank_type": "4"
     },
@@ -5995,6 +6125,16 @@
     },
     "23062": {
       "name": "보이는 것이 곧 나",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23063": {
+      "name": "그대는 나아가 노래하리니",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23064": {
+      "name": "파도에 내던진 한여름",
       "item_type": "무기",
       "rank_type": "5"
     },
@@ -6458,6 +6598,16 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1512": {
+      "name": "로빈•서머레토",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
+    "1513": {
+      "name": "어벤츄린•웨이브",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "8001": {
       "name": "{NICKNAME}",
       "item_type": "캐릭터",
@@ -6509,5 +6659,5 @@
       "rank_type": "5"
     }
   },
-  "version": "4.4"
+  "version": "4.5"
 }
