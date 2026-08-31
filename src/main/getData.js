@@ -214,7 +214,7 @@ const getGachaLogs = async ({ name, key }, queryString) => {
   let region_time_zone = ''
   let endId = '0'
   let gachaURLPath = ['21', '22'].includes(key) ? 'getLdGachaLog' : 'getGachaLog'
-  const url = `${apiDomain}/common/gacha_record/api/${gachaURLPath}?${queryString}`
+  const url = `${apiDomain}/common/hkrpg_gacha_record/api/${gachaURLPath}?${queryString}`
   do {
     // if (page % 10 === 0) {
     //   sendMsg(i18n.parse(text.fetch.interval, { name, page }))
@@ -280,7 +280,7 @@ const checkResStatus = (res) => {
 }
 
 const tryGetUid = async (queryString) => {
-  const url = `${apiDomain}/common/gacha_record/api/getGachaLog?${queryString}`
+  const url = `${apiDomain}/common/hkrpg_gacha_record/api/getGachaLog?${queryString}`
   try {
     for (let [key] of defaultTypeMap) {
       const res = await request(`${url}&gacha_type=${key}&page=1&size=6`)
@@ -378,7 +378,7 @@ const getUrlFromConfig = () => {
 const tryRequest = async (url, retry = false) => {
   const queryString = getQuerystring(url)
   if (!queryString) return false
-  const gachaTypeUrl = `${apiDomain}/common/gacha_record/api/getGachaLog?${queryString}&page=1&size=5&gacha_type=1&end_id=0`
+  const gachaTypeUrl = `${apiDomain}/common/hkrpg_gacha_record/api/getGachaLog?${queryString}&page=1&size=5&gacha_type=1&end_id=0`
   try {
     const res = await request(gachaTypeUrl)
     checkResStatus(res)
