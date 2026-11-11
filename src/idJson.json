@@ -490,6 +490,11 @@
       "item_type": "光锥",
       "rank_type": "4"
     },
+    "22009": {
+      "name": "在世界尽头相会吧！",
+      "item_type": "光锥",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "银河铁道之夜",
       "item_type": "光锥",
@@ -812,6 +817,11 @@
     },
     "23064": {
       "name": "向浪花掷下盛夏",
+      "item_type": "光锥",
+      "rank_type": "5"
+    },
+    "23065": {
+      "name": "当第一声「阿哈」响起",
       "item_type": "光锥",
       "rank_type": "5"
     },
@@ -1277,6 +1287,11 @@
     },
     "1510": {
       "name": "姬子•启行",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1511": {
+      "name": "星神★阿哈",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -1832,6 +1847,11 @@
       "item_type": "光錐",
       "rank_type": "4"
     },
+    "22009": {
+      "name": "在世界盡頭相會吧！",
+      "item_type": "光錐",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "銀河鐵道之夜",
       "item_type": "光錐",
@@ -2154,6 +2174,11 @@
     },
     "23064": {
       "name": "向浪花擲下盛夏",
+      "item_type": "光錐",
+      "rank_type": "5"
+    },
+    "23065": {
+      "name": "當第一聲「阿哈」響起",
       "item_type": "光錐",
       "rank_type": "5"
     },
@@ -2619,6 +2644,11 @@
     },
     "1510": {
       "name": "姬子•啓行",
+      "item_type": "角色",
+      "rank_type": "5"
+    },
+    "1511": {
+      "name": "星神★阿哈",
       "item_type": "角色",
       "rank_type": "5"
     },
@@ -3174,6 +3204,11 @@
       "item_type": "Light Cone",
       "rank_type": "4"
     },
+    "22009": {
+      "name": "See You at the World's End!",
+      "item_type": "Light Cone",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "Night on the Milky Way",
       "item_type": "Light Cone",
@@ -3496,6 +3531,11 @@
     },
     "23064": {
       "name": "Summer Rides the Surf",
+      "item_type": "Light Cone",
+      "rank_type": "5"
+    },
+    "23065": {
+      "name": "Upon the First Echo of \"Aha\"",
       "item_type": "Light Cone",
       "rank_type": "5"
     },
@@ -3961,6 +4001,11 @@
     },
     "1510": {
       "name": "Himeko • Nova",
+      "item_type": "Character",
+      "rank_type": "5"
+    },
+    "1511": {
+      "name": "Aeon ★ Aha",
       "item_type": "Character",
       "rank_type": "5"
     },
@@ -4516,6 +4561,11 @@
       "item_type": "光円錐",
       "rank_type": "4"
     },
+    "22009": {
+      "name": "{RUBY_B#せかい}世界{RUBY_E#}の{RUBY_B#は}果{RUBY_E#}てで{RUBY_B#あ}会{RUBY_E#}おう！",
+      "item_type": "光円錐",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "{RUBY_B#ぎんがてつどう}銀河鉄道{RUBY_E#}の{RUBY_B#よる}夜{RUBY_E#}",
       "item_type": "光円錐",
@@ -4838,6 +4888,11 @@
     },
     "23064": {
       "name": "{RUBY_B#なみ}波{RUBY_E#}しぶきが{RUBY_B#おど}躍{RUBY_E#}る{RUBY_B#なつ}夏{RUBY_E#}へ",
+      "item_type": "光円錐",
+      "rank_type": "5"
+    },
+    "23065": {
+      "name": "はじめの「アッハ」が{RUBY_B#ひび}響{RUBY_E#}く{RUBY_B#とき}時{RUBY_E#}",
       "item_type": "光円錐",
       "rank_type": "5"
     },
@@ -5303,6 +5358,11 @@
     },
     "1510": {
       "name": "{RUBY_B#ひめこ}姫子{RUBY_E#}・{RUBY_B#たびだ}旅立{RUBY_E#}ち",
+      "item_type": "キャラ",
+      "rank_type": "5"
+    },
+    "1511": {
+      "name": "{RUBY_B#アイオーン}星神{RUBY_E#}★アッハ",
       "item_type": "キャラ",
       "rank_type": "5"
     },
@@ -5858,6 +5918,11 @@
       "item_type": "무기",
       "rank_type": "4"
     },
+    "22009": {
+      "name": "세상 끝에서 만나자!",
+      "item_type": "무기",
+      "rank_type": "4"
+    },
     "23000": {
       "name": "은하철도의 밤",
       "item_type": "무기",
@@ -6180,6 +6245,11 @@
     },
     "23064": {
       "name": "파도에 내던진 한여름",
+      "item_type": "무기",
+      "rank_type": "5"
+    },
+    "23065": {
+      "name": "「아하」가 처음 울리는 순간",
       "item_type": "무기",
       "rank_type": "5"
     },
@@ -6648,6 +6718,11 @@
       "item_type": "캐릭터",
       "rank_type": "5"
     },
+    "1511": {
+      "name": "에이언즈★아하",
+      "item_type": "캐릭터",
+      "rank_type": "5"
+    },
     "1512": {
       "name": "로빈•서머레토",
       "item_type": "캐릭터",
@@ -6709,5 +6784,5 @@
       "rank_type": "5"
     }
   },
-  "version": "4.6"
+  "version": "4.7"
 }
